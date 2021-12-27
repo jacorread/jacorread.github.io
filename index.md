@@ -1,8 +1,6 @@
 ## Presentación
 
-Mi nombre es Alejandro Correa, soy un lingüista interesado en la variación fonética y fonológica del español de Colombia. Actualmente investigo la variación sociofonética de las vocales y consonantes del español de Bogotá. También estoy interesado en la transcipción fonética con el Alfabeto Fonético Internacional, la fonética de corpus y el análisis cuantitativo de los datos lingüísticos.
-
-He sido docente de lingüística en la Universidad Javeriana y en la Universidad Nacional de Colombia. Desde 2014 imparto clases de fonética experimental y estadística en la Maestría en Lingüística del Instituto Caro y Cuervo (Bogotá D.C., Colombia). 
+Mi nombre es Alejandro Correa, soy un lingüista interesado en la variación fonética y fonológica del español de Colombia. Actualmente investigo la variación sociofonética de las vocales y consonantes del español hablado en Bogotá. También estoy interesado en la transcripción fonética con el Alfabeto Fonético Internacional, la fonética de corpus y el análisis cuantitativo de datos lingüísticos. He sido docente de lingüística en la Universidad Javeriana y en la Universidad Nacional de Colombia. Desde 2014 imparto clases de fonética experimental y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/). 
 
 ## Educación:
  
