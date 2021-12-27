@@ -1,6 +1,8 @@
 ## Presentación
 
-Mi nombre es Alejandro Correa, soy un lingüista interesado en la variación fonética y fonológica del español de Colombia. Actualmente investigo fenómenos de reducción fonética e imparto clases de fonética experimental y estadística en la Maestría en Lingüística del Instituto Caro y Cuervo (Bogotá D.C., Colombia). 
+Mi nombre es Alejandro Correa, soy un lingüista interesado en la variación fonética y fonológica del español de Colombia. Actualmente investigo la variación sociofonética de las vocales y consonantes del español de Bogotá. También estoy interesado en la transcipción fonética con el Alfabeto Fonético Internacional, la fonética de corpus y el análisis cuantitativo de los datos lingüísticos.
+
+He sido docente de lingüística en la Universidad Javeriana y en la Universidad Nacional de Colombia. Desde 2014 imparto clases de fonética experimental y estadística en la Maestría en Lingüística del Instituto Caro y Cuervo (Bogotá D.C., Colombia). 
 
 ## Educación:
  
@@ -25,11 +27,11 @@ Correa, José Alejandro (2017). [Caracterización acústica de la reducción voc
 
 ### Capítulos de libro
 
-Schwegler, Armin y Correa, José Alejandro (2019). Languages in Contact: the case of Colombia. . En: Núñez, Eva (Ed.): _Biculturalism and Spanish in Contact: Sociolinguistic Case Studies_. Capítulo VII, Londres: Routledge, Londres.
+Schwegler, Armin y Correa, José Alejandro (2019).[Languages in Contact: the case of Colombia](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315100357-8/languages-contact-armin-schwegler-jos%C3%A9-alejandro-correa) . En: Núñez, Eva (Ed.): _Biculturalism and Spanish in Contact: Sociolinguistic Case Studies_. Capítulo VII, Londres: Routledge, Londres.
 
-Correa, José Alejandro (2017). Intonation in Palenquero Creole and Palenquero Spanish (Colombia). En: Armin Schwegler, Bryan, Kirschen y Graciela, Maglia (Eds.): _Orality, Identity, and Resistance in Palenque (Colombia). An interdisciplinary approach_. Amsterdam: John Benjamins Publishing Company.
+Correa, José Alejandro (2017). [Intonation in Palenquero Creole and Palenquero Spanish (Colombia)](https://benjamins.com/catalog/coll.54.06cor). En: Armin Schwegler, Bryan, Kirschen y Graciela, Maglia (Eds.): _Orality, Identity, and Resistance in Palenque (Colombia). An interdisciplinary approach_. Amsterdam: John Benjamins Publishing Company.
 
-Correa, José Alejandro (2012). El español del Pacífico de Colombia: dos rasgos fonéticos de presunto sustrato africano. En: File-Muriel, R., y Orozco, R., (Eds.): _Colombian varieties of Spanish_. Madrid/ Frankfurt: Iberoamericana/ Vervuert Verlag.
+Correa, José Alejandro (2012). [El español del Pacífico de Colombia: dos rasgos fonéticos de presunto sustrato africano](https://doi.org/10.31819/9783954870196). En: File-Muriel, R., y Orozco, R., (Eds.): _Colombian varieties of Spanish_. Madrid/ Frankfurt: Iberoamericana/ Vervuert Verlag.
 
 Correa, José Alejandro (2012). La entonación del criollo palenquero y del kateyano de San Basilio de Palenque (Colombia). En: Maglia, G., y Schwegler, A.(eds.): _Palenque (Colombia): oralidad, identidad y resistencia: un enfoque interdisciplinario_. Bogotá: Instituto Caro y Cuervo/ Pontificia Universidad Javeriana.
 
