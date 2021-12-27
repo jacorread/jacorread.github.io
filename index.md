@@ -19,6 +19,10 @@ Mi trabajo docente inició en el año 2011 como profesor de lingüística en la 
 
 Correa, José Alejandro (2014). [Manual de Análisis acústico del habla con Praat](http://bibliotecadigital.caroycuervo.gov.co/998/). Bogotá: Instituto Caro y Cuervo.
 
+### Libros editados
+
+Correa, Alejandro (ed.). _Estudios actuales sobre la fonética y la fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.[En prensa].
+
 ### Artículos
 
 Correa, Alejandro. (_aceptado_). Sexo, espacio acústico y centralización de las vocales del español de Bogotá. _Loquens_.
