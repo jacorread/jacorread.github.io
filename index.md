@@ -17,7 +17,7 @@ Mi trabajo docente inició en 2011 como profesor de lingüística en la Universi
 
 ### Libros
 
-Correa, José Alejandro (2014). [Manual de Análisis acústico del habla con Praat](http://bibliotecadigital.caroycuervo.gov.co/998/). Bogotá: Instituto Caro y Cuervo, Instituto Caro y Cuervo.
+Correa, José Alejandro (2014). [Manual de Análisis acústico del habla con Praat](http://bibliotecadigital.caroycuervo.gov.co/998/). Bogotá: Instituto Caro y Cuervo.
 
 ### Artículos
 
