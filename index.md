@@ -2,7 +2,7 @@
 
 Mi nombre es Alejandro Correa, soy un lingüista interesado en la fonética y fonología del español. Actualmente investigo las vocales y consonantes del español hablado en Bogotá desde una perspectiva sociofonética. También estoy interesado en la transcripción con el [Alfabeto Fonético Internacional](https://www.internationalphoneticassociation.org/content/ipa-chart), en el diseño de corpus orales y en el análisis cuantitativo mediante el [entorno de programación R](https://www.r-project.org/).
 
-Mi trabajo docente inició en 2011 como profesor de lingüística en la Universidad de Magdalena, la Universidad Javeriana y la Universidad Nacional de Colombia. Desde 2014 imparto clases de fonética experimental y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/). En este programa de maestría he dirigido ocho tesinas sobre fonética acústica y entonación.
+Mi trabajo docente inició en 2011 como profesor de lingüística en la Universidad de Magdalena, la Universidad Javeriana y la Universidad Nacional de Colombia. Desde 2014 imparto clases de fonética experimental y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/). En este programa posgrado he dirigido ocho tesinas relacionadas con la fonética acústica y la fonología de la entonación.
 
 ## Educación:
  
