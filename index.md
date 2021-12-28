@@ -27,9 +27,9 @@ Correa, Alejandro (ed.). _Estudios actuales sobre la fonética y la fonología d
 
 Correa, Alejandro. (_aceptado_). Sexo, espacio acústico y centralización de las vocales del español de Bogotá. _Loquens_.
 
-Correa, José Alejandro y Rodríguez, Linda Carolina. (2018). [Reducción fonética de la secuencia consonántica /-st-/ en el español de Bogotá](https://dx.doi.org/10.4067/S0071-17132018000200193). _Estudios filológicos_, (62), 193-214. 
+Correa, José Alejandro y Rodríguez, Linda Carolina. (2018). [Reducción fonética de la secuencia consonántica /-st-/ en el español de Bogotá](https://dx.doi.org/10.4067/S0071-17132018000200193). _Estudios Filológicos_, (62), 193-214.https://dx.doi.org/10.4067/S0071-17132018000200193
 
-Correa, José Alejandro (2017). [Caracterización acústica de la reducción vocálica en el español de Bogotá (Colombia)](https://www.ub.edu/journalofexperimentalphonetics/pdf-articles/XXVI-06-JACorrea.pdf). _Estudios de Fonética Experimental_, XXVI, pp.63-91.
+Correa, José Alejandro (2017). [Caracterización acústica de la reducción vocálica en el español de Bogotá (Colombia)](https://www.ub.edu/journalofexperimentalphonetics/pdf-articles/XXVI-06-JACorrea.pdf). _Estudios de Fonética Experimental_, 26, 63-91.
 
 
 ### Capítulos de libro
