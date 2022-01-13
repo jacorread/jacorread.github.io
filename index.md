@@ -13,7 +13,7 @@ Correa, J. A. (2014). [Manual de Análisis acústico del habla con Praat](http:/
 
 ### Libros editados
 
-Correa, Alejandro (ed.). _Estudios actuales sobre la fonética y la fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.[En prensa].
+Correa, Alejandro (ed.). _Estudios actuales de fonética y fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.[En prensa].
 
 ### Artículos
 
