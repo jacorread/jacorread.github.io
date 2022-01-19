@@ -26,6 +26,8 @@ Correa, J. A. (2017). [Caracterización acústica de la reducción vocálica en 
 
 ### Capítulos de libro
 
+Correa, J. A. y Rodríguez, L. C. (en prensa). Corpus de habla leída y conversacional del español de Colombia (CLC). En Alejandro Correa (ed.). _Estudios actuales de fonética y fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.
+
 Schwegler, A. y Correa, J. A. (2019). [Languages in Contact: the case of Colombia](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315100357-8/languages-contact-armin-schwegler-jos%C3%A9-alejandro-correa) . En: Núñez, Eva (Ed.): _Biculturalism and Spanish in Contact: Sociolinguistic Case Studies_. Capítulo VII, Londres: Routledge, Londres.
 
 Correa, J. A. (2017). [Intonation in Palenquero Creole and Palenquero Spanish (Colombia)](https://benjamins.com/catalog/coll.54.06cor). En: Armin Schwegler, Bryan, Kirschen y Graciela, Maglia (Eds.): _Orality, Identity, and Resistance in Palenque (Colombia). An interdisciplinary approach_. Amsterdam: John Benjamins Publishing Company.
