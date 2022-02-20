@@ -1,15 +1,12 @@
 ## Inicio
 
-Soy un lingüista interesado en la fonética y fonología del español. Actualmente investigo las vocales y consonantes del español hablado en Bogotá desde una perspectiva sociofonética. También estoy interesado en la transcripción con el [Alfabeto Fonético Internacional](https://www.internationalphoneticassociation.org/content/ipa-chart), en el diseño de corpus orales y en el análisis cuantitativo mediante el [entorno de programación R](https://www.r-project.org/).
+Soy un lingüista interesado en la fonética y fonología experimental. Actualmente investigo las vocales y consonantes del español hablado en Bogotá desde una perspectiva sociofonética. También estoy interesado en la transcripción con el [Alfabeto Fonético Internacional](https://www.internationalphoneticassociation.org/content/ipa-chart), en el diseño de corpus orales y en el análisis cuantitativo mediante el [entorno de programación R](https://www.r-project.org/).
 
-En el año 2011 inicié mi carrera docente impartiendo cursos lingüística general en la Universidad de Magdalena, la Universidad Javeriana y la Universidad Nacional de Colombia. Desde 2014 dicto cursos de fonética experimental y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/).
+En el año 2011 inicié mi carrera docente impartiendo cursos de lingüística general en la Universidad de Magdalena, la Universidad Javeriana y la Universidad Nacional de Colombia. Desde 2014 dicto cursos de fonética experimental y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/).
 
 
 ## Publicaciones
 
-### Tesis
-
-Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogotá (Colombia)](http://hdl.handle.net/10803/673154), Tesis de doctorado, Universitat Autònoma de Barcelona.
 
 ### Libros
 
@@ -18,6 +15,10 @@ Correa, J. A. (2014). [Manual de Análisis acústico del habla con Praat](http:/
 ### Libros editados
 
 Correa, Alejandro (ed.). _Estudios actuales de fonética y fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.[En prensa].
+
+### Tesis
+
+Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogotá (Colombia)](http://hdl.handle.net/10803/673154), Tesis de doctorado, Universitat Autònoma de Barcelona.
 
 ### Artículos
 
