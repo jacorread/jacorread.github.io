@@ -22,7 +22,7 @@ Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogot
 
 ### Artículos
 
-Correa, A. (2021). Sexo, espacio acústico y centralización de las vocales del español de Bogotá. _Loquens_ 8(1), e084, pp.1-7.https://doi.org/10.3989/loquens.2021.084
+Correa, A. (2021). Sexo, espacio acústico y centralización de las vocales del español de Bogotá. _Loquens_, 8(1), pp.1-7. https://doi.org/10.3989/loquens.2021.084
 
 Correa, J. A. y Rodríguez, L. C. (2018). [Reducción fonética de la secuencia consonántica /-st-/ en el español de Bogotá](https://dx.doi.org/10.4067/S0071-17132018000200193). _Estudios Filológicos_, 62, 193-214.https://doi.org/10.3989/S0071-17132018000200193
 
@@ -31,7 +31,7 @@ Correa, J. A. (2017). [Caracterización acústica de la reducción vocálica en 
 
 ### Capítulos de libro
 
-Correa, J. A. y Rodríguez, L. C. (en prensa). Corpus de habla leída y conversacional del español de Colombia (CLC). En Alejandro Correa (ed.). _Estudios actuales de fonética y fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.
+Correa, A. y Rodríguez, L. C. (en prensa). Corpus de habla leída y conversacional del español de Colombia (CLC). En Alejandro Correa (ed.). _Estudios actuales de fonética y fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.
 
 Schwegler, A. y Correa, J. A. (2019). [Languages in Contact: the case of Colombia](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315100357-8/languages-contact-armin-schwegler-jos%C3%A9-alejandro-correa) . En: Núñez, Eva (Ed.): _Biculturalism and Spanish in Contact: Sociolinguistic Case Studies_. Capítulo VII, Londres: Routledge, Londres.
 
