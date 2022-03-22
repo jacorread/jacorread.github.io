@@ -22,7 +22,7 @@ Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogot
 
 ### Artículos
 
-Correa, A. (_aceptado_). Sexo, espacio acústico y centralización de las vocales del español de Bogotá. _Loquens_.
+Correa, A. (2021). Sexo, espacio acústico y centralización de las vocales del español de Bogotá. _Loquens_8(1), e084, pp.1-7.
 
 Correa, J. A. y Rodríguez, L. C. (2018). [Reducción fonética de la secuencia consonántica /-st-/ en el español de Bogotá](https://dx.doi.org/10.4067/S0071-17132018000200193). _Estudios Filológicos_, 62, 193-214.https://dx.doi.org/10.4067/S0071-17132018000200193
 
