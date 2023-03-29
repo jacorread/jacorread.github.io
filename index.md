@@ -1,8 +1,8 @@
 ## Inicio
 
-Soy un lingüista interesado en la fonética y fonología experimental. Actualmente investigo las vocales y consonantes del español hablado en Bogotá desde una perspectiva sociofonética. También estoy interesado en la transcripción con el [Alfabeto Fonético Internacional](https://www.internationalphoneticassociation.org/content/ipa-chart), en el diseño de corpus orales y en el análisis cuantitativo mediante el [entorno de programación R](https://www.r-project.org/).
+Soy un lingüista interesado en la fonética experimental. Actualmente investigo las vocales y consonantes del español de Colombia desde una perspectiva sociofonética. También estoy interesado en la transcripción con el [Alfabeto Fonético Internacional](https://www.internationalphoneticassociation.org/content/ipa-chart) y en el diseño y análisis de corpus orales.
 
-En el año 2011 inicié mi carrera docente impartiendo cursos de lingüística general en la Universidad de Magdalena, la Universidad Javeriana y la Universidad Nacional de Colombia. Desde 2014 dicto cursos de fonética experimental y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/).
+He impartido clases de lingüística general en diferentes universidades de Colombia (Universidad de Magdalena, Universidad Javeriana y la Universidad Nacional de Colombia). Desde 2014 dicto las asignaturas de fonética y fonología y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/).
 
 
 ## Publicaciones
@@ -30,8 +30,3 @@ Correa, J. A. (2012). [El español del Pacífico de Colombia: dos rasgos fonéti
 Correa, J. A. (2012). [La entonación del criollo palenquero y del kateyano de San Basilio de Palenque (Colombia)](http://bibliotecadigital.caroycuervo.gov.co/918/). En: Maglia, G., y Schwegler, A.(eds.): _Palenque (Colombia): oralidad, identidad y resistencia: un enfoque interdisciplinario_. Bogotá: Instituto Caro y Cuervo/ Pontificia Universidad Javeriana.
 
 Correa, J. A. (2010). Sobre el habla popular en la poesía de Candelario Obeso. En: Maglia, G. (ed.): _Si yo fuera Tambó. Poesía selecta de Candelario Obeso y Jorge Artel_. Bogotá: Pontificia Universidad Javeriana/ Universidad del Rosario.
-
-
-
-
-
