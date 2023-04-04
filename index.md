@@ -9,7 +9,7 @@ He impartido clases de lingüística general en diferentes universidades de Colo
 
 Correa, A. y Rodríguez, L. C. (2022). Corpus de habla leída y conversacional del español de Colombia (CLC). En Alejandro Correa (ed.). _Estudios actuales de fonética y fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.
 
-Ros, O., Rivas L. M., Correa, A., Nieto, V., Murillo, J. D., y Caputo, G. (2022). La Facultad Seminario Andrés Bello del Instituto Caro y Cuervo. Revista Aleph, 202, pp. 24-40.
+Ros, O., Rivas L. M., Correa, A., Nieto, V., Murillo, J. D., y Caputo, G. (2022). [La Facultad Seminario Andrés Bello del Instituto Caro y Cuervo](https://www.revistaaleph.com.co/index.php/component/k2/itemlist/category/141-edici%C3%B3n-no-202). _Revista Aleph_, 202, pp. 24-40.
 
 Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogotá (Colombia)](http://hdl.handle.net/10803/673154), Tesis de doctorado, Universitat Autònoma de Barcelona.
 
