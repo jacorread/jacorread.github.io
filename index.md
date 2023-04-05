@@ -1,8 +1,8 @@
 ## Inicio
 
-Soy un lingüista interesado en la fonética experimental. Actualmente investigo las vocales y consonantes del español de Colombia desde una perspectiva sociofonética. También estoy interesado en la transcripción con el [Alfabeto Fonético Internacional](https://www.internationalphoneticassociation.org/content/ipa-chart) y en el diseño y análisis de corpus orales.
+Soy un lingüista interesado en la fonética experimental. Mis intereses investigativos incluyen la fonética y fonología del español, la reducción fonética, el habla espontánea y el análisis de corpus orales.
 
-He impartido clases de lingüística general en diferentes universidades de Colombia (Universidad de Magdalena, Universidad Javeriana y la Universidad Nacional de Colombia). Desde 2014 dicto las asignaturas de fonética y fonología y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/).
+Actualmente imparto cursos de fonética y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/) y lidero el Grupo de Investigación en Lingüística de la misma institución.  
 
 
 ## Publicaciones
