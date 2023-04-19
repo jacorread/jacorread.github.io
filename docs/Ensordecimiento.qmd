@@ -1,0 +1,177 @@
+---
+title: "Las vocales caedizas del español Bogotano"
+author: "Alejandro Correa"
+date: "Mayo de 2023"
+institute: "Instituto Caro y Cuervo"
+format: revealjs
+logo: https://www.caroycuervo.gov.co/publicaciones/2022/02/logo-caro-y-cuervo.png 
+editor: visual
+---
+
+## Contenidos
+
++:----+
+| toc |
++-----+
+
+# Introducción
+
+## El mito sobre las vocales del español
+
+::: columns
+::: {.column width="50%"}
+-   El sistema vocálico del español es **sencillo** y **estable;**
+
+-   Presenta poca variación dialectal;
+
+-   El acento léxico no modifica el timbre
+:::
+
+::: {.column width="45%"}
+![Vocales del español peninsular (Delattre, 1969)](imag/espa%C3%B1ol.png)
+:::
+:::
+
+## Las vocales del español hablado en Bogotá
+
+::: columns
+::: {.column width="50%"}
+-   Reducción fonética de las vocales (es un sistema altamente **variable);**
+
+-   Presenta una distribución dialectal más o menos definida;
+
+-   El acento léxico varía en función del timbre *vs.* (**alta intervariabilidad**)
+:::
+
+::: {.column width="40%"}
+![Vocales del español de Bogotá (Correa, 2021)](imag/SVB.png){fig-align="center"}
+:::
+:::
+
+## Realización ensordecida/áfona
+
+![Palabra peso \[ˈpeso̥\] producida de manera aislada](imag/spektr.png)
+
+## Antecedentes
+
+::: columns
+::: {.column width="50%"}
+![](imag/Map.png)
+:::
+
+::: {.column width="45%"}
+**México** (Boyd-Browman, 1952; Zamora Vicente, 1960; Lope Blanch, 1963; Serrano, 2006), **El Salvador** (Azcúnaga, 2010), **Nicaragua y Guatemala** (Rosales, 2010; Utgard, 2010), **Ecuador (**Lipski, 1990), **Cuzco (**Delforge; 2008), **Bolivia (**Sessarego, 2012)
+:::
+:::
+
+## Objetivos del estudio
+
+No existen estudios que documenten la existencia de vocales caedizas en el español hablado en Bogotá.
+
+-   Aportar nuevos datos sobre el ensordecimiento de las vocales del español americano.
+
+-   ¿Cómo se manifiesta acústicamente el ensordecimiento vocálico?
+
+-   Determinar cuáles factores predicen la aparición de las vocales áfonas.
+
+## Método
+
+```{r message = FALSE}
+library(tidyverse) 
+library(readr)
+library(dplyr)
+library(magrittr)
+library(viridis) 
+```
+
+# Resultados
+
+```{r message = FALSE}
+
+afonas<-read_table('C:/Users/scien/OneDrive/Artículos y libros/A4. Ensordecimiento/Estadísticas/textosEnsordecidas.txt', locale = readr::locale(encoding = "windows-1252"))
+
+# Eliminamos las vocales plenas del análisis para disponer de una tabla únicamente con los contextos en que aparecen las ensordecidas.
+
+afonas1<-filter(afonas, TipoVocal != 'plena', Realización != 'plena')
+
+resum <- select(.data = afonas1, # name of the object to take data from
+                      Vocal, Realización) 
+
+afonas1<-filter(afonas, TipoVocal != 'plena', Realización != 'plena')
+```
+
+## Realizaciones {.scrollable}
+
+![](imag/figura2.png){fig-align="center"}
+
+## Ensordencimiento *vs.* timbre
+
+```{r echo=FALSE}
+
+ggplot(data=resum, mapping = aes(x= Vocal, fill = Realización)) +
+         geom_bar(position = "dodge2",  mapping = aes(y = (..count..)/sum(..count..)), stat="count" )+
+  geom_text(position = position_dodge(width = 1), aes(y = ((..count..)/sum(..count..)), label = 
+scales::percent((..count..)/sum(..count..))), 
+        stat = "count", vjust= -0.5, size = 3) + scale_fill_viridis(discrete = TRUE)+
+   scale_y_continuous(labels=scales::percent, breaks = scales::pretty_breaks(n = 5)) +
+ggtitle(" ") + xlab("") + ylab("")   + theme_bw()
+```
+
+## Ensordencimiento *vs.* tempo
+
+```{r echo=FALSE}
+ggplot(data=afonas1, mapping = aes(x= Velocidad, fill = Realización)) +
+         geom_bar(position = "dodge2",  mapping = aes(y = (..count..)/sum(..count..)), stat="count" )+
+  geom_text(position = position_dodge(width = 1), aes(y = ((..count..)/sum(..count..)), label = 
+scales::percent((..count..)/sum(..count..))), 
+        stat = "count", vjust= -0.5, size = 3) + scale_fill_viridis(discrete = TRUE)+
+   scale_y_continuous(labels=scales::percent, breaks = scales::pretty_breaks(n = 5)) +
+ggtitle(" ") + xlab("") + ylab("")   + theme_bw()
+```
+
+# Modelo de regresión de efectos mixtos
+
+```{r echo=FALSE}
+library(corrr) #Correlaciones
+library(lme4) #LMM
+library(afex) #likelihood ratio test LMM
+library(broom) # Tabla coeficientes LMM
+library(broom.mixed)
+library(corrr) #Correlaciones
+library(lme4) #LMM
+
+```
+
+```{r echo =FALSE}
+
+afonas<-read_table('C:/Users/scien/OneDrive/Artículos y libros/A4. Ensordecimiento/Estadísticas/textosEnsordecidas.txt', locale = readr::locale(encoding = "windows-1252"))
+```
+
+```{r include= FALSE}
+#La variable respuesta está codificada como `caracteres`, así que tenemos que convertirla en `factor` para implementar los modelos de regresión:
+
+afonas <- mutate(afonas, TipoVocal = factor(TipoVocal))
+class(afonas$TipoVocal)
+```
+
+## Factores significativos
+
+```{r echo=FALSE}
+
+afonasmix_mdl_sg <- glmer(TipoVocal~Vocal+Tonicidad+ContexFrase
+                      +sonoridadC2+ (1|Palabra)+(1|Participante), data = afonas, family='binomial', control = glmerControl(optimizer = 'bobyqa') )
+
+
+
+sjPlot::plot_model(afonasmix_mdl_sg,
+                   title="", colors = "viridis") +geom_hline(aes(yintercept=0))+
+theme_bw(base_size=18) + xlab("") + ylab("Estimadas")
+
+```
+
+## Resumen del Modelo Mixto {.scrollable}
+
+```{r echo=FALSE}
+
+sjPlot:: tab_model(afonasmix_mdl_sg)
+```
