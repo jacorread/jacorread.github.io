@@ -1,0 +1,357 @@
+---
+title: "Las vocales caedizas del español bogotano"
+author: "Alejandro Correa"
+date: ""
+institute: "Instituto Caro y Cuervo"
+format: revealjs
+logo: https://www.caroycuervo.gov.co/publicaciones/2022/02/logo-caro-y-cuervo.png 
+editor: visual
+toc: true
+toc-depth: 1
+toc-title: "Tabla de contenidos"
+---
+
+# Introducción
+
+## El español de Bogotá (EB)
+
+::: columns
+::: {.column width="45%"}
+![](imag/dialectos.png){width="1178"}
+:::
+
+::: {.column width="50%"}
+-   Bogotá es la ciudad más grande de Colombia.
+
+-   Desde finales del siglo XIX el EB ha gozado de prestigio.
+
+-   El EB se ha considerado como «la norma más correcta».
+
+-   Variabilidad, innovación y amplias diferencias sociolingüísticas.
+:::
+:::
+
+## El mito sobre las vocales del español
+
+::: columns
+::: {.column width="50%"}
+-   El sistema vocálico del español es **sencillo** y **estable;**
+
+-   Presenta poca variación dialectal;
+
+-   El acento léxico no modifica el timbre
+:::
+
+::: {.column width="45%"}
+![Vocales del español peninsular (Delattre, 1969)](imag/espa%C3%B1ol.png)
+:::
+:::
+
+## Las vocales del español hablado en Bogotá
+
+::: columns
+::: {.column width="50%"}
+-   Reducción fonética de las vocales (es un sistema altamente **variable);**
+
+-   Presenta una distribución dialectal más o menos definida;
+
+-   El acento léxico varía en función del timbre *vs.* (**alta intervariabilidad**)
+:::
+
+::: {.column width="40%"}
+![Vocales del español de Bogotá (Correa, 2021)](imag/SVB.png){fig-align="center"}
+:::
+:::
+
+## Reducción fonética de las vocales
+
+«te hubiera roto la cara» \[kaɾa̝\] \~ \[kaɾä\]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cwrgIlIqZyc?start=379" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </iframe>
+
+## Realización ensordecida/áfona
+
+![Palabra *peso* \[ˈpeso̥\] producida de manera aislada](imag/spektr.png)
+
+## Juan Rulfo (lectura de Pedro Páramo)
+
+«Cuando caminas, sientes que te van pisando *los pasos* \[ˈpaso̻s\]»
+
+<iframe width="660" height="415" src="https://www.youtube.com/embed/SqIPbr4XSnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+</iframe>
+
+## Antecedentes
+
+::: columns
+::: {.column width="50%"}
+![](imag/Map.png)
+:::
+
+::: {.column width="45%"}
+**México** (Boyd-Browman, 1952; Zamora Vicente, 1960; Lope Blanch, 1963; Serrano, 2006), **El Salvador** (Azcúnaga, 2010), **Nicaragua y Guatemala** (Rosales, 2010; Utgard, 2010), **Ecuador (**Lipski, 1990), **Cuzco (**Delforge; 2008), **Bolivia (**Sessarego, 2012)
+:::
+:::
+
+# Objetivos del estudio
+
+No existen estudios que documenten la existencia de vocales caedizas en el español hablado en Bogotá.
+
+-   Aportar nuevos datos sobre el ensordecimiento de las vocales del español americano.
+
+-   ¿Cómo se manifiesta acústicamente el ensordecimiento vocálico?
+
+-   Determinar cuáles factores predicen la aparición de las vocales áfonas.
+
+# Método
+
+```{r message = FALSE}
+library(tidyverse) 
+library(readr)
+library(dplyr)
+library(magrittr)
+library(viridis) 
+```
+
+## Procedimiento
+
+::: {.column width="100%"}
+### Corpus
+
+-   22 hablantes (11 mujeres y 11 hombres)
+
+-   4 textos leídos en tres velocidades
+
+-   6517 casos
+
+-   $C_{1}VC_{2}$
+
+-   $C_{1}$ = ataque de sílaba (bilabial, dentoalveolar, velar)
+
+-   $C_{2}$ = posición implosiva o ataque (siguiente sílaba)
+:::
+
+## Variantes {.scrollable}
+
+![](imag/g17471.png){fig-align="center"}
+
+## Análisis cuantitativo
+
+::: {.column width="100%"}
+
+-   Análisis exploratorio de las tres realizaciones (*ensordecida, parcial, aparente*).
+
+-   Regresión binomial de efectos mixtos (Winter, 2020).
+
+-   **Variable respuesta**: tipo de vocal (ensordecida vs. plena)
+
+-   **Predictores**: consonante, tonicidad, posición GF, tipo de palabra, sexo.
+
+-   **Efectos aleatorios**: ítem léxico y participante.
+:::
+
+```{r message = FALSE}
+
+afonas<-read_table('C:/Users/scien/OneDrive/Artículos y libros/A4. Ensordecimiento/Estadísticas/textosEnsordecidas.txt', locale = readr::locale(encoding = "windows-1252"))
+
+# Eliminamos las vocales plenas del análisis para disponer de una tabla únicamente con los contextos en que aparecen las ensordecidas.
+
+afonas1<-filter(afonas, TipoVocal != 'plena', Realización != 'plena')
+
+resum <- select(.data = afonas1, # name of the object to take data from
+                      Vocal, Realización) 
+
+afonas1<-filter(afonas, TipoVocal != 'plena', Realización != 'plena')
+afonas.freq2 <-table(afonas1$Realización) 
+```
+
+# Estadística descriptiva
+
+## Realizaciones
+
+```{r echo = FALSE}
+lenguas_labels<-round(prop.table(afonas.freq2)*100)
+lenguas_labels<-paste(lenguas_labels,"%", sep="")
+lenguas_colours<-c( "#440154FF","#1F969BFF","#FDE725FF")
+pie(afonas.freq2, main="Variantes ensordecidas", labels=lenguas_labels, col=lenguas_colours)
+legend("bottomleft",legend=c("Elisión", "Completa", "Aparente"), fill= lenguas_colours) 
+```
+
+## Ensordecimiento *vs.* timbre
+
+```{r echo=FALSE}
+
+ggplot(data=resum, mapping = aes(x= Vocal, fill = Realización)) +
+         geom_bar(position = "dodge2",  mapping = aes(y = (..count..)/sum(..count..)), stat="count" )+
+  geom_text(position = position_dodge(width = 1), aes(y = ((..count..)/sum(..count..)), label = 
+scales::percent((..count..)/sum(..count..))), 
+        stat = "count", vjust= -0.5, size = 3) + scale_fill_viridis(discrete = TRUE)+
+   scale_y_continuous(labels=scales::percent, breaks = scales::pretty_breaks(n = 5)) +
+ggtitle(" ") + xlab("") + ylab("")   + theme_bw()
+```
+
+## Ensordecimiento *vs.* tempo
+
+```{r echo=FALSE}
+ggplot(data=afonas1, mapping = aes(x= Velocidad, fill = Realización)) +
+         geom_bar(position = "dodge2",  mapping = aes(y = (..count..)/sum(..count..)), stat="count" )+
+  geom_text(position = position_dodge(width = 1), aes(y = ((..count..)/sum(..count..)), label = 
+scales::percent((..count..)/sum(..count..))), 
+        stat = "count", vjust= -0.5, size = 3) + scale_fill_viridis(discrete = TRUE)+
+   scale_y_continuous(labels=scales::percent, breaks = scales::pretty_breaks(n = 5)) +
+ggtitle(" ") + xlab("") + ylab("")   + theme_bw()
+```
+
+## Ensordecimiento *vs.* sonoridad $C_{1}$
+
+```{r echo=FALSE}
+ggplot(data=afonas1, mapping = aes(x= SonoridadC1, fill = Realización)) +
+         geom_bar(position = "dodge2",  mapping = aes(y = (..count..)/sum(..count..)), stat="count" )+
+  geom_text(position = position_dodge(width = 1), aes(y = ((..count..)/sum(..count..)), label = 
+scales::percent((..count..)/sum(..count..))), 
+        stat = "count", vjust= -0.5, size = 3) + scale_fill_viridis(discrete = TRUE)+
+   scale_y_continuous(labels=scales::percent, breaks = scales::pretty_breaks(n = 5)) +
+ggtitle(" ") + xlab("") + ylab("")   + theme_bw()
+```
+
+## Ensordecimiento *vs.* sonoridad $C_{2}$
+
+```{r echo = FALSE}
+ggplot(data=afonas1, mapping = aes(x= sonoridadC2, fill = Realización)) +
+         geom_bar(position = "dodge2",  mapping = aes(y = (..count..)/sum(..count..)), stat="count" )+
+  geom_text(position = position_dodge(width = 1), aes(y = ((..count..)/sum(..count..)), label = 
+scales::percent((..count..)/sum(..count..))), 
+        stat = "count", vjust= -0.5, size = 3) + scale_fill_viridis(discrete = TRUE)+
+   scale_y_continuous(labels=scales::percent, breaks = scales::pretty_breaks(n = 5)) +
+ggtitle(" ") + xlab("") + ylab("")   + theme_bw()
+```
+
+## Ensordecimiento *vs.* tonicidad
+
+```{r echo=FALSE}
+ggplot(data=afonas1, mapping = aes(x= Tonicidad, fill = Realización)) +
+         geom_bar(position = "dodge2",  mapping = aes(y = (..count..)/sum(..count..)), stat="count" )+
+  geom_text(position = position_dodge(width = 1), aes(y = ((..count..)/sum(..count..)), label = 
+scales::percent((..count..)/sum(..count..))), 
+        stat = "count", vjust= -0.5, size = 3) + scale_fill_viridis(discrete = TRUE)+
+   scale_y_continuous(labels=scales::percent, breaks = scales::pretty_breaks(n = 5)) +
+ggtitle(" ") + xlab("") + ylab("")   + theme_bw()
+
+```
+
+## Ensordecimiento *vs.* tipo de palabra
+
+```{r echo = FALSE}
+ggplot(data=afonas1, mapping = aes(x= TipoPalabra, fill = Realización)) +
+         geom_bar(position = "dodge2",  mapping = aes(y = (..count..)/sum(..count..)), stat="count" )+
+  geom_text(position = position_dodge(width = 1), aes(y = ((..count..)/sum(..count..)), label = 
+scales::percent((..count..)/sum(..count..))), 
+        stat = "count", vjust= -0.5, size = 3) + scale_fill_viridis(discrete = TRUE)+
+   scale_y_continuous(labels=scales::percent, breaks = scales::pretty_breaks(n = 5)) +
+ggtitle(" ") + xlab("") + ylab("")   + theme_bw()
+```
+
+## Ensordecimiento *vs.* posición de la vocal dentro del grupo fónico
+
+```{r echo = FALSE}
+ggplot(data=afonas1, mapping = aes(x= ContexFrase, fill = Realización)) +
+         geom_bar(position = "dodge2",  mapping = aes(y = (..count..)/sum(..count..)), stat="count" )+
+  geom_text(position = position_dodge(width = 1), aes(y = ((..count..)/sum(..count..)), label = 
+scales::percent((..count..)/sum(..count..))), 
+        stat = "count", vjust= -0.5, size = 3) + scale_fill_viridis(discrete = TRUE)+
+   scale_y_continuous(labels=scales::percent, breaks = scales::pretty_breaks(n = 5)) +
+ggtitle(" ") + xlab("") + ylab("")   + theme_bw()
+```
+
+## Ensordecimiento *vs.* sexo del hablante
+
+```{r echo = FALSE}
+
+ggplot(data=afonas1, mapping = aes(x= Sexo, fill = Realización)) +
+         geom_bar(position = "dodge2",  mapping = aes(y = (..count..)/sum(..count..)), stat="count" )+
+  geom_text(position = position_dodge(width = 1), aes(y = ((..count..)/sum(..count..)), label = 
+scales::percent((..count..)/sum(..count..))), 
+        stat = "count", vjust= -0.5, size = 3) + scale_fill_viridis(discrete = TRUE)+
+   scale_y_continuous(labels=scales::percent, breaks = scales::pretty_breaks(n = 5)) +
+ggtitle(" ") + xlab("") + ylab("")   + theme_bw()
+
+```
+
+# Modelo de regresión de efectos mixtos
+
+```{r echo=FALSE}
+library(corrr) #Correlaciones
+library(lme4) #LMM
+library(afex) #likelihood ratio test LMM
+library(broom) # Tabla coeficientes LMM
+library(broom.mixed)
+library(corrr) #Correlaciones
+library(lme4) #LMM
+
+```
+
+```{r echo =FALSE}
+
+afonas<-read_table('C:/Users/scien/OneDrive/Artículos y libros/A4. Ensordecimiento/Estadísticas/textosEnsordecidas.txt', locale = readr::locale(encoding = "windows-1252"))
+```
+
+```{r include= FALSE}
+#La variable respuesta está codificada como `caracteres`, así que tenemos que convertirla en `factor` para implementar los modelos de regresión:
+
+afonas <- mutate(afonas, TipoVocal = factor(TipoVocal))
+class(afonas$TipoVocal)
+```
+
+## Factores incluidos en el modelo
+
+```{r echo=FALSE}
+
+afonasmix_mdl_sg <- glmer(TipoVocal~Vocal+Tonicidad+ContexFrase
+                      +sonoridadC2+ (1|Palabra)+(1|Participante), data = afonas, family='binomial', control = glmerControl(optimizer = 'bobyqa') )
+
+
+
+sjPlot::plot_model(afonasmix_mdl_sg,
+                   title="", colors = "viridis") +geom_hline(aes(yintercept=0))+
+theme_bw(base_size=18) + xlab("") + ylab("Estimadas")
+
+```
+
+## Modelo mixto de regresión binomial {.scrollable}
+
+```{r echo=FALSE}
+
+sjPlot:: tab_model(afonasmix_mdl_sg)
+
+```
+
+## Predictores significativos
+
+::: nonincremental
+-   Tonicidad ($χ_{2}(1)  = 147.68, p < 0.001$).
+
+-   Posición de la vocal dentro del grupo fónico ($χ_{2}(2) = 197.47, p < 0.001$).
+
+-   Consonante siguiente ($C_{2}$) ($χ_{2(1)} = 11.74, p < 0.001$).
+
+-   Timbre vocálico ($χ_{2}(4) = 15.54, p = 0.003$).
+:::
+
+## Predictores no significativos
+
+-   Sonoridad de la $C_{1}$ ($χ_{2}(1) = 3.39, p = 0.06$).
+
+-    El tipo de palabra ($χ_{2}(1) = 0.06, p =0.80$).
+
+-    El sexo del hablante ($χ_{2}(1) = 2.16, p = 0.14$).
+
+-    Velocidad de habla ($χ_{2}(2) = 0.52, p = 0.76$).
+
+## Discusión
+
+## Conclusiones
+
+## Bibliografía
+
