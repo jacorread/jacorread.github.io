@@ -39,7 +39,7 @@ toc-title: "Tabla de contenidos"
 
 -   Presenta poca variación dialectal;
 
--   El acento léxico no modifica el timbre
+-   El acento léxico no modifica el timbre.
 :::
 
 ::: {.column width="45%"}
@@ -95,7 +95,7 @@ toc-title: "Tabla de contenidos"
 :::
 
 ::: {.column width="45%"}
-**México** (Boyd-Browman, 1952; Zamora Vicente, 1960; Lope Blanch, 1963; Serrano, 2006), **El Salvador** (Azcúnaga, 2010), **Nicaragua y Guatemala** (Rosales, 2010; Utgard, 2010), **Ecuador (**Lipski, 1990), **Cuzco (**Delforge; 2008), **Bolivia (**Sessarego, 2012)
+**México** (Boyd-Browman, 1952; Zamora Vicente, 1960; Lope Blanch, 1963; Serrano, 2006), **El Salvador** (Azcúnaga, 2010), **Nicaragua y Guatemala** (Rosales, 2010; Utgard, 2010), **Ecuador (**Lipski, 1990), **Perú (**Delforge; 2008), **Bolivia (**Sessarego, 2012).
 :::
 :::
 
@@ -332,52 +332,89 @@ sjPlot:: tab_model(afonasmix_mdl_sg)
 
 ## Predictores significativos
 
-| Predictor                       | Estadístico                      |
-|---------------------------------|----------------------------------|
-| Tonicidad                       | ($χ_{2}(1) = 147.68, p < 0.001$) |
-| Posición de la vocal GF         | ($χ_{2}(2) = 197.47, p < 0.001$) |
-| Consonante siguiente ($C_{2}$)  |  ($χ_{2}(1) = 11.74, p < 0.001$) |
-| Timbre                          | ($χ_{2}(4) = 15.54, p = 0.003$)  |
+| Predictor                      | Estadístico                      |
+|--------------------------------|----------------------------------|
+| Tonicidad                      | ($χ_{2}(1) = 147.68, p < 0.001$) |
+| Posición de la vocal GF        | ($χ_{2}(2) = 197.47, p < 0.001$) |
+| Consonante siguiente ($C_{2}$) | ($χ_{2}(1) = 11.74, p < 0.001$)  |
+| Timbre                         | ($χ_{2}(4) = 15.54, p = 0.003$)  |
 
 ## Predictores no significativos
 
-| Predictor                | Estadístico                    |
-|--------------------------|--------------------------------|
-| Sonoridad de la $C_{1}$  |  ($χ_{2}(1) = 3.39, p = 0.06$) |
-| Tipo de palabra          | ($χ_{2}(1) = 0.06, p =0.80$)   |
-| Sexo                     | ($χ_{2}(1) = 2.16, p = 0.14$)  |
-| Velocidad de habla       | ($χ_{2}(2) = 0.52, p = 0.76$)  |
+| Predictor               | Estadístico                   |
+|-------------------------|-------------------------------|
+| Sonoridad de la $C_{1}$ | ($χ_{2}(1) = 3.39, p = 0.06$) |
+| Tipo de palabra         | ($χ_{2}(1) = 0.06, p =0.80$)  |
+| Sexo                    | ($χ_{2}(1) = 2.16, p = 0.14$) |
+| Velocidad de habla      | ($χ_{2}(2) = 0.52, p = 0.76$) |
 
 # Discusión y conclusiones
 
 ## Factores que condicionan el ensordecimiento
 
--   El ensordecimiento modifica las vocales **átonas** en el entorno de **obstruyentes sordas** y en **posición** final ante pausa en las tres velocidades analizadas.
+-   El ensordecimiento modifica las vocales **átonas** en el entorno de **obstruyentes sordas**, en **posición** final ante pausa y en las tres velocidades analizadas.
 
 -   No se identificaron efectos del sexo y la velocidad de elocución .
 
--   El ensordecimiento está condicionado por la interacción entre factores contextuales, segmentales y prosódicas.
+-   El ensordecimiento está condicionado por la interacción entre factores contextuales, segmentales y prosódicos.
 
 ## Semejanzas y diferencias con otras variedades americanas
 
 -   El ensordecimiento de las vocales no supera el 10 % de los casos analizados en diferentes trabajos.
 
--   El corpus analizado arrojó más casos que el español boliviano y menos que el español de Cuzco (Perú) y CIudad de México.
+-   El corpus analizado arrojó más casos que el español boliviano y menos que el español de Cuzco (Perú) y Ciudad de México.
 
 -   Las vocales son parcialmente ensordecidas, mientras que en otras variedades predominan las vocales totalmente ensordecidas.
 
+## Interpretación de la distribución dialectal
+
+::: columns
+::: {.column width="50%"}
+![](imag/Map.png)
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment .highlight-red}
+Bolivia, Perú, Ecuador, Colombia, México, Guatemala, Costa Rica.
+:::
+
+::: {.fragment .highlight-blue}
+Venezuela (Andes), Norte de Argentina
+:::
+
+Lindcoln, Canfield (1981). *Spanish Pronunciation in the Americas*. The University of Chicago Press.
+
+\
+:::
+:::
+
+## Terminología
+
+::: columns
+::: {.column width="50%"}
+### Reducción acústica
+
+![](imag/SVB.png)
+:::
+
+::: {.column width="50%"}
+### Ensordecimiento vocálico
+
+![](imag/spektr.png)
+:::
+:::
+
 ## Bibliografía
 
-Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogotá (Colombia)](http://hdl.handle.net/10803/673154), Tesis de doctorado, Universitat Autònoma de Barcelona.
-
-Lope Blanch, Juan (1963) En torno a las vocales caedizas del español mexicano. *Nueva Revista de Filología Hispánica*. 17, 1-2, 1-19.
-
-Quesada Pacheco, Miguel Ángel (2010). El español hablado en América Central: Nivel fonético. Frankfurt, Madrid: Iberoaméricana Vervuert.
+1.  Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogotá (Colombia)](http://hdl.handle.net/10803/673154), Tesis de doctorado, Universitat Autònoma de Barcelona.
+2.  Lope Blanch, Juan (1963) En torno a las vocales caedizas del español mexicano. *Nueva Revista de Filología Hispánica*. 17, 1-2, 1-19.
+3.  Quesada Pacheco, Miguel Ángel (2010). El español hablado en América Central: Nivel fonético. Frankfurt, Madrid: Iberoaméricana Vervuert.
 
 ## Bibliografía
 
-Sessarego, Sandro (2012a). Unstressed vowel reduction in Cochabamba, Bolivia. *Revista Internacional de Lingüística Iberoamericana*. 2, 20, 213-227.
+4.  Sessarego, Sandro (2012a). Unstressed vowel reduction in Cochabamba, Bolivia. *Revista Internacional de Lingüística Iberoamericana*. 2, 20, 213-227.
 
-Sessarego, Sandro (2012b). Vowel weakening in Afro-Yungueño: Linguistic and social considerations. *Revista Brasileira de Estudos do Contato Lingüístico*. 2, 279-294.
+5.  Sessarego, Sandro (2012b). Vowel weakening in Afro-Yungueño: Linguistic and social considerations. *Revista Brasileira de Estudos do Contato Lingüístico*. 2, 279-294.
 
-Serrano, Julio (2006). En torno a las vocales caedizas del español mexicano: una aproximación sociolingüística. En *Líderes lingüísticos: Estudios de variación y cambio*. Ed., Pedro Martín Butragueño. México D. F. : El Colegio de México, 37-60.
+6.  Serrano, Julio (2006). En torno a las vocales caedizas del español mexicano: una aproximación sociolingüística. En *Líderes lingüísticos: Estudios de variación y cambio*. Ed., Pedro Martín Butragueño. México D. F. : El Colegio de México, 37-60.
