@@ -67,7 +67,11 @@ toc-title: "Tabla de contenidos"
 
 «te hubiera roto la cara» \[kaɾa̝\] \~ \[kaɾä\]
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cwrgIlIqZyc?start=379" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cwrgIlIqZyc?start=379" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+</iframe>
 
 ## Realización ensordecida/áfona
 
@@ -140,7 +144,6 @@ library(viridis)
 ## Análisis cuantitativo
 
 ::: {.column width="100%"}
-
 -   Análisis exploratorio de las tres realizaciones (*ensordecida, parcial, aparente*).
 
 -   Regresión binomial de efectos mixtos (Winter, 2020).
@@ -329,29 +332,52 @@ sjPlot:: tab_model(afonasmix_mdl_sg)
 
 ## Predictores significativos
 
-::: nonincremental
--   Tonicidad ($χ_{2}(1)  = 147.68, p < 0.001$).
-
--   Posición de la vocal dentro del grupo fónico ($χ_{2}(2) = 197.47, p < 0.001$).
-
--   Consonante siguiente ($C_{2}$) ($χ_{2(1)} = 11.74, p < 0.001$).
-
--   Timbre vocálico ($χ_{2}(4) = 15.54, p = 0.003$).
-:::
+| Predictor                       | Estadístico                      |
+|---------------------------------|----------------------------------|
+| Tonicidad                       | ($χ_{2}(1) = 147.68, p < 0.001$) |
+| Posición de la vocal GF         | ($χ_{2}(2) = 197.47, p < 0.001$) |
+| Consonante siguiente ($C_{2}$)  |  ($χ_{2}(1) = 11.74, p < 0.001$) |
+| Timbre                          | ($χ_{2}(4) = 15.54, p = 0.003$)  |
 
 ## Predictores no significativos
 
--   Sonoridad de la $C_{1}$ ($χ_{2}(1) = 3.39, p = 0.06$).
+| Predictor                | Estadístico                    |
+|--------------------------|--------------------------------|
+| Sonoridad de la $C_{1}$  |  ($χ_{2}(1) = 3.39, p = 0.06$) |
+| Tipo de palabra          | ($χ_{2}(1) = 0.06, p =0.80$)   |
+| Sexo                     | ($χ_{2}(1) = 2.16, p = 0.14$)  |
+| Velocidad de habla       | ($χ_{2}(2) = 0.52, p = 0.76$)  |
 
--    El tipo de palabra ($χ_{2}(1) = 0.06, p =0.80$).
+# Discusión y conclusiones
 
--    El sexo del hablante ($χ_{2}(1) = 2.16, p = 0.14$).
+## Factores que condicionan el ensordecimiento
 
--    Velocidad de habla ($χ_{2}(2) = 0.52, p = 0.76$).
+-   El ensordecimiento modifica las vocales **átonas** en el entorno de **obstruyentes sordas** y en **posición** final ante pausa en las tres velocidades analizadas.
 
-## Discusión
+-   No se identificaron efectos del sexo y la velocidad de elocución .
 
-## Conclusiones
+-   El ensordecimiento está condicionado por la interacción entre factores contextuales, segmentales y prosódicas.
+
+## Semejanzas y diferencias con otras variedades americanas
+
+-   El ensordecimiento de las vocales no supera el 10 % de los casos analizados en diferentes trabajos.
+
+-   El corpus analizado arrojó más casos que el español boliviano y menos que el español de Cuzco (Perú) y CIudad de México.
+
+-   Las vocales son parcialmente ensordecidas, mientras que en otras variedades predominan las vocales totalmente ensordecidas.
 
 ## Bibliografía
 
+Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogotá (Colombia)](http://hdl.handle.net/10803/673154), Tesis de doctorado, Universitat Autònoma de Barcelona.
+
+Lope Blanch, Juan (1963) En torno a las vocales caedizas del español mexicano. *Nueva Revista de Filología Hispánica*. 17, 1-2, 1-19.
+
+Quesada Pacheco, Miguel Ángel (2010). El español hablado en América Central: Nivel fonético. Frankfurt, Madrid: Iberoaméricana Vervuert.
+
+## Bibliografía
+
+Sessarego, Sandro (2012a). Unstressed vowel reduction in Cochabamba, Bolivia. *Revista Internacional de Lingüística Iberoamericana*. 2, 20, 213-227.
+
+Sessarego, Sandro (2012b). Vowel weakening in Afro-Yungueño: Linguistic and social considerations. *Revista Brasileira de Estudos do Contato Lingüístico*. 2, 279-294.
+
+Serrano, Julio (2006). En torno a las vocales caedizas del español mexicano: una aproximación sociolingüística. En *Líderes lingüísticos: Estudios de variación y cambio*. Ed., Pedro Martín Butragueño. México D. F. : El Colegio de México, 37-60.
