@@ -1,14 +1,20 @@
 ---
 title: "Las vocales caedizas del español bogotano"
+subtitle: "[tinyurl.com/caedizas](tinyurl.com/caedizas)"
 author: "Alejandro Correa"
 date: ""
 institute: "Instituto Caro y Cuervo"
 format: revealjs
 logo: https://www.caroycuervo.gov.co/publicaciones/2022/02/logo-caro-y-cuervo.png 
-editor: visual
+css: logo.css
+bibliography: caedizas.bib
 toc: true
 toc-depth: 1
 toc-title: "Tabla de contenidos"
+slide-number: true
+multiplex: true
+controls: true
+footer: "Servei de Tractament de la Parla i del So (STPS), Universitat Autònoma de Barcelona, 9 de mayo de 2023"
 ---
 
 # Introducción
@@ -43,7 +49,7 @@ toc-title: "Tabla de contenidos"
 :::
 
 ::: {.column width="45%"}
-![Vocales del español peninsular (Delattre, 1969)](imag/espa%C3%B1ol.png)
+![Vocales del español peninsular [@Delattre1969a]](imag/espa%C3%B1ol.png)
 :::
 :::
 
@@ -59,7 +65,7 @@ toc-title: "Tabla de contenidos"
 :::
 
 ::: {.column width="40%"}
-![Vocales del español de Bogotá (Correa, 2021)](imag/SVB.png){fig-align="center"}
+![Vocales del español de Bogotá [@Correa2021a]](imag/SVB.png){fig-align="center"}
 :::
 :::
 
@@ -75,7 +81,9 @@ toc-title: "Tabla de contenidos"
 
 ## Realización ensordecida/áfona
 
-![Palabra *peso* \[ˈpeso̥\] producida de manera aislada](imag/spektr.png)
+Palabra *peso* \[ˈpeso̥\] producida de manera aislada
+
+![](imag/spektr.png){fig-align="center"}
 
 ## Juan Rulfo (lectura de Pedro Páramo)
 
@@ -94,8 +102,8 @@ toc-title: "Tabla de contenidos"
 ![](imag/Map.png)
 :::
 
-::: {.column width="45%"}
-**México** (Boyd-Browman, 1952; Zamora Vicente, 1960; Lope Blanch, 1963; Serrano, 2006), **El Salvador** (Azcúnaga, 2010), **Nicaragua y Guatemala** (Rosales, 2010; Utgard, 2010), **Ecuador (**Lipski, 1990), **Perú (**Delforge; 2008), **Bolivia (**Sessarego, 2012).
+::: {.column width="50%"}
+**México** [@BoydBowman1952; @Canellada1960; @LopeBlanch1963; @Serrano2006], **El Salvador** [@Azcunaga2010], **Nicaragua y Guatemala** [@Rosales2010; @Utgaard2010], **Ecuador** [@Lipski1990], **Perú** [@Delforge2008], **Bolivia** [@Sessarego2012].
 :::
 :::
 
@@ -146,7 +154,7 @@ library(viridis)
 ::: {.column width="100%"}
 -   Análisis exploratorio de las tres realizaciones (*ensordecida, parcial, aparente*).
 
--   Regresión binomial de efectos mixtos (Winter, 2020).
+-   Regresión binomial de efectos mixtos [@Winter2020].
 
 -   **Variable respuesta**: tipo de vocal (ensordecida vs. plena)
 
@@ -366,7 +374,7 @@ sjPlot:: tab_model(afonasmix_mdl_sg)
 
 -   Las vocales son parcialmente ensordecidas, mientras que en otras variedades predominan las vocales totalmente ensordecidas.
 
-## Interpretación de la distribución dialectal
+## Interpretación
 
 ::: columns
 ::: {.column width="50%"}
@@ -374,7 +382,6 @@ sjPlot:: tab_model(afonasmix_mdl_sg)
 :::
 
 ::: {.column width="50%"}
-
 ::: {.fragment .highlight-red}
 Bolivia, Perú, Ecuador, Colombia, México, Guatemala, Costa Rica.
 :::
@@ -405,16 +412,4 @@ Lindcoln, Canfield (1981). *Spanish Pronunciation in the Americas*. The Universi
 :::
 :::
 
-## Bibliografía
-
-1.  Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogotá (Colombia)](http://hdl.handle.net/10803/673154), Tesis de doctorado, Universitat Autònoma de Barcelona.
-2.  Lope Blanch, Juan (1963) En torno a las vocales caedizas del español mexicano. *Nueva Revista de Filología Hispánica*. 17, 1-2, 1-19.
-3.  Quesada Pacheco, Miguel Ángel (2010). El español hablado en América Central: Nivel fonético. Frankfurt, Madrid: Iberoaméricana Vervuert.
-
-## Bibliografía
-
-4.  Sessarego, Sandro (2012a). Unstressed vowel reduction in Cochabamba, Bolivia. *Revista Internacional de Lingüística Iberoamericana*. 2, 20, 213-227.
-
-5.  Sessarego, Sandro (2012b). Vowel weakening in Afro-Yungueño: Linguistic and social considerations. *Revista Brasileira de Estudos do Contato Lingüístico*. 2, 279-294.
-
-6.  Serrano, Julio (2006). En torno a las vocales caedizas del español mexicano: una aproximación sociolingüística. En *Líderes lingüísticos: Estudios de variación y cambio*. Ed., Pedro Martín Butragueño. México D. F. : El Colegio de México, 37-60.
+# Bibliografía
