@@ -57,15 +57,15 @@ footer: "Servei de Tractament de la Parla i del So (STPS), Universitat Autònoma
 
 ::: columns
 ::: {.column width="50%"}
--   Reducción fonética de las vocales (es un sistema altamente **variable);**
+-   Es un sistema altamente **variable;**
 
--   Presenta una distribución dialectal más o menos definida;
+-   Hay variaciones dialectales ;
 
--   El acento léxico varía en función del timbre *vs.* (**alta intervariabilidad**)
+-   El acento léxico varía en función del timbre (**alta intervariabilidad**).
 :::
 
-::: {.column width="40%"}
-![Vocales del español de Bogotá [@Correa2021a]](imag/SVB.png){fig-align="center"}
+::: {.column width="35%"}
+![Vocales del español de Bogotá [@Correa2021a]](imag/SVB.png)
 :::
 :::
 
