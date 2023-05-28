@@ -22,7 +22,7 @@ footer: "Servei de Tractament de la Parla i del So (STPS), Universitat Autònoma
 ## El español de Bogotá (EB)
 
 ::: columns
-::: {.column width="45%"}
+::: {.column width="40%"}
 ![](imag/dialectos.png){width="1178"}
 :::
 
