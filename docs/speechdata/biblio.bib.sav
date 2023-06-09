@@ -1,0 +1,4617 @@
+@InBook{Schwegler2011,
+  author    = {Schwegler, Armin},
+  date      = {2011},
+  title     = {Creoles, their Substrates, and Language Typology},
+  chapter   = {Palenque(ro): The search for its African substrate},
+  editor    = {Lefebvre, Claire},
+  location  = {Philadelphia},
+  pages     = {225–249},
+  publisher = {John Benjamins},
+  abstract  = {This article examines substratal influences in Palenquero (Colombia).
+	It begins with an explanation of why research on the origins of Palenque
+	and its language has been particularly challenging, and what these
+	challenges mean in terms of how convincing the reigning hypothesis
+	of a sole Kikongo substrate can (or cannot) be. The study then concentrates
+	on relevant external and internal language data, as these are in
+	many ways complementary. Language-internal features tied to Kikongo
+	will be shown to come from all domains of grammar (phonology, morphology
+	and syntax). Three fundamental conclusions will be reached: (1) Kikongo
+	speakers must indeed have been a dominant force in the early Palenque;
+	(2) lacunae in our historical and linguistic knowledge are, however,
+	so great that we should keep a guarded attitude toward the current
+	substrate hypothesis; and (3) there are multiple reasons to be optimistic
+	about future attempts to refine substratist investigations into the
+	creole. Part of that optimism rests on ongoing DNA research (based
+	on comparison of the DNA of Palenqueros and Central West Africans),
+	as well as on an astonishing turnaround of sociolinguistic attitudes
+	in twenty-first-century Palenque. This turnaround has prompted a
+	rapid re-evaluation and never-before seen appreciation of local Africanisms.
+	Local enthusiasm for Palenquero is currently bringing to the fore
+	a corpus of hitherto undocumented ancestral words that may help us
+	advance explorations into the origins of the language.},
+  crossref  = {African influence, Africanisms, Bantu influence, DNA population study, Kikongo, Palenque, Palenquero, substrate},
+  owner     = {alejandro correa},
+  timestamp = {2011.07.10},
+}
+
+
+
+
+@Misc{Lawson:2015aa,
+  author        = {Lawson, E. and Stuart-Smith, J. and Scobbie, J. M. and Nakai, S.},
+  title         = {Seeing Speech: an articulatory web resource for the study of Phonetics},
+  howpublished  = {University of Glasgow. \url{http://seeingspeech.ac.uk}},
+  date-added    = {2016-05-04 00:30:54 +0000},
+  date-modified = {2016-05-04 00:34:41 +0000},
+  month         = {1st April},
+  year          = {2015},
+}
+
+@article{Hall:2006aa,
+	Author = {Hall, Nancy},
+	Date-Added = {2016-05-03 00:20:58 +0000},
+	Date-Modified = {2016-05-03 00:22:15 +0000},
+	Journal = {Phonology},
+	Number = {3},
+	Pages = {387-429},
+	Title = {Cross-linguistic patterns of vowel Intrusion},
+	Volume = {23},
+	Year = {2006}}
+
+@book{Hock:2009aa,
+	Address = {Berl\'in.},
+	Author = {Hock, H.H. and Joseph, Brian},
+	Date-Added = {2016-05-02 18:00:51 +0000},
+	Date-Modified = {2016-05-02 18:03:30 +0000},
+	Edition = {Segunda edici\'on},
+	Publisher = {Mouton de Gruyter},
+	Title = {Language History, Language Change and Language Relationship. An introduction to Historical and Comparative Linguistics},
+	Year = {2009}}
+
+@book{Hualde:2014aa,
+	Address = {Cambridge},
+	Author = {Hualde, Ignacio},
+	Date-Added = {2016-04-29 16:05:29 +0000},
+	Date-Modified = {2016-05-02 15:27:43 +0000},
+	Publisher = {Cambridge University Press},
+	Title = {Los sonidos del espa{\~n}ol},
+	Year = {2014}}
+
+@incollection{Maddieson:2006aa,
+	Address = {Cambridge},
+	Author = {Maddieson, Ian},
+	Booktitle = {Linguistic universals},
+	Date-Added = {2016-04-29 15:43:29 +0000},
+	Date-Modified = {2016-04-29 15:44:54 +0000},
+	Editor = {Mairol, Ricardo and Gil, Juana},
+	Pages = {80-100},
+	Publisher = {Cambridge University Press},
+	Title = {In search of universals},
+	Year = {2006}}
+
+@incollection{Yu:2006aa,
+	Address = {Oxford},
+	Author = {Yu, Alan},
+	Booktitle = {Encyclopedia of Language and Linguistics},
+	Date-Added = {2016-04-29 15:28:32 +0000},
+	Date-Modified = {2016-04-29 15:34:21 +0000},
+	Editor = {Brown, Keith},
+	Pages = {525--529},
+	Publisher = {Elsevier},
+	Title = {The phonetics of sound change},
+	Volume = {11},
+	Year = {2006}}
+
+@incollection{Lloyd:1993aa,
+	Address = {Madrid},
+	Author = {Lloyd, Paul},
+	Date-Added = {2016-04-29 14:45:07 +0000},
+	Date-Modified = {2016-04-29 15:24:45 +0000},
+	Publisher = {Gredos},
+	Title = {Del lat\'in al espa\~nol: Fonolog\'ia y morfolog\'ia hist\'oricas de la lengua espa\~nola},
+	Year = {1993}}
+
+@incollection{Ohala:2006aa,
+	Address = {Oxford},
+	Author = {Ohala, John},
+	Booktitle = {Encyclopedia of Language and Linguistics},
+	Date-Added = {2016-04-29 14:31:02 +0000},
+	Date-Modified = {2016-04-29 14:38:21 +0000},
+	Editor = {Brown, Keith},
+	Pages = {520--25},
+	Publisher = {Elsevier},
+	Title = {Sound Change},
+	Volume = {11},
+	Year = {2006}}
+
+@article{Ohala:1980aa,
+	Author = {Ohala, John},
+	Date-Added = {2016-04-29 14:26:37 +0000},
+	Date-Modified = {2016-04-29 14:29:46 +0000},
+	Journal = {Proc., 9th Int. Cong. of Phonetic Sciences, Copenhagen: Institute of Phonetics.},
+	Pages = {181 - 194},
+	Title = {Moderator's summary of symposium on 'Phonetic universals in phonological systems and their explanation'.},
+	Volume = {3},
+	Year = {1980}}
+
+@incollection{Garrett:2012aa,
+	Address = {Oxford},
+	Author = {Garrett, Andrew and Keith Johnson},
+	Booktitle = {Origins of sound change: Approaches to phonologization.},
+	Date-Added = {2016-04-29 14:19:40 +0000},
+	Date-Modified = {2016-04-29 14:22:32 +0000},
+	Editor = {Yu, Alan},
+	Pages = {51-97},
+	Publisher = {Oxford University Press},
+	Title = {Phonetic bias in sound change},
+	Year = {2012}}
+
+@book{Croft:1990aa,
+	Address = {Cambridge},
+	Author = {Croft, William},
+	Date-Added = {2016-04-29 14:10:05 +0000},
+	Date-Modified = {2016-04-29 14:11:01 +0000},
+	Publisher = {Cambridge University Press},
+	Title = {Typology and universals},
+	Year = {1990}}
+
+@book{Maddieson:1984aa,
+	Address = {Cambridge},
+	Author = {Maddieson, Ian},
+	Date-Added = {2016-04-29 14:03:28 +0000},
+	Date-Modified = {2016-04-29 14:05:45 +0000},
+	Publisher = {Cambridge University Press},
+	Title = {Patterns of Sounds},
+	Year = {1984}}
+
+@book{Greenberg:1966aa,
+	Address = {Berlin},
+	Author = {Greenberg, Joseph},
+	Date-Added = {2016-04-29 13:33:42 +0000},
+	Date-Modified = {2016-04-29 13:34:50 +0000},
+	Publisher = {Mouton de Gruyter},
+	Title = {Language Universals},
+	Year = {1966}}
+
+@inbook{Crothers1978,
+	Address = {Stanford},
+	Author = {Crothers, John},
+	Date-Added = {2016-04-29 13:33:22 +0000},
+	Date-Modified = {2016-04-29 13:33:22 +0000},
+	Editor = {Greenberg, Joseph},
+	Owner = {Alejandro},
+	Pages = {93-152},
+	Publisher = {Standford University Press},
+	Timestamp = {2014.08.12},
+	Title = {Typology and universals of vowel systems},
+	Volume = {2},
+	Year = {1978}}
+
+@article{Greenberg:1975aa,
+	Author = {Greenberg, Joseph},
+	Date-Added = {2016-04-29 13:33:05 +0000},
+	Date-Modified = {2016-04-29 13:33:05 +0000},
+	Journal = {Annual review of Antropology},
+	Pages = {75-94},
+	Title = {Research on language universals},
+	Volume = {4},
+	Year = {1975}}
+
+@article{Evans2009,
+	Author = {Evans, N. and Levinson, S.},
+	Date-Added = {2016-04-29 12:33:55 +0000},
+	Date-Modified = {2016-04-29 12:33:55 +0000},
+	Doi = {10.1017/S0140525X0999094X},
+	Journal = {Behavioral and Brain Sciencies},
+	Owner = {jacorread},
+	Pages = {429-492},
+	Timestamp = {2014.02.03},
+	Title = {The myth of language universals: language diversity and its importance for cognitive science},
+	Volume = {32},
+	Year = {2009},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1017/S0140525X0999094X}}
+
+@inproceedings{Simpsom1999,
+	Address = {San Francisco},
+	Author = {Simpsom, Adrian},
+	Booktitle = {Proc. \mbox{{XIV}th} {ICP}h{S}},
+	Date-Added = {2016-04-29 12:33:55 +0000},
+	Date-Modified = {2016-04-29 12:33:55 +0000},
+	Owner = {jacorread},
+	Pages = {349--352},
+	Timestamp = {2013.09.08},
+	Title = {Fundamental problems in comparative phonetics and phonology. {D}oes {UPSID} help to solve them?},
+	Url = {http://www.personal.uni-jena.de/~x1siad/papers/icphs99_fund.pdf},
+	Volume = {1},
+	Year = {1999},
+	Bdsk-Url-1 = {http://www.personal.uni-jena.de/~x1siad/papers/icphs99_fund.pdf}}
+
+@incollection{Ohala:1993aa,
+	Address = {San Diego},
+	Author = {Ohala, John and Ohala, Manjari},
+	Booktitle = {Nasals, nasalization, and the velum},
+	Date-Added = {2016-04-29 11:30:40 +0000},
+	Date-Modified = {2016-04-29 11:40:42 +0000},
+	Editor = {Huffman M. K. and Krakow, R. A.},
+	Pages = {225-249},
+	Publisher = {Academic Press},
+	Title = {The phonetics of nasals phonology: theorems and data},
+	Year = {1993}}
+
+@incollection{Browman1994,
+	Author = {Browman, C. P., and Goldstein, L.},
+	Booktitle = {Papers in Laboratory Phonology II. Gesture, Segment, Prosody},
+	Editor = {Docherty, G. J. and Ladd, D. R.},
+	Owner = {jacorread},
+	Pages = {26-67},
+	Publisher = {Cambridge University Press},
+	Timestamp = {2013.07.17},
+	Title = {``Targetless'' schwa: an articulatory analysis},
+	Year = {1994}}
+
+@article{Delattre1969,
+	Author = {Delattre, Pierre},
+	Journal = {Studia Linguistica},
+	Number = {1},
+	Owner = {jacorread},
+	Pages = {1-26},
+	Timestamp = {2014.08.06},
+	Title = {Coarticulation and the locus theory},
+	Volume = {23},
+	Year = {1969}}
+
+@article{Delattre1955,
+	Author = {Delattre, Pierre and Liberman, Alvin and Cooper, Franklin},
+	Journal = {Journal of the Acoustical Society of America},
+	Owner = {jacorread},
+	Pages = {769-773},
+	Timestamp = {2014.08.06},
+	Title = {Acoustic Loci and Transitional Cues for Consonants},
+	Volume = {27},
+	Year = {1955}}
+
+@phdthesis{Ericsdotter2005,
+	Address = {Stockholm},
+	Author = {Ericsdotter, Christine},
+	Note = {\url{http://www2.ling.su.se/staff/ericsdotter/thesis/}},
+	Owner = {jacorread},
+	School = {Institute of Linguistics, Stockholm University},
+	Timestamp = {2014.08.06},
+	Title = {Articulatory-Acoustic Relationships in Swedish Vowel Sounds},
+	Year = {2005}}
+
+@inbook{Fant1956,
+	Address = {The Hague},
+	Author = {Fant, Gunnar},
+	Chapter = {On the predictability of formant levels and spectrum envelopes from formant frequencies},
+	Editor = {Halle, M. and Lunt, H.},
+	Owner = {jacorread},
+	Pages = {109--120},
+	Publisher = {Mouton},
+	Timestamp = {2014.08.06},
+	Title = {For Roman Jakobson},
+	Year = {1956}}
+
+@article{Harmegnies1992,
+	Author = {Harmegnies, Bernard and Poch-Oliv{\'e}, Dolors},
+	Journal = {Speech Communication},
+	Owner = {jacorread},
+	Pages = {429-437},
+	Timestamp = {2013.08.07},
+	Title = {A study of style-induced vowel variability" Laboratory versus spontaneous speech in Spanish},
+	Year = {1992}}
+
+@article{Harris1958,
+	Author = {Harris, Katherine Safford and Hoffman, Howard and Liberman, Alvin and Delattre, Pierre and Cooper, Franklin},
+	Journal = {Journal of the Acoustical Society of America},
+	Owner = {jacorread},
+	Pages = {122-126},
+	Timestamp = {2014.08.06},
+	Title = {Effect of Third-Formant Transitions on the Perception of the Voiced Stop Consonants},
+	Volume = {30},
+	Year = {1958}}
+
+@article{Krull1989,
+	Author = {Krull, D.},
+	Journal = {Phonetic Experimental Research at the Institute of Linguistics, University of Stockholm},
+	Owner = {jacorread},
+	Pages = {87-108},
+	Timestamp = {2014.08.07},
+	Title = {Second formant locus patterns and consonant vowel coarticulation in spontaneous speech},
+	Volume = {10},
+	Year = {1989}}
+
+@book{Ladefoged1996a,
+	Address = {Oxford},
+	Author = {Ladefoged, Peter and Maddieson, Ian},
+	Owner = {jacorread},
+	Publisher = {Blackwell Publishers},
+	Timestamp = {2014.08.06},
+	Title = {The sounds of the world's languages},
+	Year = {1996}}
+
+@article{MartinezCeldran2009,
+	Author = {Mart\'inez Celdr\'an, E.},
+	Journal = {Estudios de Fon\'etica Experimental},
+	Owner = {jacorread},
+	Pages = {253-271},
+	Timestamp = {2013.04.28},
+	Title = {Sonorizaci\'on de las oclusivas sordas en una hablante murciana: problemas que plantea.},
+	Volume = {18},
+	Year = {2009}}
+
+@article{MartinezCeldran2004,
+	Author = {Mart\'inez Celdr\'an, E.},
+	Journal = {Journal of the International Phonetic Association},
+	Owner = {jacorread},
+	Pages = {201-210},
+	Timestamp = {2014.08.07},
+	Title = {Problems in the classification of approximants},
+	Volume = {34},
+	Year = {2004}}
+
+@phdthesis{Pierrehumbert1980,
+	Author = {Pierrehumbert, Janet},
+	Owner = {alejandro correa},
+	School = {Massachusetts Institute of Technology},
+	Timestamp = {2011.02.22},
+	Title = {The phonology and phonetics of English intonation},
+	Year = {1980}}
+
+@article{Schwartz1997,
+	Author = {Schwartz, J. and Bo\"e, L. and Vall{\`e}e, N. and Abry, C.},
+	Journal = {Journal of Phonetics},
+	Owner = {jacorread},
+	Pages = {233-253},
+	Timestamp = {2014.08.06},
+	Title = {Major trends in vowel system inventories},
+	Volume = {25},
+	Year = {1972}}
+
+@article{Stevens1989,
+	Author = {Stevens, K.},
+	Journal = {Journal of Phonetics},
+	Owner = {jacorread},
+	Pages = {3-45},
+	Timestamp = {2014.08.06},
+	Title = {On the quantal nature of speech},
+	Volume = {17},
+	Year = {1989}}
+
+@article{Stevens1955,
+	Author = {Stevens, K. and House, A.},
+	Journal = {Journal of the Acoustical Society of America},
+	Owner = {jacorread},
+	Pages = {484-493},
+	Timestamp = {2013.05.26},
+	Title = {Development of a quantitative description of vowel articulation},
+	Volume = {27},
+	Year = {1955}}
+
+@article{Sussman1991,
+	Author = {Sussman, Harvey M.},
+	Journal = {Journal of the Acoustical Society of America},
+	Number = {4B},
+	Owner = {jacorread},
+	Pages = {1998-1998},
+	Timestamp = {2014.08.07},
+	Title = {An investigation of locus equations as a source of relational invariance for stop place categorization},
+	Volume = {89},
+	Year = {1991}}
+
+@Book{Oehman2007,
+  author    = {\"Ohman, Sven},
+  date      = {2007},
+  title     = {The essence of Language: a philosophical problem: Why Noam Chomsky was never a linguist},
+  location  = {Nora},
+  publisher = {Nya Doxa},
+  owner     = {alejandro correa},
+  timestamp = {2011.07.01},
+}
+
+@Article{Oehman2002,
+  author       = {\"Ohman, Sven},
+  date         = {2002},
+  journaltitle = {Speech, Music and Hearing Quarterly Progress and Status Report},
+  title        = {Phonetics in a literal sense: Do the letters of the alphabet have a pronunciation?},
+  number       = {1},
+  pages        = {125-128},
+  volume       = {44},
+  owner        = {alejandro correa},
+  timestamp    = {2011.08.17},
+}
+
+@Article{Oehman2001,
+  author       = {\"Ohman, Sven},
+  date         = {2001},
+  journaltitle = {Lund University, Dept. of Linguistics, Working Papers},
+  title        = {Why current speech technology is false phonetics},
+  pages        = {180-183},
+  volume       = {49},
+  owner        = {alejandro correa},
+  timestamp    = {2011.07.01},
+}
+
+@Book{Hart1990,
+  author    = {t `Hart, Johan and Collier, Ren\'e and Cohen, Antonie},
+  date      = {1990},
+  title     = {A perceptual study of intonation. An experimental--phonetic approach to speech melody},
+  location  = {Cambridge},
+  publisher = {Cambridge University Press},
+  owner     = {alejandro correa},
+  timestamp = {2011.08.12},
+}
+
+@Article{Altmann1997,
+  author       = {Altmann, Gabriel},
+  date         = {1997},
+  journaltitle = {Journal of Quantitative Linguistics},
+  title        = {The art of Quantitative Linguistics},
+  doi          = {10.1080/09296179708590074},
+  number       = {1-3},
+  pages        = {13-22},
+  volume       = {4},
+  abstract     = {A linguist venturing on the thorny path paved with formulas has four
+	problems to surmount: to characterize a phenomenon, to describe a
+	course, to discover a dependency, and to explain the genesis of a
+	language phenomenon. Each of these phases has its charms and difficulties.
+	Each admits for an individual research style, but at the same time
+	forces us to use objective procedures.},
+  comment      = {\textbf{The art of Quantitative Linguistics}
+	
+	
+	'' If in the course of his career an ambitious linguist begins to
+	sense intuitively that the observation of language from another point
+	of view and the use of other than traditional analytical means could
+	bring him a bit closer to the truth than his present endeavour, he
+	stays at the threshold of a decision which has rather a moral than
+	scientific character.'' [13]
+	
+	
+	'' Te usual path of a quantitative linguist leads through four stages
+	which can be called simply (1) characterisation; (2) course; (3)dependence;
+	and (4) genesis.'' [13]
+	
+	
+	\textbf{Characterisation}
+	
+	
+	''The most common transition from qualitative to quantitative linguistics
+	takes place in cases where the linguist observes a conspicuousness
+	in the data.'' [14]
+	
+	
+	''In any case the use of proportions as an index is more reliable
+	than the development of new indices, as long as one does not master
+	the basis of statistics''. [14]
+	
+	
+	''Whether known or new, an index at least [1] must be linguistically
+	interpretable; [2] must have a know range; and [3] must have a know
+	sampling distribution in order to be effective with decision making''.
+	[14]
+	
+	
+	'' If one wants to perform tests with the given index -an activity
+	differentiating quantitative linguists from qualitative ones- then
+	the distribution of the variable appearing in the index must be know''.
+	[14]
+	
+	
+	''There are two recommendations in this section: (1) Characcterise
+	everything quantitavely but use only indices whose statistical properties
+	are know. (2) Classify on the basis of laws. If it is not possible
+	and the classification is purely empirical, show the practical or
+	the heuristic value the taxonomy''. [16]
+	
+	
+	\textbf{Course}
+	
+	
+	''In language there are only two fully independent variables: time
+	and [numerical] position in the text''. [16]
+	
+	
+	''The object of investigation in this domain is (1) everything in
+	language that changes in time, e.g., the use of a special word, the
+	development of suffixation, the borrowing of foreign words, the change
+	of the verb-adjetive ratio in the work of an author from his first
+	to his last work, decay of gender, divergence of languages, etc.
+	Any textbook of historical linguistics is full of ideas, observations
+	and suggestions. (2) Everything that is positionally conditioned
+	in text or changes in the course of the text.'' [16]
+	
+	
+	
+	\textbf{Dependencies}
+	
+	
+	
+	''The examination of bonds or dependences is perhaps the most prolific
+	and the same time the most simple quantitative linguistics''. 
+	
+	
+	''Let us mention ten simple examples of possible dependences, some
+	of which have already been examined: (1) Is there a dependence between
+	the number of nouns and adjetives in a text? (2) Does the frequency
+	of word classes in a text follow a rank-frequency distribution? (3)
+	Is there a connection between measure of derivation and that of inflection
+	in language? [4] Do word length and sentence length in a text follow
+	a special probability distribution ? (5) Is there a connection between
+	word length andt the mesurre of inflection in a text? ... [18]
+	
+	
+	 The number of 'connections' of this kind is simply infinite. Once
+	found it must be tested on many languages or texts. There is a high
+	probability that the test will bring negative results in some cases,
+	but one should not reject the curve or the distribution at once''.
+	[18]
+	
+	
+	\textbf{Genesis}
+	
+	
+	'The most difficult and complex chapter of quantitative linguistics
+	is doubtless the question concerning the genesis of language phenomena.
+	The answer of 'how' and 'why' of the matter.' [18]
+	
+	
+	
+	'The discovery of a bond and its capturing by a curve, even if it
+	happens to be frequently confirmed, merely represents an empirical
+	generalisation (inductive hypothesis) that does not tell us anything
+	about the background mechanism. We should rather ask which factors,
+	forces, take influence on a variable and in which way. A factor can
+	be constant, linear, logarithmic, quadratic, inverse proportional,
+	etc. If there is still no theory from which we could deduce the given
+	dependence, we necessarily proceed by menas of setting up hypotheses,
+	starting fron prelininary axioms.'' [19]
+	
+	
+	'No property of language units and no class of language entities follow
+	the normal distribution, i.e., from the empirical point of view,
+	the values of the property being our variable have different frequencies
+	of occurrence, and the elements of a class of entities can always
+	be orderend according to their decreasing frequency.' [20]
+	
+	
+	' The art of quantitative linguistics does not consist in complicated
+	mathematics -even if it is sometimes quite complicated -but in conceiving
+	and formulating hypothesis'. [21]
+	
+	
+	' Whether we 'receive' it when sleeping, when reading scientific literature
+	or when analising a problem from different sides, what matters is
+	the formulation of a hypothesis. But even this can be learned by
+	experience or by trial-and-error.' [20]
+	
+	
+	'Hypothesis building is a 'qualitative', 'linguistic' art'. [21]},
+  owner        = {jacorread},
+  timestamp    = {2012.03.07},
+}
+
+@Book{Ashby2005,
+  author    = {Ashby, Michael and Maidment, John},
+  date      = {2005},
+  title     = {Introducing phonetic science},
+  location  = {Cambridge},
+  publisher = {Cambridge University Press.},
+  owner     = {alejandro correa},
+  timestamp = {2011.09.30},
+}
+
+@Book{Baayen2008,
+  author    = {Baayen, R.},
+  date      = {2008},
+  title     = {Analyzing Linguistic Data: A practical introduction},
+  location  = {Cambridge},
+  publisher = {Cambridge University Press},
+  owner     = {jacorread},
+  timestamp = {2013.08.11},
+}
+
+@Book{Baker1996,
+  author    = {Baker, Ronald},
+  date      = {1996},
+  title     = {Clinical measurement of speech and voice},
+  location  = {London},
+  publisher = {Singular Publishing},
+  owner     = {jacorread},
+  timestamp = {2012.10.03},
+}
+
+@Book{Ball1999,
+  author    = {Ball, Martin and Rahilly, Joan},
+  date      = {1999},
+  title     = {Phonetics the science of speech},
+  location  = {London},
+  publisher = {Arnold},
+  owner     = {alejandro correa},
+  timestamp = {2011.09.30},
+}
+
+@InCollection{Baque2003,
+  author    = {Baqu\'e, L. and Estruch, M.},
+  booktitle = {Teor\'ias de la entonaci\'on},
+  date      = {2003},
+  title     = {Modelo de Aix-en-Provence},
+  editor    = {Prieto, P.},
+  location  = {Barcelona},
+  note      = {Recuperado de: \url{http://sites.google.com/site/lorrainebaqueuab/publis/ModeloAix-en-ProvenceV3.pdf}},
+  pages     = {123-153},
+  publisher = {Ariel},
+  owner     = {jacorread},
+  timestamp = {2014.07.03},
+}
+
+@InProceedings{Barry1998,
+  author    = {Barry, William},
+  booktitle = {The 5th International Conference on Spoken Language Processing},
+  date      = {1998},
+  title     = {Time as a factor in the acoustic variation of schwa},
+  publisher = {ISCA},
+  owner     = {jacorread},
+  timestamp = {2013.07.17},
+}
+
+@Article{Barry2001,
+  author       = {Barry, William and Andreeva, Bistra},
+  date         = {2001},
+  journaltitle = {Journal of the International Phonetic Association},
+  title        = {Cross- language similarities and differences in spontaneous speech patterns},
+  number       = {1},
+  pages        = {51-66},
+  volume       = {31},
+  owner        = {jacorread},
+  timestamp    = {2013.07.23},
+}
+
+@InCollection{Barry2005,
+  author    = {Barry, William J. and Van Dommelen, Wim A. and Koreman, Jacques},
+  booktitle = {The integration of phonetic knowledge in speech technology},
+  date      = {2005},
+  title     = {Phonetic knowledge in speech technology--and phonetic knowledge from speech technology?},
+  editor    = {Barry, William J. and Van Dommelen, Wim A},
+  location  = {Dordrecht, The Netherlands},
+  pages     = {1-12},
+  publisher = {Springer},
+  owner     = {alejandro correa},
+  timestamp = {2011.08.17},
+}
+
+@InProceedings{Bates1995,
+  author    = {Bates, S},
+  booktitle = {Proceedings ICPhS95},
+  date      = {1995},
+  title     = {Acoustic characteristics of schwa: A comparative study},
+  location  = {Estocolmo},
+  pages     = {230-233},
+  volume    = {3},
+  owner     = {jacorread},
+  timestamp = {2013.07.21},
+}
+
+@InCollection{Batliner2005,
+  author    = {Batliner, Anton and M\"obius, Bernd},
+  date      = {2005},
+  title     = {The integration of Phonetic Knowledge in Speech Technology},
+  chapter   = {Prosodic models, Automatic Speech Understanding, and Speech Synthesis: towards a common ground?},
+  editor    = {Barry, William J. and Van Dommelen, Wim A},
+  location  = {Dordrecht, The Netherlands.},
+  pages     = {21--44},
+  publisher = {Springer},
+  owner     = {alejandro correa},
+  timestamp = {2011.08.12},
+}
+
+@InProceedings{Batliner2001,
+  author    = {Anton Batliner and B. M{\"o}bius and G. M{\"o}hler and A. Schweitzer and Elmar N{\"o}th},
+  booktitle = {Proc. European Conf. on Speech Communication and Technology},
+  date      = {2001},
+  title     = {Prosodic models, automatic speech understanding, and speech synthesis: towards the common ground},
+  editor    = {P. Dalsgaard and B. Lindberg and H. Benner},
+  pages     = {2285--2288},
+  url       = {http://www5.informatik.uni-erlangen.de/Forschung/Publikationen/2001/Batliner01-PMA.pdf},
+  volume    = {4},
+  owner     = {alejandro correa},
+  timestamp = {2011.07.28},
+}
+
+@Book{Becerra2003,
+  author    = {Becerra, Eudocio and Petersen, Gabriele},
+  date      = {2003},
+  title     = {Curso de lengua uitoto},
+  location  = {Bogot\'a},
+  publisher = {Universidad Nacional de Colombia, Facultad de Ciencias Humanas},
+  owner     = {jacorread},
+  timestamp = {2013.09.18},
+}
+
+@Article{Beckman2002,
+  author       = {Beckman, Mary and D\'iaz- Campos, Manuel and McGory, July and Morgan, Terrell},
+  date         = {2002},
+  journaltitle = {Probus},
+  title        = {Intonation across Spanish, in the Tones and Break Indices framework},
+  pages        = {9-36},
+  volume       = {14},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.22},
+}
+
+@Article{Bergem1995,
+  author       = {van Bergem, D. R.},
+  date         = {1995},
+  journaltitle = {Speech Communication},
+  title        = {Perceptual and acoustic aspects of lexical vowel reduction, a sound change in progress},
+  pages        = {329-358},
+  volume       = {16},
+  owner        = {jacorread},
+  timestamp    = {2013.06.08},
+}
+
+@Article{Bergem1994,
+  author       = {van Bergem, D. R.},
+  date         = {1994},
+  journaltitle = {Speech Communication},
+  title        = {A model of coarticulatory effects on the schwa},
+  pages        = {143-162},
+  volume       = {14},
+  owner        = {jacorread},
+  timestamp    = {2013.07.17},
+}
+
+@Article{Bergem1993,
+  author       = {van Bergem, D. R.},
+  date         = {1993},
+  journaltitle = {Speech Communication},
+  title        = {Acoustic vowel reduction as a function of sentence accent, word stress, and word class},
+  pages        = {1-23},
+  volume       = {12},
+  owner        = {jacorread},
+  timestamp    = {2013.06.08},
+}
+
+@InProceedings{Bergem1991,
+  author    = {van Bergem, Dick R.},
+  booktitle = {Workshop on Phonetics and Phonology of Speaking Styles},
+  date      = {1991},
+  title     = {Acoustic and lexical vowel reduction},
+  location  = {Barcelona},
+  pages     = {10 (1-5)},
+  owner     = {jacorread},
+  timestamp = {2013.06.08},
+}
+
+@Article{Blust2004,
+  author       = {Blust, Robert},
+  date         = {2004},
+  journaltitle = {Oceanic Linguistics},
+  title        = {* t to k An Austronesian Sound Change Revisited},
+  pages        = {365- 410},
+  volume       = {43},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@InProceedings{Boersma1999,
+  author    = {Boersma, Paul},
+  booktitle = {Proceedings of the Institute of Phonetic Sciences, Amsterdam},
+  date      = {1999},
+  title     = {Optimality-Theoretic learning in the Praat program},
+  pages     = {17-35},
+  owner     = {jacorread},
+  timestamp = {2012.05.21},
+}
+
+@Book{Boersma1998,
+  author    = {Boersma, Paul},
+  date      = {1998},
+  title     = {Functional Phonology},
+  location  = {The Hague},
+  publisher = {Holland Academic Graphics},
+  owner     = {jacorread},
+  timestamp = {2012.05.01},
+}
+
+@Electronic{Boersma2011,
+  author    = {Boersma, Paul and Weenink, David},
+  date      = {2011},
+  title     = {Praat: doing phonetics by computer [Programa de computador]. Versi\'on 5.2.17},
+  url       = {http://www.praat.org/},
+  note      = {descargado el 3 de marzo 2011},
+  owner     = {alejandro correa},
+  timestamp = {2011.03.09},
+}
+
+@InCollection{Boomershine2008,
+  author    = {Boomershine, Amanda and Currie Hall, Kathleen and Hume, Elizabeth and Johnson, Keith},
+  booktitle = {Contrast in Phonology: Perception and Acquisition},
+  date      = {2008},
+  title     = {The Impact of Allophony versus Contrast on Speech Perception},
+  editor    = {Avery, Peter and Dresher, Elan and Rice, Keren},
+  location  = {New York},
+  pages     = {143-172},
+  publisher = {Mouton de Gruyter},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@InCollection{Browman1994,
+  author    = {Browman, C. P., and Goldstein, L.},
+  booktitle = {Papers in Laboratory Phonology II. Gesture, Segment, Prosody},
+  date      = {1994},
+  title     = {“Targetless” schwa: an articulatory analysis},
+  editor    = {Docherty, G. J. and Ladd, D. R.},
+  pages     = {26-67},
+  publisher = {Cambridge University Press},
+  owner     = {jacorread},
+  timestamp = {2013.07.17},
+}
+
+@Article{Burki2011,
+  author       = {Burki, Audrey and Ernestus, Mirjam and Gendrot, Cedric and Fougeron, Cecile and Frauenfelder, Ulrich Hans},
+  date         = {2011},
+  journaltitle = {Journal of the Acoustical Society of America},
+  title        = {What affects the presence versus absence of schwa and its duration: A corpus analysis of French connected speech},
+  number       = {6},
+  pages        = {3980-3991},
+  volume       = {130},
+  owner        = {jacorread},
+  timestamp    = {2013.08.08},
+}
+
+@Book{Cantero2002,
+  author    = {Cantero, Francisco Jos\'e},
+  date      = {2002},
+  title     = {Teor\'ia y an\'alisis de la entonaci\'on},
+  location  = {Barcelona},
+  publisher = {Edicions Universitat de Barcelona},
+  owner     = {jacorread},
+  timestamp = {2012.11.20},
+}
+
+@Book{Cantor2000,
+  author    = {Cantor, Erik},
+  date      = {2000},
+  title     = {Ni aniquilados, ni vencidos. Los Ember\'a y la gente negra del Atrato bajo el dominio espa\~nol. Siglo XVII},
+  location  = {Bogot\'a},
+  publisher = {Instituto Colombiano de Antropolog\'ia e Historia},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Article{CarreraSabate2004,
+  author       = {Carrera Sabat\'e, J. and Fern\'andez Planas A. M},
+  date         = {2004},
+  journaltitle = {Anuari de Ling\"u\'istica},
+  title        = {Fon\'etica pr\'actica del castellano. Propuesta de transcripci\'on fon\'etica},
+  pages        = {45-59},
+  owner        = {jacorread},
+  timestamp    = {2013.01.10},
+}
+
+@InCollection{ChelaFlores1986,
+  author    = {Chela Flores, Godsuno},
+  booktitle = {Estudios sobre la fonolog\'ia del espa\~nol del Caribe},
+  date      = {1986},
+  title     = {Las teor\'ias fonol\'ogicas y los dialectos del Caribe hisp\'anico},
+  editor    = {N\'u\~nez Cede\~no, Rafael and P\'aez, Iraset and Guitar, Jorge},
+  location  = {Caracas},
+  pages     = {21-30},
+  publisher = {Ediciones La Casa Bello},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Book{Chiba1958,
+  author    = {Chiba, Tsutomu and Kajiyama, Masato},
+  date      = {1958},
+  title     = {The Vowel. Its Nature and Structure},
+  location  = {Setagaya-Tokio},
+  publisher = {Phonetic Society of Japan},
+  owner     = {jacorread},
+  timestamp = {2012.05.01},
+}
+
+@Book{Collins2008,
+  author    = {Collins, Beverley and Mees, Inger},
+  date      = {2008},
+  title     = {Practical phonetics and phonology: a resource book for students},
+  edition   = {Second Edition},
+  location  = {London},
+  publisher = {Routledge},
+  owner     = {alejandro correa},
+  timestamp = {2011.09.30},
+}
+
+@Book{Crystal2008,
+  author    = {Crystal, David},
+  date      = {2008},
+  title     = {A Dictionary of Linguistics and Phonetics},
+  edition   = {Sexta},
+  location  = {Oxford},
+  publisher = {Blackwell},
+  owner     = {jacorread},
+  timestamp = {2013.06.18},
+}
+
+@Article{Downing2004,
+  author       = {Downing, L.},
+  date         = {2004},
+  journaltitle = {ZAS Papers in Linguistics},
+  title        = {What African languages tell us about accent typology?},
+  pages        = {101-136},
+  volume       = {37},
+  owner        = {jacorread},
+  timestamp    = {2013.04.19},
+}
+
+@InProceedings{Eklund2011,
+  author       = {Eklund, Robert and Peters, Gustav and Ananthakrishnan, Gopal and Mabiza, Evans},
+  booktitle    = {Proceedings from Fonetik 2011},
+  date         = {2011-06},
+  title        = {An acoustic analysis of lion roars. I: Data collection and spectrogram and waveform analyses.},
+  location     = {Stockholm},
+  organization = {Department of Speech, Music and Hearing, and Centre for Speech Technology, CTT, KTH.},
+  pages        = {1-4},
+  url          = {http://www.speech.kth.se/fonetik2011/},
+  owner        = {jacorread},
+  timestamp    = {2012.04.18},
+}
+
+@PhdThesis{Ericsdotter2005,
+  author      = {Ericsdotter, Christine},
+  date        = {2005},
+  institution = {Institute of Linguistics, Department of Phonetics, Stockholm University},
+  title       = {Articulatory - Acoustic Relationships in Swedish Vowel Sounds},
+  url         = {http://www2.ling.su.se/staff/ericsdotter/thesis/index.html},
+  owner       = {jacorread},
+  timestamp   = {2012.08.20},
+}
+
+@Article{Escandell2003,
+  author       = {Escandell, Victoria},
+  date         = {2003},
+  journaltitle = {Interling\"u\'istica},
+  title        = {La investigaci\'on en Pragm\'atica},
+  pages        = {45-57},
+  url          = {http://www.uned.es/dpto-leng-esp-y-ling-gral/escandell/papers/InvestPrag.PDF},
+  volume       = {14},
+  comment      = {\textbf{La investigaci\'on en Pragm\'atica}
+	
+	
+	\textbf{Citas relevantes}
+	
+	
+	Quiero expresar y compartir mis preocupaciones acerca de la investigaci\'on
+	en Pragm\'atica. Mis preocupaciones
+	
+	tienen que ver fundamentalmente con lo que percibo como una limitada
+	proyecci\'on hacia el futuro —y, de paso, hacia el exterior— de la
+	investigaci\'on sobre Pragm\'atica en Espa\~na: me
+	
+	parece que la investigaci\'on en nuestro pa\'is no avanza o, quiz\'a,
+	no avanza lo suficiente.
+	
+	
+	\textbf{Estudioso, especialista e investigador}
+	
+	
+	Estudioso: es un coleccionista de datos sobre un tema. Como cualquier
+	coleccionista, el estudioso siente una pasi\'on personal por el tema
+	al que dedica sus esfuerzos, y se afana en
+	
+	recopilar cuantos datos pueda acerca del tema de su inter\'es. Su
+	m\'ovil es la curiosidad.
+	
+	
+	Especialista: su formaci\'on previa le ha proporcionado, adem\'as
+	de conocimientos espec\'ificos, tambi\'en marcos de referencia
+	
+	m\'as amplios en los que insertar su conocimiento, que le permiten
+	establecer conexiones con otras parcelas de su campo diferentes de
+	la suya. Esto significa que el conocimiento de un
+	
+	especialista est\'a sistem\'aticamente organizado.
+	
+	
+	Estudiosos, eruditos y especialistas comparten el hecho de que su
+	inter\'es se sit\'ua en los datos: se preocupan por saber c\'omo
+	son las cosas; y son buenos cuanto m\'as amplio es su
+	
+	conocimiento: un especialista es bueno cuando sabe muchas cosas.
+	
+	
+	Investigador: Los investigadores tienen que partir de un conocimiento
+	estructurado y sistem\'atico de los datos, pero no se conforman con
+	saber c\'omo son
+	
+	las cosas, sino que se hacen otras preguntas sobre ellas, y en particular,
+	la pregunta de por qu\'e las cosas son como son, y no de otra manera.
+	A un investigador no le basta con poseer un saber
+	
+	declarativo acerca de c\'omo es la realidad; un investigador busca
+	avanzar en un saber de tipo explicativo, que, adem\'as de describir
+	adecuadamente la realidad, pueda dar cuenta de ella en
+	
+	t\'erminos m\'as generales y abstractos. La tarea del investigador
+	es la de avanzar y hacer avanzar
+	
+	en la comprensi\'on del mundo.
+	
+	
+	\textit{El que quiera ser investigador, el que quiera dedicar su trabajo
+	no a acumular conocimientos sobre la
+	
+	lengua, sino a que todos entendamos mejor c\'omo funciona la lengua,
+	tendr\'a que ajustarse a los
+	
+	requisitos que impone la investigaci\'on cient\'ifica.}
+	
+	
+	\textbf{Qu\'e es investigar}
+	
+	
+	La investigaci\'on persigue como meta el proporcionarnos modelos comprensibles
+	de diferentes aspectos de la realidad; modelos que expliquen las
+	pautas que rigen los fen\'omenos y
+	
+	que nos permitan pasar de la incertidumbre azarosa que siempre rodea
+	lo que nos resulta desconocido a la certeza predecible de lo conocido.
+	
+	
+	Para avanzar en nuestra comprensi\'on de las cosas, no basta con hacer
+	caracterizaciones intuitivamente ajustadas de los fen\'omenos: \'estas
+	pueden representar, desde luego, un primer
+	
+	paso digno de ser tenido en cuenta, pero no constituyen el fin \'ultimo
+	de la investigaci\'on, que debe aspirar a lograr metas m\'as elevadas.
+	El paso siguiente es elaborar hip\'otesis que
+	
+	desemboquen en una teor\'ia.
+	
+	
+	
+	\textit{Una teor\'ia:}
+	
+	
+	Una teor\'ia es un sistema de principios cuyo objetivo es explicar
+	un conjunto relacionado de hechos y de fen\'omenos. La meta central
+	de cualquier teor\'ia es
+	
+	desentra\~nar los mecanismos que subyacen a los fen\'omenos observables,
+	y proponer explicaciones en t\'erminos de principios causales de
+	aplicaci\'on universal.
+	
+	
+	\textit{Lo que trato de subrayar es la prioridad de los procedimientos
+	objetivos sobre la subjetividad}
+	
+	
+	\textit{Los datos}
+	
+	
+	para lograr sus objetivos (sean \'estos los que sean) la Pragm\'atica
+	toma como materiales los enunciados concretos emitidos por hablantes
+	concretos y
+	
+	dirigidos a destinatarios concretos en situaciones comunicativas tambi\'en
+	concretas. Cada enunciado es, por tanto, una entidad f\'isica, objetiva
+	y relativamente objetivable, bien definida.
+	
+	
+	\textit{Problema}
+	
+	
+	Pues bien, hay muchos trabajos sobre aspectos del uso de la lengua
+	en la comunicaci\'on que no superan con \'exito el primer obst\'aculo,
+	y no trascienden la singularidad de los datos. Se
+	
+	trata de trabajos que presentan muchos rasgos propios de una visi\'on
+	precient\'ifica, en la que la calidad de lo que se dice depende sobre
+	todo de las cualidades de quien lo dice, y no de la
+	
+	solidez de los argumentos, las pruebas y los datos que se presentan.
+	
+	
+	Este tipo de trabajos son herederos de una \'epoca pasada, en la que
+	las disciplinas human\'isticas estaban ''condenadas'' a producir,
+	en el mejor de los casos, s\'olo un discurso de tipo ensay\'istico;
+	un discurso en el que priman la apreciaci\'on personal y la subjetividad,
+	y en el que la amplitud de la cultura y de los conocimientos de quien
+	lo produce es una condici\'on necesaria para su calidad.
+	
+	
+	\textit{El an\'alisis}
+	
+	
+	Para poder llevar a cabo un an\'alisis hace falta ser un buen conocedor
+	del objeto y tambi\'en de las t\'ecnicas que se van a emplear para
+	analizar dicho objeto.
+	
+	En un an\'alisis, se contabilizan unidades, se extraen porcentajes,
+	se establecen correlaciones entre magnitudes... La utilizaci\'on
+	de herramientas estad\'isticas significa, por supuesto, un avance
+	
+	muy notable, al menos en dos sentidos: por un lado, reduce extraordinariamente
+	la subjetividad de los an\'alisis y no condiciona tanto los resultados
+	a la personalidad o las dotes del autor; por
+	
+	otro lado, hace transferibles y reproducibles los resultados.
+	
+	
+	\textit{Problema}
+	
+	
+	El problema sobre el que quiero llamar la atenci\'on, por tanto, es
+	el de la proliferaci\'on de an\'alisis de casos particulares, que
+	est\'an de entrada condenados a no hacer ninguna aportaci\'on
+	
+	significativa a nuestro conocimiento general. Un trabajo cuyo objetivo
+	final sea realizar simplemente un an\'alisis, cuantificar los diferentes
+	componentes de una muestra ling\"u\'istica, por
+	
+	muy preciso que \'este sea, no lograr\'a nunca sobrepasar la frontera
+	de lo que es simplemente descriptivo.
+	
+	
+	\textit{Soluciones}
+	
+	
+	As\'i pues, para vencer el problema de la singularidad de los datos,
+	lo que necesitamos no es tanto una diferencia cuantitativa en el
+	n\'umero de datos que manejamos, sino una diferencia
+	
+	cualitativa en el tipo de datos. Esto implica tener que modificar
+	no la naturaleza del objeto que queramos investigar, sino el punto
+	de vista desde el que lo abordamos. En pocas palabras, lo que
+	
+	necesitamos es adoptar una perspectiva que nos permita situarnos en
+	un nivel de abstracci\'on suficiente como para poder ''ver'' lo que
+	tienen en com\'un los enunciados individuales.
+	
+	
+	\textbf{ Hip\'otesis}
+	
+	
+	Ninguna investigaci\'on puede partir de cero, sino que tiene que dar
+	por supuestas algunas ideas b\'asicas, de las que ser\'a posible
+	
+	derivar consecuencias. La versi\'on más “blanda” de esta idea es la
+	que establece que para investigar es necesario conocer bien lo que
+	se sabe y lo que se ha logrado ya.
+	
+	
+	\textbf{Para avanzar es preciso situarse en el punto de llegada de
+	otros avances previos}
+	
+	
+	Esto es algo que tenemos bastante claro en el \'ambito hisp\'anico,
+	de modo que cualquier trabajo de investigaci\'on dedica siempre un
+	apartado a la revisi\'on de la bibliograf\'ia anterior. El
+	
+	problema que veo en la manera tradicional de hacer esto est\'a en
+	el exceso, y no en el defecto:muchas veces ese apartado tiene una
+	importancia y una extensi\'on desmesurada, tanto que acaba
+	
+	a veces convirtiéndose en el punto central y \'unico del trabajo.
+	
+	
+	La revisi\'on de propuestas representa, como dec\'ia, la versi\'on
+	''blanda'' de la necesidad de partir de algo previo. La que me interesa
+	es la versi\'on “dura”: la que afirma que para que los
+	
+	resultados de la investigaci\'on sean significativos, debemos partir
+	de los supuestos y las bases establecidas por un determinado modelo
+	te\'orico: si no hay una teoría previa, no puede haber
+	
+	investigaci\'on.
+	
+	
+	Alguien podr\'ia pensar que, si partimos de hip\'otesis previas, si
+	tenemos expectativas de alg\'un tipo sobre los resultados, estamos,
+	de hecho, sesgando la investigaci\'on,
+	
+	rest\'andole objetividad y condicionando los resultados; una investigaci\'on
+	objetiva deber\'ia no dar por sentado nada, deber\'ia no tener ideas
+	previas, y deber\'ia dejar que sean los datos los que
+	
+	hablen a posteriori.
+	
+	
+	Muchos trabajos rechazan abiertamente la adscripci\'on a un modelo
+	te\'orico. Sus autores proclaman su eclecticismo y hacen bandera
+	de \'el, como si constituyera una garant\'ia de
+	
+	independencia y de objetividad. Nada m\'as equivocado. Las teor\'ias
+	representan marcos de referencia unificados y unificadores, sistemas
+	que dan sentido a sus diferentes componentes en
+	
+	virtud de la articulaci\'on interna de \'estos.
+	
+	
+	\textit{Esto es lo que ocurre cuando se trabaja a espaldas de la teor\'ia:
+	un amateur, tal vez, puede permit\'irselo; un profesional, no.}
+	
+	
+	\textbf{ Objetivos}
+	
+	
+	Hemos dicho que los supuestos de un modelo te\'orico determinado nos
+	ayudan a fijar la direcci\'on en la que movernos. Esto quiere decir
+	que la teor\'ia no s\'olo nos interesa porque marca
+	
+	un punto de partida, sino tambi\'en porque marca un punto de llegada:
+	s\'olo a partir de las hip\'otesis previas se pueden identificar
+	los objetivos de la investigaci\'on.
+	
+	
+	Lo que es importante es entender que la investigaci\'on es siempre,
+	y necesariamente, una actividad guiada por un objetivo espec\'ifico;
+	en caso contrario, no hay investigaci\'on. Cuando hablo de objetivo
+	espec\'ifico me refiero a que la investigaci\'on tiene que estar
+	encaminada a obtener un resultado concreto que, de alguna manera,
+	se ha prefigurado con antelaci\'on.
+	
+	
+	Un tema define un \'ambito de la realidad, no un problema de investigaci\'on.
+	La pregunta relevante para la investigaci\'on no es qu\'e es algo,
+	o c\'omo es —\'estas son los centros de inter\'es de un especialista—,
+	sino por qu\'e ese algo es como es, o en qu\'e condiciones se comporta
+	como se comporta.
+	
+	
+	Para que algo cuente como investigaci\'on es necesario identificar
+	un problema, establecer un conjunto de hip\'otesis de partida, seleccionar
+	unos datos, dise\~nar unas pruebas y
+	
+	obtener unos resultados. La investigaci\'on criminal representa, a
+	este respecto, un caso paradigm\'atico de investigaci\'on: hay un
+	problema que resolver, unas hip\'otesis de partida, un
+	
+	conjunto de criterios para identificar datos relevantes y descartar
+	los que no lo son, unas t\'ecnicas de an\'alisis y prueba, y unos
+	procedimientos contrastados para obtener resultados fiables.
+	
+	
+	\textit{ Generalizaciones en Pragm\'atica }
+	
+	
+	La Pragm\'atica de orientación “externa” parte de la idea de que el
+	lenguaje es una instituci\'on social, y que por lo tanto son de
+	
+	aplicaci\'on fundamentalmente las t\'ecnicas y la metodolog\'ia de
+	investigaci\'on propias de las ciencias sociales [...] Estas generalizaciones
+	reflejan
+	
+	las tendencias m\'as acusadas y tienen, por tanto, el estatuto de
+	abstracciones de base estad\'istica.
+	
+	
+	La Pragm\'atica de orientaci\'on “interna”, en cambio, parte de la
+	idea de que el lenguaje
+	
+	puede concebirse como un \'organo mental. De este modo, la Pragm\'atica
+	se alinea con las
+	
+	ciencias naturales, y participa de sus procedimientos de investigaci\'on.
+	En consecuencia, el tipo
+	
+	de generalizaciones que trata de establecer tienen el estatuto de
+	principios o de leyes.},
+  owner        = {jacorread},
+  timestamp    = {2012.04.07},
+}
+
+@TechReport{EuropeanCommunities1996,
+  author    = {Comission of the European Communities},
+  date      = {1996-07},
+  title     = {Green Paper. Living and working in the Information Society},
+  location  = {Brussels},
+  url       = {http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:51996DC0389:ES:NOT},
+  comment   = {\textbf{Green Paper. Living and working in the Information Society}
+	
+	
+	This document was produced by the UE to adress questions related with
+	work, learning and living in the Information Society. Some quotes:
+	
+	
+	
+	1. We are living through a historic period of technological change,
+	brought about by the development and the widening application of
+	information and communication technologies (ICTs).
+	
+	This process is both different from, and faster than, anything we
+	have seen before. It has a huge potential for wealth creation, higher
+	standards of living and better services.
+	
+	
+	2. ICTs are already an integral part of our daily life, providing
+	us with useful tools and services in our homes, at our workplaces,
+	everywhere. The Information Society is not a society far away in
+	the
+	
+	future, but a reality in daily life. It is adding a new dimension
+	to society as we know it, a dimension of growing importance.The production
+	of goods as well as services is becoming more and more
+	
+	knowledge based.
+	
+	
+	\textbf{Working in the Information Society}
+	
+	
+	5. ICTs have led to an enormous reduction in the cost of storing and
+	processing of information over the last 50 years. We are now witnessing
+	a similar reduction in the cost of transmitting
+	
+	information. This is the beginning of the information distribution
+	revolution. In this way ICTs are reshaping working life, the organisation
+	of enterprises and the whole of society. Enterprises are
+	
+	being transformed away from hierarchical and complex organisations
+	with simple jobs to more decentralised and network-oriented organisations
+	with more complex jobs. The most successful
+	
+	enterprises are combining ICTs with education and training and with
+	organisational transformation in an integrated approach. Fostering
+	this approach presents a number of challenges.
+	
+	
+	19. During the last 20 years, we have witnessed an ICT revolution,
+	more far-reaching than most of us could have anticipated. One of
+	the main effects of new ICTs has been a dramatic reduction in the
+	
+	cost and time of storing, processing and transmitting information.
+	Such dramatic changes in price relations have a fundamental effect
+	on the way we organise the production and distribution of
+	
+	goods and services and, thereby, on work itself. These developments
+	are reshaping work, skill structures and the organisation of enterprises.
+	Through this, they are bringing fundamental change
+	
+	to the labour market, and to society as a whole.
+	
+	
+	20. [...] the development of a new industrial and enterprise culture
+	characterised by flexibility, trust, commitment and ability to anticipate
+	and harness change.
+	
+	
+	21. [...] However, this does not mean that, in the future, only highly
+	educated IT- literate workers will find a job. Traditional or manual
+	jobs will remain, but their relative importance will decline.
+	
+	
+	\textbf{The facts: a new wolrd of work}
+	
+	
+	 22. Our economies are being transformed away from standardised manual
+	production towards a more diversified, knowledge based, production
+	of goods and services. This is why ICTs provide
+	
+	tremendous opportunities for improved productivity and real wages,
+	and thereby for strong economic growth and new jobs.
+	
+	
+	
+	23. [...] The main reasons why ICTs have not led to increased productivity
+	are now well documented: in the past, the introduction of new technologies
+	has been hindered by a lack of adequate organisational transformation.
+	
+	
+	25 [...] The main message from these examples is the need for an integrated
+	approach, linking the introduction of ICTs with education and training
+	and with organisational transformation.
+	
+	
+	28. The most important obstacle to this development is the lack of
+	awareness of the new forms of work organisation and the potential
+	of flexible organisation [...] The very flexibility of the technologies
+	means that they must be embedded in the social organisation of the
+	workplace in order to achieve a competitive combination of productivity,
+	performance and quality.
+	
+	
+	32. Alongside the question of raising awareness of the potential of
+	new forms of organisation of work, we have to address the question
+	of the modernisation of the institutions and the institutional
+	
+	framework of working life. The world of work needs to be organised
+	in ways that support and facilitate positive developments, rather
+	than making them more difficult. This also means improving
+	
+	the quality of skills and therefore of education and training.
+	
+	
+	69. The ICT revolution plays an important role in the functioning
+	of the labour market, through the reshaping of work, skill structures
+	and the organisation of work. As the new technology is an
+	
+	information technology, it requires not only stronger basic skills
+	in numeracy and literacy , but also a new form of basic skill, the
+	skill of interaction with the new technology, let us call it "informacy".
+	
+	
+	70.[...] The high speed of transformation of enterprises, and the
+	limited supply of new skills, leads to a severe mismatch, "a two-speed
+	labour market", with the redundancy of old skills and bottlenecks
+	for new skills.
+	
+	
+	71. The real challenge for the transformation and upgrading of skills
+	lies in the readaptation of those who are already in the labour force
+	to the new requirements of the Information Society. However,
+	
+	many in the workforce have limited basic skills in numeracy and literacy,
+	skills even more necessary in the Information Society, and a great
+	number have no education and training in informacy. People
+	
+	with outdated or inadequate vocational training find it difficult
+	to re-enter the workforce. Most training and retraining is organised
+	for the young, not for people already in the workplace, or for
+	
+	those who have been working for 10, 20 or 30 years and have lost their
+	jobs.
+	
+	
+	72. Most of them are offered only income support until a new job turns
+	up, or while awaiting early retirement. But new jobs, demanding old
+	skills, are not turning up. The new jobs require new skills.
+	
+	The gap will continue to grow, unless governments and employers embark
+	upon a new, much more radical policy to provide people with new skills
+	and competencies, linked to the development of
+	
+	new forms of work organisation and the introduction of new technologies.
+	
+	
+	
+	73 [...] The workforce is ageing, and the technology is getting younger.},
+  owner     = {jacorread},
+  timestamp = {2012.03.30},
+}
+
+@InCollection{Fant1956,
+  author    = {Fant, G.},
+  booktitle = {For Roman Jakobson},
+  date      = {1956},
+  title     = {On the predictability of formant levels and spectrum envelopes from formant frequencies},
+  editor    = {Halle, M. and Lunt, H., and McLean, H},
+  location  = {s-Gravenhage},
+  pages     = {109-120},
+  publisher = {Mouton},
+  owner     = {jacorread},
+  timestamp = {2013.09.16},
+}
+
+@Article{Font2009,
+  author       = {Font, Dolors and Cantero, Francisco Jos\'e},
+  date         = {2009},
+  journaltitle = {Estudios de fon\'etica experimental},
+  title        = {Protocolo para el an\'alisis mel\'odico del habla},
+  pages        = {17-32},
+  volume       = {18},
+  owner        = {jacorread},
+  timestamp    = {2012.11.20},
+}
+
+@Book{Garrido1998,
+  author       = {Garrido, Juan Maria Garrido and Machuca, Mar\'ia and de la Mota, Carmen},
+  date         = {1998},
+  title        = {Pr\'acticas de fon\'etica. Lengua espa\~nola I},
+  location     = {Bellaterra},
+  publisher    = {Universitat Aut\'onoma de Barcelona},
+  organization = {Universitat Aut\‘onoma de Barcelona},
+  owner        = {jacorread},
+  timestamp    = {2013.01.14},
+}
+
+@Book{Gil2007,
+  author    = {Gil, Juana},
+  date      = {2007},
+  title     = {Fon\'etica para profesores de espa\~nol: de la teor\'ia a la pr\'actica},
+  location  = {Madrid},
+  publisher = {Arco Libros},
+  owner     = {jacorread},
+  timestamp = {2013.01.22},
+}
+
+@Book{Gil1999,
+  author    = {Gil, Juana},
+  date      = {1999},
+  title     = {Los sonidos del lenguaje},
+  location  = {Madrid},
+  publisher = {S\'intesis},
+  owner     = {jacorread},
+  timestamp = {2012.05.20},
+}
+
+@Article{Gil2004,
+  author       = {Gil, J. and Llisterri, J.},
+  date         = {2004},
+  journaltitle = {Ling\"u\'istica Espa\~nola Actual},
+  title        = {Fon\'etica y fonolog\'ia del espa\~ol en Espa\~na (1978-2003)},
+  note         = {Recuperado de: \url{http://liceu.uab.cat/~joaquim/publicacions/Gil_Llisterri_04_Fonetica_Espanol.pdf}},
+  number       = {2},
+  pages        = {5-44},
+  volume       = {26},
+  owner        = {jacorread},
+  timestamp    = {2014.07.03},
+}
+
+@Article{Gilquin2009,
+  author       = {Gilquin, Gaet\"anelle and Gries, Stephan},
+  date         = {2009},
+  journaltitle = {Corpus Linguistics and Linguistic Theory},
+  title        = {Corpora and experimental methods: A state-of-the-art review},
+  doi          = {10.1515/CLLT.2009.001,},
+  number       = {1},
+  pages        = {1–26},
+  volume       = {5},
+  abstract     = {This paper offers a state-of-the-art review of the combination of
+	corpora and experimental methods. Using a sample of recent studies,
+	it shows (i) that psycholinguists regularly exploit the benefits
+	of combining corpus and experimental data, whereas corpus linguists
+	do so much more rarely, and (ii) that psycholinguists and corpus
+	linguists use corpora in different ways in terms of the dichotomy
+	of exploratory/descriptive vs. hypothesis-testing as well as the
+	corpus-linguistic methods that are used. Possible reasons for this
+	are suggested and arguments are presented for why (and how) corpus
+	linguists should look more into the possibilities of complementing
+	their corpus studies with experimental data.},
+  comment      = {\textbf{Corpora and experimental methods: A state-of-the-art review}
+	
+	
+	
+	\textbf{Kinds of linguistic data}:
+	
+	
+	1. corpora with written texts (e.g., newspapers, webblogs)
+	
+	2. example collections
+	
+	3. corpora of recorded spoken language in societies/communities where
+	note-
+	
+	 taking/recording etc is not particularly spectacular/invasive
+	
+	4. corpora with recorded spoken language from fieldwork in societies/communitieswhere
+	
+	 note-taking/recording etc is spectacular/invasive
+	
+	5. data from interviews (e.g., sociolinguistic interviews)
+	
+	6. experimentation requiring subjects to do something with language
+	they usually do
+	
+	anyway, e.g.,
+	
+	– tsentence production as in answering questions in studies on priming
+	
+	– tpicture description in studies on information structure
+	
+	7. elicited data from fieldwork (e.g., responses to “how do you say
+	X in your language?”)
+	
+	8. experimentation requiring subjects to do something with language
+	they usually do not
+	
+	do, on units they usually interact with, e.g.,
+	
+	– sentence sorting
+	
+	– measurements of reaction times in lexical decision tasks
+	
+	– word associations
+	
+	9 experimentation requiring subjects to do something with language
+	they usually do not
+	
+	 do
+	
+	on units they usually interact with, involving typical linguistic
+	output, e.g.,
+	
+	– measurements of event-related potentials evoked by viewing pictures
+	
+	– eye-movements during reading idioms
+	
+	– acceptability/grammaticality judgments
+	
+	on units they usually do not interact with, involving the production
+	of linguistic output,
+	
+	 e.g.,
+	
+	– phoneme monitoring
+	
+	– gating
+	
+	– ultrasound tongue-position videos
+	
+	
+	[P5]
+	
+	
+	'' For us, a corpus is a collection of texts that:
+	
+	
+	– is \textit{machine-readable};
+	
+	– is representative with regard to a particular variety/register/genre,
+	meaning
+	
+	that the corpus contains data for each part of the variety/register/genre
+	the
+	
+	corpus is supposed to represent;
+	
+	– is \textit{balanced} with regard to a particular variety/register/genre,
+	meaning that
+	
+	the corpus parts’ sizes are proportional to the parts of the variety/register/
+	
+	genre the corpus is supposed to represent (given the absence of reliable
+	
+	estimates of how much of a target language consists of any one particular
+	
+	variety/register/genre, balancedness is a theoretical ideal);
+	
+	– has been produced in a \textit{natural communicative setting}.''
+	[p6]
+	
+	
+	\textbf{Experimental Studies} are:
+	
+	
+	We consider experimental studies to be studies where independent variables
+	are manipulated systematically to
+	
+	determine what effect, if any, they have on a (set of) dependent variable(s),
+	
+	and which, in the humanities and social sciences at least, come with
+	often considerable variation between subjects, stimuli, stimulus
+	presentations,
+	
+	and, occasionally at least, with a mismatch between high internal
+	validity but
+	
+	lower external validity because of the occasionally artificial settings
+	experiments tend to require – at the same time, these settings of
+	course minimize
+	
+	noise.
+	
+	
+	\textbf{Corpus Studies} are:
+	
+	
+	On the other hand, corpus studies are observational studies because
+	variable
+	
+	levels are not assigned to cases before the study, but collected/recorded
+	after
+	
+	the fact on the basis of the observed data. In addition, the data
+	do not undergo
+	
+	variation at the time the researcher queries the corpus: if a query
+	is repeated,
+	
+	it will return the same results over and over again, whereas every
+	different
+	
+	subject or repeated tests on an already tested subject will most likely
+	yield
+	
+	at least slightly different results. Finally, in many cases external
+	validity is
+	
+	extremely high because the data were collected in natural communicative
+	
+	settings, which in turn increases the amount of noise in the data.
+	Given all
+	
+	these differences, using the term experiment for corpus queries is
+	somewhat
+	
+	misleading. [p8]
+	
+	
+	
+	
+	''It turns out from the examination of the ‘corpus-only’ sample that
+	corpus
+	
+	linguists predominantly approach corpus data in an exploratory fashion,
+	i.e.,
+	
+	without rigorously formulated hypotheses made explicit in the paper
+	(72%
+	
+	of the studies). In other words, they seem to favor a corpus-driven
+	approach,
+	
+	which ‘lets the data speak for themselves.’' [p10]
+	
+	
+	\textbf{Corpus and experimentation}
+	
+	
+	''– experimental methodology, e.g., sentence production, eye-tracking,
+	lexical
+	
+	decision;
+	
+	– role of corpus: validator (i.e., the corpus serves as a validator
+	of the ex-
+	
+	periment) vs. validatee (i.e., the corpus is validated by the experiment)
+	vs.
+	
+	equal (i.e., corpus and experimental data are used on an equal footing)
+	
+	vs. stimulus composition (i.e., the corpus serves as a database from
+	which
+	
+	fitting examples are culled).'' [p11] 
+	
+	
+	\textbf{conclusions}
+	
+	
+	''By examining a sample of recent studies, we have seen that, while
+	corpora
+	
+	represent an important source of information about language, they
+	can also be
+	
+	fruitfully combined with experimental data. However, it is mainly
+	psycholinguists who seem to have realized the potential of such a
+	combination'' [p16]
+	
+	
+	''Given these findings, we believe that corpus linguists should look
+	more
+	
+	into the possibilities of complementing their corpus studies with
+	experimental
+	
+	data. This is relevant for several reasons:
+	
+	
+	– given the sizes of many currently used corpora, even the smallest
+	results
+	
+	will often be significant and additional experimental evidence will
+	help
+	
+	separate the wheat from the chaff;
+	
+	– different corpora will yield different results and additional experimental
+	evidence will help us obtain a more precise understanding of phenomena;
+	
+	– corpus-based results can, and should, be validated against corpus-external
+	
+	findings;
+	
+	– combining corpus and experimental data would also help us gain insight
+	
+	into the relation between the two types of data.'' [p16-17]},
+  keywords     = {Corpus linguistics ; psycholinguistics ; corpora ; experiments ; frequency ; concordance ; collocation ; judgments ; intuition},
+  owner        = {jacorread},
+  timestamp    = {2012.03.08},
+}
+
+@Article{Gries2009,
+  author       = {Gries, Stephan},
+  date         = {2009},
+  journaltitle = {Language and Linguistics Compass},
+  title        = {What is corpus linguistics?},
+  doi          = {10.1111/j.1749-818x.2009.00149.x},
+  pages        = {1-17},
+  url          = {www.linguistics.ucsb.edu/faculty/stgries/research/2009_STG_CorpLing_LangLingCompass.pdf},
+  volume       = {3},
+  abstract     = {Corpus linguistics is one of the fastest-growing methodologies in
+	contemporary linguistics. In a
+	
+	conversational format, this article answers a few questions that corpus
+	linguists regularly face from
+	
+	linguists who have not used corpus-based methods so far. It discusses
+	some of the central assumptions 
+	
+	(‘formal distributional differences reflect functional differences’),
+	notions (corpora, representativity 
+	
+	and balancedness, markup and annotation), and methods of corpus linguistics
+	(frequency
+	
+	lists, concordances, collocations), and discusses a few ways in which
+	the discipline still needs to
+	
+	mature.},
+  comment      = {One is that many corpus linguists would perhaps even say that for
+	them, linguistic theory is not of the same prime importance as it
+	is in, for example, generative approaches. Correspondingly, I think
+	it’s fair to say that a large body of corpus-linguistic work has
+	a rather descriptive or applied focus and does actually not involve
+	much linguistic theory . [p2]
+	
+	
+	I myself think that a particular kind of linguistic theory is actually
+	particularly compatible with corpus-linguistic methods [p2]
+	
+	
+	.... Lastly, corpus-linguistic analyses are always based on the evaluation
+	of some kind of frequencies, and frequency as well as its supposed
+	mental correlate of cognitive entrenchment is one of several central
+	key explanatory mechanisms within cognitively motivated approaches
+	(cf., e.g. Bybee and Hopper 1997; Barlow and Kemmer 2000; Ellis 2002a,b;
+	Goldberg 2006). [p2]
+	
+	
+	If corpus linguistics is all about frequencies, then what does corpus
+	linguistics have to contribute? 
+	
+	
+	frequencies of occurrence of linguistic elements, i.e. how often morphemes,
+	words, grammatical patterns etc. occur in (parts of) a corpus, etc.;
+	this information is usually represented in so-called frequency lists;
+	
+	
+	frequencies of co-occurrence of these elements, i.e. how often morphemes
+	occur with particular words, how often particular words occur in
+	a certain grammatical construction, etc.; this information is mostly
+	shown in so-called concordances in which all occurrences of, say,
+	the word searched for are shown in their respective contexts. [p2-3]
+	
+	
+	Thus, corpus linguistics is concerned with whether 
+	
+	- something (an individual element or the co-occurrence of more than
+	one individual 
+	
+	 element) is attested in corpora; i.e. whether the observed frequency
+	(of occurrence or co-occurrence) is 0 or larger; 
+	
+	- something is attested in corpora more often than something else;
+	i.e. whether an observed frequency is larger than 
+	
+	 the observed frequency of something else; 
+	
+	- something is observed more or less often than you would expect by
+	chance [this is a 
+	
+	 more profound issue than it may seem at first; Stefanowitsch (2006)
+	discusses this in 
+	
+	 more detail. [3]
+	
+	
+	However, since corpus data only provide distributional information
+	in the sense mentioned earlier, 
+	
+	this also means that corpus data must be evaluated with tools that
+	have been designed to 
+	
+	deal with distributional information and the discipline that provides
+	such tools is statistics. [p4]
+	
+	
+	As a result, not only do corpus-linguistic studies become more comprehensive
+	and more precise, the larger degree of quantification also does more
+	justice to language as a multifactorial object of study and makes
+	it easier to relate corpus- based findings to experimental findings.
+	[p4]
+	
+	
+	As a result, not only do corpus-linguistic studies become more comprehensive
+	and more precise, the larger degree of quantification also does more
+	justice to language as a multifactorial object of study and makes
+	it easier to relate corpus- based findings to experimental findings.
+	[p4]
+	
+	
+	this assumption underlying most corpus-based analyses is that formal
+	differences reflect, or correspond to, functional differences. Thus,
+	different frequencies of (co-)occurrences of formal elements – again,
+	morphemes, words, syntactic patterns, etc. – are assumed to reflect
+	functional regularities, and ‘functional’ is understood here in a
+	very broad sense as anything – be it semantic, discourse-pragmatic,
+	... – that is intended to perform a particular communicative function
+	. [p4]
+	
+	
+	Thus, corpus compilers usually try to make their corpora representative
+	and balanced. By representative, I mean that the different parts
+	of the linguistic variety I’m interested in are all manifested in
+	the corpus. For example, if I was interested in phonological reduction
+	patterns of speech of Californian adolescents and recorded only parts
+	of their conversations with several people from their peer group,
+	my corpus would not be representative in the above sense because
+	it would not reflect the fact that some sizable proportion of the
+	speech of Californian adolescents may also consist of dialogs with
+	a parent, a teacher, etc., which would optimally also have to be
+	included. By balanced, I mean that ideally not only should all parts
+	of which a variety consists be sampled into the corpus but also that
+	the proportion with which a particular part is represented in a corpus
+	should reflect the proportion the part makes up in this variety and
+	? or the importance of the part in this variety. For example, if
+	I know that dialogs make up 65% of the speech of Californian adolescents,
+	approx. 65% of my corpus should consist of dialog recordings. [p8]
+	
+	
+	here’s one final criterion for something to be a corpus. The texts
+	that make up the corpus must have been produced in a natural communicative
+	setting. That means that the texts were spoken or written for some
+	authentic communicative purpose, but not for the purpose of putting
+	them into a corpus. [p8]
+	
+	
+	The most basic distinction is that between general corpora and specific
+	corpora. The former intend to be representative and balanced for
+	a language as a whole – within the above-mentioned limits, that is
+	– while the latter are by design restricted to a particular variety,
+	register, genre, .... [p8]
+	
+	
+	Yet another distinction is that between monolingual corpora and parallel
+	corpora. As you may already guess from the names, the former have
+	been compiled to provide information about one particular language
+	? variety etc., whereas the latter ideally provide the same text
+	in several different 
+	
+	languages . [p9]
+	
+	
+	The final distinction to be mentioned here is that of static corpora
+	vs. dynamic ? monitor corpora. Static 
+	
+	corpora have a fixed size, whereas dynamic corpora do not as they
+	may be constantly extended with new material. [p9]
+	
+	
+	First, corpus files often contain so-called metadata, i.e. information
+	that identifies the source(s) of the data in the corpus file, for
+	example, in which newspaper and when the article in the corpus file
+	was published or the number of interlocutors whose recorded conversation
+	the file contains as well as sociological or sociolinguistic information
+	about them (e.g. their age, profession, and highest degree). [p9]
+	
+	
+	What is often meant by annotation, 
+	
+	
+	One relatively uncontroversial example of annotation is lemmatization.
+	A corpus is lemmatized when, for example, each word in the corpus
+	is followed by its lemma, i.e. the form under which you would look
+	it up in a dictionary [cf. (2)]. A much less uncontroversial form
+	of annotation involves so-called part-of speech (POS) tags, where
+	each word in the corpus is preceded or followed by an abbreviation
+	giving the word’s part of speech and sometimes also some morphological
+	information. [p10] 
+	
+	
+	Fourth, there’s a growing number of corpus linguists who use programming
+	languages to do their data processing. The languages used most are
+	probably Perl (http:// www.perl.org/), Python (http://www.python.org/),
+	and then maybe R, the open source programming language derived from
+	S-Plus (http://www.r-project.org/). All three are freely available
+	programming exhibiting object-oriented, imperative, and functional
+	characteristics (cf.http://en.wikipedia.org/wiki/Comparison_of_programming_languages
+	for a comparison); Perl, Python, and R are probably best-known for
+	text-processing capabilities, scripting for web applications, and
+	statistics ? statistical graphics respectively, but all three are
+	in fact multi-purpose languages. [11]
+	
+	
+	One final big advantage of programming languages, therefore, is that
+	you are in the driver’s seat. You define what a word is and can make
+	sure that your data do not depend on how other people’s definitions
+	change . [12]
+	
+	
+	I mentioned earlier the need for corpus linguistics to take statistical
+	methods more seriously – well, to my mind at least, R is a tool that
+	integrates nearly everything most corpus linguists need to do . [13]
+	
+	
+	You are absolutely right: this is a big issue and another area in
+	which corpus linguistics still has a lot to do. For English, esp.
+	British and American English, many corpora are available: among the
+	English-language corpora that include spoken and written language,
+	the British National Corpus (cf. http://www.natcorp.ox.ac.uk/), the
+	Bank of English (http://www.collins.co.uk/books.aspx?group=153),
+	and the International Corpus of English (cf. above) with several
+	varieties of English are probably among the currently most widely
+	used corpora, and we’re eagerly awaiting the release of the complete
+	American National Corpus, using the BYU Corpus of American English
+	(http://www.american 
+	
+	corpus.org/) in the meantime. [p13]
+	
+	
+	You can find a very comprehensive overview of existing corpora and
+	software at David Lee’s excellent site at http://devoted.to/corpora
+	. [14]},
+  owner        = {jacorread},
+  timestamp    = {2012.03.20},
+}
+
+@Article{Halle1954,
+  author       = {Halle, Morris},
+  date         = {1954},
+  journaltitle = {Word},
+  title        = {The strategy of phonemics},
+  pages        = {197-209},
+  volume       = {10},
+  owner        = {jacorread},
+  timestamp    = {2012.10.20},
+}
+
+@Article{Harmegnies1992,
+  author       = {Harmegnies, Bernard and Poch-Olivé, Dolors},
+  date         = {1992},
+  journaltitle = {Speech Communication},
+  title        = {A study of style-induced vowel variability" Laboratory versus spontaneous speech in Spanish},
+  pages        = {429-437},
+  owner        = {jacorread},
+  timestamp    = {2013.08.07},
+}
+
+@Article{Hidalgo2011,
+  author       = {Hidalgo, A.},
+  date         = {2011},
+  journaltitle = {ORALIA},
+  title        = {La investigaci\'on de la entonaci\'on de coloquial: hacia un estado de la cuesti\'on en el \'ambito hisp\'anico},
+  pages        = {15-45},
+  volume       = {14},
+  owner        = {jacorread},
+  timestamp    = {2014.07.02},
+}
+
+@InCollection{Hualde2003,
+  author    = {Hualde, Ignacio},
+  booktitle = {Teor\'ias de la entonaci\'on},
+  date      = {2003},
+  title     = {El modelo m\'etrico y autosegmental},
+  editor    = {Prieto, P.},
+  location  = {Barcelona},
+  note      = {Recuperado de: \url{http://prosody.beckman.illinois.edu/jihualde/objects/pubs/modelo_MA-Hualde_1.pdf}},
+  pages     = {155-184},
+  publisher = {Ariel},
+  owner     = {jacorread},
+  timestamp = {2014.07.03},
+}
+
+@Book{IPA1999,
+  author    = {IPA},
+  date      = {1999},
+  title     = {Handbook of the International Phonetic Association.},
+  location  = {Cambridge},
+  publisher = {Cambridge University Press},
+  owner     = {jacorread},
+  timestamp = {2012.10.19},
+}
+
+@InCollection{Kohler2007,
+  author    = {Kohler, Klaus},
+  booktitle = {Experimental Approaches to Phonology},
+  date      = {2007},
+  title     = {Beyond Laboratory Phonology: The Phonetics of Speech Communication},
+  editor    = {Sol\'e, Maria Josep and Beddor, Patrice and Ohala, Manjari},
+  location  = {Oxford},
+  pages     = {41-53},
+  publisher = {Oxford University Press},
+  owner     = {alejandro correa},
+  timestamp = {2011.08.17},
+}
+
+@Article{Kohler1999,
+  author    = {Kohler, Klaus},
+  date      = {1999},
+  title     = {Plosive-Related Glottalization Phenomena in Read and Spontaneous Speech - A st\od in German?”},
+  url       = {http://www.ipds.uni-kiel.de/kjk/forschung/lautmuster.en.html},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Article{Kohler1998,
+  author       = {Kohler, Klaus},
+  date         = {1998},
+  journaltitle = {ZAS Working Papers in Linguistics},
+  title        = {The disappearance of words in connected speech},
+  pages        = {21-34},
+  volume       = {11},
+  owner        = {jacorread},
+  timestamp    = {2013.07.23},
+}
+
+@Article{Kohler1998,
+  author       = {Kohler, Klaus},
+  date         = {1998},
+  journaltitle = {ZAS Working Papers in Linguistics},
+  title        = {The disappearance of words in connected speech},
+  pages        = {21-34.},
+  volume       = {11},
+  owner        = {alejandro correa},
+  timestamp    = {2011.08.17},
+}
+
+@Conference{Kohler1998a,
+  author    = {Kohler, Klaus},
+  booktitle = {Invited lecture on the occasion of professor Jorgen Rischel 's retirement from his Chair at Copenhagen University},
+  date      = {1998},
+  title     = {The future of phonetics},
+  location  = {Copenhagen},
+  owner     = {alejandro correa},
+  timestamp = {2011.08.17},
+}
+
+@Electronic{Kohler1995,
+  author       = {Kohler, Klaus},
+  date         = {1995},
+  title        = {The Kiel Intonation Model (KIM), its Implementation in TTS Synthesis and its Application to the Study of Spontaneous Speech},
+  url          = {http://www.ipds.uni-kiel.de/kjk/forschung/kim.en.html},
+  organization = {Institute of Phonetics and digital Speech Processing},
+  location     = {Kiel},
+  owner        = {alejandro correa},
+  timestamp    = {2011.08.17},
+}
+
+@InProceedings{Kondo1994,
+  author    = {Kondo, Yuko},
+  booktitle = {Proceedings of the Edinburgh Linguistics Department Conference},
+  date      = {1994},
+  title     = {Targetless schwa: is that how we get the impression of stress-timing in English?},
+  owner     = {jacorread},
+  timestamp = {2013.05.26},
+}
+
+@Book{Ladd1996,
+  author    = {Ladd, Robert},
+  date      = {1996},
+  title     = {Intonational Phonology},
+  location  = {Cambridge},
+  publisher = {Cambridge University Press},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.22},
+}
+
+@Book{Ladefoged2006a,
+  author    = {Ladefoged, Peter},
+  date      = {2006},
+  title     = {A course in phonetics},
+  location  = {Boston},
+  publisher = {Thomson Wadsworth},
+  owner     = {alejandro correa},
+  timestamp = {2011.09.30},
+}
+
+@Book{Ladefoged1996,
+  author    = {Ladefoged, Peter},
+  date      = {1996},
+  title     = {Elements of Acoustic Phonetics},
+  location  = {Chicago},
+  publisher = {University of Chicago Press},
+  owner     = {alejandro correa},
+  timestamp = {2011.09.30},
+}
+
+@InCollection{Ladefoged1990,
+  author    = {Ladefoged, Peter},
+  booktitle = {UCLA Working Papers in Phonetics},
+  date      = {1990},
+  title     = {Some reflections on \textsc{ipa}},
+  number    = {74},
+  pages     = {61-76},
+  publisher = {University of California, Los Angeles},
+  url       = {http://escholarship.org/uc/item/71s1701m},
+  owner     = {jacorread},
+  timestamp = {2012.10.19},
+}
+
+@Book{Ladefoged1964,
+  author    = {Ladefoged, Peter},
+  date      = {1964},
+  title     = {A Phonetic Study of West African Languages},
+  location  = {Cambridge},
+  publisher = {Cambridge University Press},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Book{Ladefoged2010,
+  author    = {Ladefoged, Peter and Johnson, Keith},
+  date      = {2010},
+  title     = {A course in Phonetics},
+  edition   = {6th},
+  editor    = {Thomson Wadsworth},
+  publisher = {A Course in Phonetics},
+  owner     = {jacorread},
+  timestamp = {2013.06.19},
+}
+
+@Book{Lafore2002,
+  author    = {Lafore, Robert},
+  date      = {2002},
+  title     = {Object-Oriented Programming in C++},
+  location  = {Indiana},
+  publisher = {Sams Publishing},
+  owner     = {jacorread},
+  timestamp = {2013.04.23},
+}
+
+@InCollection{Lass2009,
+  author    = {Lass, Roger},
+  booktitle = {Phonological Weakness in English. From Old to Present- Day English},
+  date      = {2009},
+  title     = {On schwa: Synchronic Prelude and Historical Fugue},
+  editor    = {Minkova, Donka},
+  location  = {London},
+  pages     = {47-77},
+  publisher = {Palgrave MacMillan},
+  owner     = {jacorread},
+  timestamp = {2013.06.19},
+}
+
+@Book{Laver1980,
+  author    = {Laver, John},
+  date      = {1980},
+  title     = {The phonetic description of voice quality},
+  location  = {Cambridge},
+  publisher = {Cambridge University Press},
+  owner     = {jacorread},
+  timestamp = {2013.10.05},
+}
+
+@Book{Lehiste1977,
+  author    = {Lehiste, Ilse},
+  date      = {1977},
+  title     = {Suprasegmentals},
+  location  = {Cambridge, MA},
+  publisher = {MIT Press},
+  owner     = {jacorread},
+  timestamp = {2013.09.18},
+}
+
+@InProceedings{Lennes2006,
+  author       = {Lennes, Mietta and Aho, Eija and Toivola, Minnaleena and Wahlberg, Leena},
+  booktitle    = {The Phonetics Symposium 2006},
+  date         = {2006},
+  title        = {On the Use of the Glottal Stop in Finnish Conversational Speech},
+  number       = {53},
+  organization = {Publications of the Department of Speech Sciences, University of Helsinki},
+  pages        = {93-102},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Article{Liljencrants1972,
+  author       = {Liljencrants, Johan and Lindblom, B.},
+  date         = {1972},
+  journaltitle = {Language},
+  title        = {Numerical simulation of vowel quality systems: the role of perceptual contrast},
+  number       = {4},
+  pages        = {839-862},
+  volume       = {48},
+  owner        = {jacorread},
+  timestamp    = {2013.09.10},
+}
+
+@InCollection{Lindau1980,
+  author    = {Lindau, Mona},
+  booktitle = {UCLA Working Papers in Phonetics},
+  date      = {1980},
+  title     = {Phonetic Differences in Nigerian Languages},
+  number    = {105-112},
+  volume    = {51},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@InCollection{Lindblom1990,
+  author    = {Lindblom, B.},
+  booktitle = {Speech production and speech modelling.},
+  date      = {1990},
+  title     = {Explaining phonetic variation: a sketch of the H\&H theory.},
+  editor    = {Hardcastle, W. and Marchal, A.},
+  location  = {Dordrecht},
+  pages     = {403-439},
+  publisher = {Kluwer},
+  owner     = {jacorread},
+  timestamp = {2013.07.23},
+}
+
+@Article{Lindblom1963,
+  author       = {Lindblom, Bj\"orn},
+  date         = {1963},
+  journaltitle = {Journal of the Acoustical Society of America},
+  title        = {Spectrographic study of vowel reduction},
+  number       = {11},
+  pages        = {1773-1781},
+  volume       = {35},
+  abstract     = {Measurements of formant frequencies and duration are reported for
+	8 Swedish vowels uttered by a male talker in three consonantal environments
+	under varying timing conditions. An exponential function is used
+	to describe the extent to which formant frequencies in the vowels
+	reach their target values as a function of vowel?segment duration.
+	A target is specified by the asymptotic values of the first two formant
+	frequencies of the vowel and is independent of consonantal context
+	and duration. It is thus an invariant attribute of the vowel. The
+	results suggest an interpretation in terms of a simple dynamic model
+	of vowel articulation.},
+  owner        = {jacorread},
+  timestamp    = {2013.04.27},
+}
+
+@Article{Lindblom1971,
+  author       = {Lindblom, B. E. F. and Sundberg, J. E. F.},
+  date         = {1971},
+  journaltitle = {Journal of the Acoustical Society of America},
+  title        = {Acoustical consequences of lip, tongue, jaw, and larynx movement},
+  number       = {4},
+  pages        = {1167-1179},
+  volume       = {50},
+  owner        = {jacorread},
+  part         = {2},
+  timestamp    = {2013.05.26},
+}
+
+@Book{Lipski2008,
+  author    = {Lipski, John},
+  date      = {2008},
+  title     = {Afro-Bolivian Spanish},
+  location  = {Madrid/Frankfurt},
+  publisher = {Iberoamericana/Vervuert},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.27},
+}
+
+@Article{Lipski2007,
+  author       = {Lipski, John},
+  date         = {2007},
+  journaltitle = {Bolet\'in de Ling\"u\'istica},
+  title        = {El cambio /R/ a [D] en el habla afrohisp\'anica. ?` Un rasgo congo?},
+  pages        = {94-114},
+  volume       = {19},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Book{Lipski2005,
+  author    = {Lipski, John},
+  date      = {2005},
+  title     = {A History of Afro-Hispanic Language. Five centuries, five continents},
+  location  = {Cambridge},
+  publisher = {Cambridge University Press},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.27},
+}
+
+@Article{Lipski1986,
+  author       = {Lipski, John},
+  date         = {1986},
+  journaltitle = {Lexis: Revista de ling\"u\'istica y literatura,},
+  title        = {El lenguaje de los negros congos de Panam\'a. Estudio ling\"u\'istico},
+  pages        = {53-76},
+  volume       = {10},
+  owner        = {jacorread},
+  timestamp    = {2012.02.02},
+}
+
+@Electronic{Llisterri2012,
+  author    = {Llisterri, Joaquim},
+  date      = {2012-04},
+  title     = {Speech analysis and transcription software},
+  url       = {http://liceu.uab.cat/~joaquim/phonetics/fon_anal_acus/herram_anal_acus.html},
+  owner     = {jacorread},
+  timestamp = {2012.05.01},
+}
+
+@Electronic{Llisterri2012a,
+  author       = {Llisterri, J.},
+  date         = {2012},
+  title        = {La descripci\'on fon\'etica y fonol\'ogica del espa\~nol: los elementos segmentales},
+  url          = {http://liceu.uab.cat/~joaquim/phonetics/fon_esp/fonetica_espanol_segmental.html},
+  note         = {<<\url{http://liceu.uab.cat/~joaquim/phonetics/fon_esp/fonetica_espanol_segmental.htm}>>},
+  organization = {Departament de Filologia Espanyola, Universitat Aut\‘onoma de Barcelona},
+  citeseerurl  = {http://liceu.uab.cat/~joaquim/phonetics/fon_esp/fonetica_espanol_segmental.html},
+  owner        = {jacorread},
+  timestamp    = {2013.01.14},
+}
+
+@Article{Llisterri2003,
+  author       = {Llisterri, Joaquim},
+  date         = {2003},
+  journaltitle = {Lynx. Panor\'amica de Estudios Ling\"u\'isticos},
+  title        = {Ling\"u\'istica y tecnolog\'ias del lenguaje},
+  note         = {Departament de Teoria dels Llenguatges, Universitat de Valencia},
+  pages        = {9-71},
+  volume       = {2},
+  owner        = {alejandro correa},
+  timestamp    = {2011.09.30},
+}
+
+@Book{Llisterri1991,
+  author    = {Llisterri, Joaquim},
+  date      = {1991},
+  title     = {Introducci\'on a la fon\'etica: el m\'etodo experimental},
+  location  = {Barcelona},
+  publisher = {Anthropos},
+  owner     = {alejandro correa},
+  timestamp = {2011.09.30},
+}
+
+@InCollection{Llisterri2003,
+  author    = {Llisterri, Joaquim and Machuca, Mar\'ia and De la Mota, Carmen and Riera, Montserrat and R\'ios, Antonio},
+  date      = {2003},
+  title     = {Teor\'ias de la entonaci\'on},
+  chapter   = {Entonaci\'on y tecnolog\'ias del habla},
+  editor    = {Prieto, pilar},
+  location  = {Barcelona},
+  pages     = {209-243},
+  publisher = {Ariel},
+  owner     = {alejandro correa},
+  timestamp = {2011.08.10},
+}
+
+@InCollection{Llisterri2005,
+  author    = {Llisterri, Joaquim and Machuca, Mar\'ia and De la Mota, Carmen and Riera, Monserrat and R\'ios, Antonio},
+  booktitle = {Filolog\'ia y Ling\"u\'istica. Estudios ofrecidos a Antonio Quilis},
+  date      = {2005},
+  title     = {La percepci\'on del acento l\'exico en espa\~nol},
+  location  = {Madrid},
+  pages     = {271-297},
+  publisher = {Consejo Superior de Investigaciones Cient\'ificas and Universidad Nacional de Educaci\'on a Distancia},
+  owner     = {jacorread},
+  timestamp = {2012.08.10},
+}
+
+@TechReport{Llisterri1993,
+  author      = {Llisterri, Joaquim y Mari\~no, Jos\'e},
+  date        = {1993},
+  institution = {\textsc{ESPRIT PROJECT 6819 (SAM-A0)}. \textsc{S}peech \textsc{T}echnology \textsc{A}ssessment in \textsc{M}ultilingual \textsc{A}pplications},
+  title       = {Spanish adaptation of \textsc{SAMPA} and automatic phonetic transcription},
+  owner       = {jacorread},
+  timestamp   = {2012.10.21},
+}
+
+@InCollection{Marti2002,
+  author    = {Mart\'i, Maria A. and Llisterri, Joaquim},
+  booktitle = {Tratamiento del lenguaje natural},
+  date      = {2002},
+  title     = {Las tecnolog\'ias ling\"u\'isticas en la Sociedad de la Informaci\'on},
+  editor    = {Mart\'i, Maria A. and Llisterri, Joaquim},
+  pages     = {13-28},
+  publisher = {Universitat de Barcelona},
+  comment   = {Review: Las tecnolog\'ias ling\"u\'isticas en la sociedad de la informaci\'on
+	
+	
+	El texto resalta el papel transformador de las nuevas tecnolog\'ias
+	y su papel en la aplicaci\'on de conocimientos ling\"u\'isticos.
+	
+	Aqu\'i unos apatados que esbozan la estructura del art\'iculo.
+	
+	
+	'' no est\'a mejor informado quien m\'as datos tiene, sino quien dispone
+	de los mejores medios para recopilar \'unica y exclusivamente aquellos
+	que necesita''. [14]
+	
+	
+	''El propio concepto de informaci\'on est\'a cambiando: ya no interesa
+	el dato aislado, sino que lo que se pretende es obtener conocimiento,
+	es decir [...] datos organizados, estructurados y relacionados''
+	[14]
+	
+	
+	La ingenier\'ia ling\"u\'istica es:
+	
+	
+	'' La aplicaci\'on de los conocimientos sobre la lengua al desarrollo
+	de sistemas inform\'aticos que puedan reconocer, comprender, interpretar
+	y generar lenguaje humano en todas sus formas (ingenier\'ia ling\"u\'istica,
+	p.5)''
+	
+	
+	Tecnolog\'ias del texto escrito
+	
+	
+	\begin{enumerate}
+	
+	\item Analizadores morfol\'ogicos: tienen como objetivo principal
+	relacionar las variantes flexivas de una palabra con su lema correspondiente
+	y asociar a cada forma la informaci\'on morfosint\'actica que le
+	corresponde. e.g., casas (forma), casa (lema), NFCS (nombre com\'un,
+	femenino, singular).
+	
+	\item L\'exicos biling\"ues computacionales: contienen informaci\'on
+	correspondiente a los rasgos sint\'acticos y sem\'anticos de las
+	entradas.
+	
+	\item Redes l\'exico sem\'anticas: establecen relaciones entre las
+	palabras por su significado.
+	
+	\item Gram\'aticas computacionales: tienen como objetivo obtener una
+	descripci\'on de las relaciones sint\'acticas que se encuentran impl\'icitas
+	en los textos que se someten a an\'alisis
+	
+	\end{enumerate}
+	
+	
+	[p.16-17]
+	
+	
+	Aspectos t\'ecnicos
+	
+	
+	''El proyecto ISLE (International Standards for Language Engineering),
+	una continuaci\'on de la iniciativa EAGLES (expert Advisory Group
+	Language Engineering Standards) tiene como objetivo difundir y velar
+	por la aplicaci\'on de est\'andares en la codificaci\'on de recursos
+	de ingenier\'ia ling\"u''istica (corpus escritos y orales, l\'exicos,
+	gram\'aticas etc.) de manera que se facilite su intercambio y reutilizaci\'on.''
+	[p,18]
+	
+	
+	''Las t\'ecnicas asociadas a la gesti\'on de contenidos, utilizan
+	estos recursos como fuentes de informaci\'on para el procesado de
+	datos. Entre ellas, las m\'as relevantes son la extracci\'on de informaci\'on,
+	la recuperaci\'on de informaci\'on, la traducci\'on autom\'atica
+	y la confecci\'on de res\'umenes. '' [p18]
+	
+	
+	\textbf{Recuperaci\'on de informaci\'on}
+	
+	
+	'' Internet constituye un gran banco de datos que puede devenir inservible
+	si no se dotade sistemas de recuperaci\'on de informaci\'on para
+	el procesado de datos'' [p19]
+	
+	
+	\textbf{Extracci\'on de informaci\'on}
+	
+	''Tiene como objetivo procesar los textos para extraer informaci\'on
+	relevante. Los sistemas de extracci\'on de informaci\'on suelen distinguir
+	las partes de un texto que son relevantes de las que no lo son (filtrado)
+	y posteriormente se llena una plantilla (template en la que se presenta
+	la informaci\'on que se ha obtenido''. [p19]},
+  owner     = {jacorread},
+  timestamp = {2012.03.20},
+}
+
+@Article{MartinezCeldran2003,
+  author       = {Mart\'inez Celdr\'an, Eugenio and Fern\'andez Planas, Ana Ma. and Carrera Sabat\'e, Josefina},
+  date         = {2003},
+  journaltitle = {Journal of International Phonetic Association},
+  title        = {Castilian Spanish},
+  pages        = {121-126},
+  volume       = {33},
+  owner        = {alejandro correa},
+  timestamp    = {2011.09.30},
+}
+
+@Book{MartinezCeldran1996,
+  author    = {Mart\'inez- Celdr\'an, Eugenio},
+  date      = {1996},
+  title     = {El sonido de la comunicaci\'on humana},
+  location  = {Barcelona},
+  publisher = {Octaedro},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Book{MartinezCeldran1991,
+  author    = {Mart\'inez-Celdr\'an, Eugenio},
+  date      = {1991},
+  title     = {Fon\'etica experimental: teor\'ia y pr\'actica.},
+  location  = {Madrid},
+  publisher = {S\'intesis},
+  owner     = {jacorread},
+  timestamp = {2012.09.28},
+}
+
+@Book{MartinezCeldran2007,
+  author    = {Mart\'inez-Celdr\'an, Eugenio y Fern\'andez-Planas, A. M.},
+  date      = {2007},
+  title     = {Manual de Fon\'etica Espa\~nola: articulaciones y sonidos del espa\~nol},
+  location  = {Barcelona},
+  publisher = {Ariel},
+  owner     = {jacorread},
+  timestamp = {2012.08.25},
+}
+
+@Article{Martynenko2010,
+  author       = {Martynenko, Grigory},
+  date         = {2010},
+  journaltitle = {Journal of Quantitative Linguistics},
+  title        = {Semiotics of Statistics},
+  doi          = {10.1076/jqul.10.2.105.16712},
+  number       = {2},
+  pages        = {105-115},
+  volume       = {10},
+  abstract     = {The article concerns semiotic interpretation of statistics. In statistics,
+	as in other actually functioning sign systems, all semiotic levels
+	are represented: semantics, syntactics and pragmatics. Besides, one
+	can distinguish between the semiotic of the virtual statistics and
+	that of the actual one. Semantics and syntactics of the latter are
+	formed under the influence of the different communicative circumstances,
+	i.e., under the influence of pragmatics. As for virtual statistics,
+	it is a “settling tank” of methods, cognitive principles, categories,
+	practical and scientific results accumulated in actual statistics;
+	at the same time virtual statistics is the result of generalization
+	of these ideas, methods, and results. In the article semantics of
+	statistics is considered from referential, conceptual, significative,
+	denotative and designative points of views, but only in its virtual
+	aspect, i.e., semantics of statistical language. As for syntactics,
+	the different types of statistical expressions are discussed, which
+	include statement expressions, generalizing expressions, and estimative
+	ones.},
+  comment      = {\textbf{Semiotics of Statistics}
+	
+	
+	
+	Citas importantes:
+	
+	'' Statistics is aggregation methods processing for selection, ordering,
+	and interpretation of statistical data''. [111]
+	
+	
+	''Statistical activity may be considered on the one hand as a mean
+	of reflection, cognition, and transformation of reality. On the other
+	hand statistics serves as a mean of commubication both in professional
+	and everyday activities.'' [106]
+	
+	
+	\textbf{Pragmatics of Statistics}
+	
+	
+	'' There is no reason to consider common people to be stupid victims
+	of treacherous deception of statisticians, as all the participants
+	of the game called ''Life'' should be equally accused''.[108]
+	
+	
+	''Here some goals related to statistical communication:
+	
+	
+	(1) reporting statistical information to a recipient;
+	
+	(2) teaching statistics;
+	
+	(3) forming public opinion and behaviour;
+	
+	(4) declaring new statistical knowledge;
+	
+	(5) amusing the recipient with the help of intriguing information
+	about sport, movie, or pop stars, ''high life'' society, etcetera;
+	
+	(6) making the reported information more serious, convincing, evident,
+	etc. '' [108]
+	
+	
+	\textbf{Level of statistical profesionalism:}
+	
+	
+	1. ''naive communicators use statistical methods just because they
+	know them to be necessary to obtain their scientific goals. However,
+	their level of statistical competence usually is close to nothing';
+	
+	2.educated communicators have at least basic statistical knowledge,
+	allowing them to use rather good different methods of statistical
+	data processing. However, their statistical competence does allow
+	them to realize all the essence of individual statistical techniques
+	and conditions of their aplication;
+	
+	3.communicators-connoisseurs use statistical methods perfectly and
+	understand in detail the logic of statistical research. They are
+	able to choose statistical techniques meeting the purposes of the
+	proposed task;
+	
+	4. communicators- creators, master statistical techniques perfectly
+	and realize all the logic of statistical research, are capable of
+	inventing by themselves new statistical techniques and introducing
+	these methods into everyday practical applications;
+	
+	5. malicious communicators are rather qualified statisticians, who
+	use statistical methods with mercenary purposes absolutely different
+	from the usual, obvious aims of statistical communication.'' [108-109]
+	
+	
+	\textbf{Semantics of Statistics}
+	
+	
+	The meanings of the term statistics:
+	
+	
+	\textbf{Referential} 
+	
+	
+	''In its referential aspect statistics is an unstructured understanding
+	about statistics, which was formed in the statistical community as
+	the result of longstanding statistical practice''. [110]
+	
+	
+	\textbf{Conceptual}
+	
+	
+	'' The conceptual aspect of statistics includes features which form
+	its main content and essence. However, this statistical nature may
+	be interpreted differently.'' [110]
+	
+	
+	'' Statistics is sometimes interpreted not as a science, but as an
+	art.''
+	
+	''Statistical art is statistics, which serves different practical
+	tasks without using any serious mathematical tools. Recent interpretations
+	of statistics as an art emphasize statistical skills of researchers
+	rather than their mathematical background''. [111]
+	
+	
+	\textbf{Significative} 
+	
+	
+	''The significative aspect of staticstics is considerably more diverse
+	than the conceptual one. Besides describing the main statistical
+	categories it includes their detailed typology and description of
+	statistical techniques''. 
+	
+	
+	\textbf{Denotative}
+	
+	
+	''The denotative aspect regulates the semantics of the spheres where
+	statistics is functioning''... ''Practical, scientific, artistics,
+	sacral''...
+	
+	
+	\textbf{Syntax of Statistics}
+	
+	
+	''In traditional statistics the structure of any statistical expression
+	is treated as an interrelation between the statistical subject and
+	the statistical predicate ''. 
+	
+	
+	'' Each value of random variables (nominal, ordinal, or quantitative)
+	is called ''the subject'' and the number of objects having proper
+	value is called ''the predicative''. [112]
+	
+	
+	''In generalizing expressions, the name of the generalizing characteristic
+	plays the role of subject, whereas the value of this characteristic
+	(e.g., mean, variance, variation coefficient, etc.) plays the role
+	of predicate.'' [111]
+	
+	
+	''Besides information, which is also typical for statement and generalizing
+	expressions, estimative expresions contains some additional information
+	that can be interpreted as statistical adverbial modifiers: adverbial
+	modifiers of place and time (localization of the investigated population
+	within definite temporal and spatial frames), adverbial modifiers
+	of conditions (confidence probability), and adverbial modifiers of
+	action tools (significance test, goodness of fit).'' [112]
+	
+	
+	The ''maturity'' degree of the statistical knowledge obtained depends
+	on the type of expressions used in the research question. Thus, higher
+	knowledge level of statistical research supposes more estimative
+	expressions. [113]},
+  owner        = {jacorread},
+  timestamp    = {2012.03.07},
+}
+
+@InCollection{Maya1998,
+  author    = {Maya, Luz Adriana},
+  booktitle = {Geograf\'ia Humana de Colombia},
+  date      = {1998},
+  title     = {Demograf\'ia hist\'orica de la trata por Cartagena 1533-1810 . Los Afrocolombianos.},
+  location  = {Bogot\'a},
+  publisher = {Instituto Colombiano de Cultura Hisp\'anica},
+  volume    = {5},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Book{McWhorter2000,
+  author    = {McWhorter, John H},
+  date      = {2000},
+  title     = {Missing Spanish Creoles.},
+  location  = {USA},
+  publisher = {University of California Press},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Article{Meggeney1992,
+  author       = {Meggeney, William},
+  date         = {1992},
+  journaltitle = {Am\'erica Negra},
+  title        = {El espa\~nol de las Cumbes de Barlovento (Venezuela) y sus posibles vestigios Afronegroides: la filtraci\'on por la creolodizaci\'on},
+  pages        = {54-67},
+  volume       = {3},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Book{Meggeney1986,
+  author    = {Meggeney, William},
+  date      = {1986},
+  title     = {El palenquero: un lenguaje post-criollo de Colombia},
+  location  = {Bogot\'a},
+  publisher = {Instituto Caro y Cuervo},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.27},
+}
+
+@InBook{Monino2003,
+  author    = {Mo\~nino, Yves},
+  date      = {2003},
+  title     = {Caminos cruzados. Ensayos en antropolog\'ia social},
+  chapter   = {Lengua e identidad afro-americana: el caso de Palenque de San Basilio (Colombia)},
+  editor    = {Alès, Catherine and Chiappiano, Jean},
+  location  = {Paris/M\'erida},
+  pages     = {517-531},
+  publisher = {IRD Editions and ULA- GRIAL},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.27},
+}
+
+@InCollection{Monino2007,
+  author    = {Mo\ nino, Yves},
+  booktitle = {Lenguas en contacto y cambio lingüístico en el Caribe y más allá.},
+  date      = {2007},
+  title     = {Convergencias ling\"u\'isticas iberocongolesas en Palenquero: ¿integrarse a la sociedad mayoritaria o distinguirse de ella?},
+  editor    = {Mihatsch, Wiltrud and Sokol, Monika},
+  location  = {Frankfurt am Main},
+  publisher = {Peter Lang, 37-57},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Book{Montes1995,
+  author    = {Montes, Jos\'e Joaqu\'in},
+  date      = {1995},
+  title     = {Dialectolog\'ia general e hispanoamericana : orientaci\'on te\'orica, metodol\'ogica y bibliogr\'afica},
+  location  = {Bogot\'a},
+  publisher = {Instituto Caro y Cuervo},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.22},
+}
+
+@Book{Montes1985,
+  author    = {Montes, Jos\'e Joaqu\'in},
+  date      = {1985},
+  title     = {Estudios sobre el espa\~nol de Colombia},
+  location  = {Bogot\'a},
+  publisher = {Instituto Caro y Cuervo},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.22},
+}
+
+@Article{Montes1974,
+  author       = {Montes, Jos\'e Joaqu\'in},
+  date         = {1974},
+  journaltitle = {Thesaurus},
+  title        = {El habla del Choc\'o: notas breves},
+  pages        = {409-428},
+  volume       = {29},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Article{Montes1962,
+  author       = {Montes, Jos\'e Joaqu\'in},
+  date         = {1962},
+  journaltitle = {Thesaurus},
+  title        = {Sobre el habla de San Basilio de Palenque (Bol\'ivar, Colombia)},
+  pages        = {446-450},
+  volume       = {17(2)},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.27},
+}
+
+@Article{Mooshammer2008,
+  author       = {Mooshammer, Christine and Geng, Christian},
+  date         = {2008},
+  journaltitle = {Journal of the International Phonetic Association},
+  title        = {Acoustic and articulatory manifestation of vowel reduction in German},
+  number       = {2},
+  pages        = {117-136},
+  volume       = {38},
+  owner        = {jacorread},
+  timestamp    = {2014.07.25},
+}
+
+@Book{MorenoCabrera1999,
+  author    = {Moreno Cabrera, Juan C.},
+  date      = {1999},
+  title     = {Introducci\'on a la Ling\"u\'istica},
+  location  = {Madrid},
+  publisher = {S\'intesis},
+  owner     = {jacorread},
+  timestamp = {2013.10.05},
+}
+
+@PhdThesis{Morton2005,
+  author      = {Morton, Thomas},
+  date        = {2005},
+  institution = {University of Pennsylvania},
+  title       = {Sociolinguistic Variation and Language Change: In El Palenque de San Basilio (Colombia).},
+  owner       = {jacorread},
+  timestamp   = {2012.02.01},
+}
+
+@Article{NavarroTomas1966,
+  author       = {Navarro Tom\'as, Tom\'as},
+  date         = {1966},
+  journaltitle = {Anuario de Letras},
+  title        = {El alfabeto fon\'etico de la \textsc{r}evista de \textsc{f}ilolog\'ia \textsc{e}spa\~nola},
+  number       = {5},
+  pages        = {5-19},
+  owner        = {jacorread},
+  timestamp    = {2013.01.10},
+}
+
+@Book{Navarro1944,
+  author    = {Navarro, Tom\'as},
+  date      = {1944},
+  title     = {Manual de entonaci\'on espa\~nola},
+  location  = {New York},
+  publisher = {Hispanic Institute in the United States},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.27},
+}
+
+@Article{Nord1986,
+  author       = {Nord, L.},
+  date         = {1986},
+  journaltitle = {STL- Quarterly Progress and Status Report},
+  title        = {Acoustic studies of vowel reduction in Swedish},
+  number       = {4},
+  pages        = {19-36},
+  volume       = {27},
+  owner        = {jacorread},
+  timestamp    = {2013.06.19},
+}
+
+@InCollection{NunezCedeno1982,
+  author    = {Nu\~nez-Cede\~no, Rafael},
+  booktitle = {El espa\~nol del Caribe},
+  date      = {1982},
+  title     = {El espa\~nol de Villa Mella, en desaf\'io a las teor\'ias fonol\'ogicas modernas},
+  editor    = {Alba, Orlando},
+  location  = {Santiago, Rep\'ublica Dominicana},
+  publisher = {Universidad Cat\'olica Madre y Maestra},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Book{OShaughnessy2000,
+  author    = {O'Shaughnessy, Douglas},
+  date      = {2000},
+  title     = {Speech communications: human and machine.},
+  location  = {New York},
+  publisher = {IEEE Press},
+  owner     = {jacorread},
+  timestamp = {2012.08.13},
+}
+
+@InBook{Odden1994,
+  author    = {Odden, David},
+  date      = {1994},
+  title     = {Perspectives in phonology},
+  chapter   = {Syntactic and semantic conditions in Kikongo phrasal phonology},
+  editor    = {Kole, Jennifer and Kisseberth Charles},
+  location  = {Stanford, CA},
+  pages     = {167-201},
+  publisher = {CSLI},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.27},
+}
+
+@Article{Ohala1984,
+  author       = {Ohala, John},
+  date         = {1984},
+  journaltitle = {Phonetica},
+  title        = {An ethological perspective on common cross-language utilization of F0 of voice},
+  pages        = {1-16},
+  volume       = {41},
+  owner        = {jacorread},
+  timestamp    = {2012.11.20},
+}
+
+@Book{Parkvall2000,
+  author    = {Parkvall, Mikael},
+  date      = {2000},
+  title     = {Out of Africa: African Influences in Atlantic Creoles},
+  location  = {London},
+  publisher = {Battlebridge Publications},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@InCollection{PatinoRoselli1983,
+  author    = {Pati\~no Roselli, Carlos},
+  booktitle = {Lengua y sociedad en El Palenque de San Basilio},
+  date      = {1983},
+  title     = {El habla en El Palenque de San Basilio},
+  editor    = {Friedemann, Nina and Pati\~no Roselli, Carlos},
+  location  = {Bogot\'a},
+  pages     = {85-287},
+  publisher = {Instituto Caro y Cuervo},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Article{Pavy1967,
+  author       = {Pavy, David},
+  date         = {1967},
+  journaltitle = {The Journal of Negro History},
+  title        = {The Provenience of Colombian Negroes},
+  number       = {1},
+  pages        = {35-58},
+  volume       = {52},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@PhdThesis{Pierrehumbert1980,
+  author      = {Pierrehumbert, Janet},
+  date        = {1980},
+  institution = {Massachusetts Institute of Technology},
+  title       = {The phonology and phonetics of English intonation},
+  owner       = {alejandro correa},
+  timestamp   = {2011.02.22},
+}
+
+@InCollection{Pierrehumbert1991,
+  author    = {Pierrehumbert, Janet and Talkin, David},
+  booktitle = {Papers in Laboratory Phonology II},
+  date      = {1991},
+  title     = {Lenition of /h/ and Glottal Stop},
+  editor    = {Docherty, Gerard and Ladd, Robert},
+  location  = {Cambridge},
+  publisher = {Cambridge University Press},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Article{Pluymaekers2005,
+  author       = {Pluymaekers, M. and Ernestus, M. and Baayen, R.},
+  date         = {2005},
+  journaltitle = {Journal of the Acoustical Society of America},
+  title        = {Lexical frequency and acoustic reduction in spoken Dutch},
+  number       = {4},
+  pages        = {2561-2569},
+  volume       = {118},
+  owner        = {jacorread},
+  timestamp    = {2013.07.08},
+}
+
+@InProceedings{Pols2011,
+  author    = {Pols, L. C. W.},
+  booktitle = {Proceedings of the 17th International Congress of Phonetic Sciences ICPhS 2011, Hong Kong},
+  date      = {2011},
+  title     = {Speech dynamics},
+  note      = {Plenary Lecture},
+  pages     = {35- 43},
+  owner     = {jacorread},
+  timestamp = {2013.05.26},
+}
+
+@InProceedings{Port2008,
+  author    = {Port, Robert},
+  date      = {2008-05},
+  title     = {All is prosody: Phones and phonemes are the ghosts of letters},
+  location  = {Campinas, Brasil},
+  pages     = {7-13},
+  volume    = {Speech Prosody 2008},
+  owner     = {alejandro correa},
+  timestamp = {2011.08.17},
+}
+
+@Article{Port2005,
+  author       = {Port, Robert y Leary, Adam},
+  date         = {2005},
+  journaltitle = {Language},
+  title        = {Against fomal Phonology},
+  number       = {4},
+  pages        = {927-964},
+  volume       = {81},
+  owner        = {alejandro correa},
+  timestamp    = {2011.08.17},
+}
+
+@Manual{RCT2013,
+  author       = {{R Core Team}},
+  date         = {2013},
+  title        = {R: A Language and Environment for Statistical Computing},
+  location     = {Vienna, Austria},
+  organization = {R Foundation for Statistical Computing},
+  owner        = {jacorread},
+  timestamp    = {2014.01.02},
+}
+
+@Article{Redi2001,
+  author       = {Redi, Laura and Shattuck- Hufnagel, Stefanie},
+  date         = {2001},
+  journaltitle = {Journal of Phonetics},
+  title        = {Variation in the Realization of Glottalization in Normal Speakers},
+  pages        = {407- 429},
+  volume       = {29},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Book{Reetz2009,
+  author    = {Reetz, Henning and Jongman, Allard},
+  date      = {2009},
+  title     = {Phonetics: transcription, production, acoustics, and perception},
+  location  = {Oxford},
+  publisher = {Blackwell},
+  owner     = {alejandro correa},
+  timestamp = {2011.09.30},
+}
+
+@Article{Remijsen2005,
+  author       = {Remijsen, Bert and van Heuven, Vincent J},
+  date         = {2005},
+  journaltitle = {Phonology},
+  title        = {Stress, tone and discourse prominence in cura\c cao dialect of Papiamentu},
+  pages        = {205-235},
+  volume       = {22},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.27},
+}
+
+@Article{RFE1915,
+  author       = {RFE},
+  date         = {1915},
+  journaltitle = {Revista de Filolog\'ia Espa\~nola},
+  title        = {Alfabeto fon\'etico de la \textsc{r}evista de \textsc{f}ilolog\'ia \textsc{e}spa\~nola},
+  pages        = {374-376},
+  volume       = {2},
+  owner        = {jacorread},
+  timestamp    = {2013.01.10},
+}
+
+@Article{RiveraCastillo2004,
+  author       = {Rivera-Castillo, Yolanda and Pickering, Lucy},
+  date         = {2004},
+  journaltitle = {Journal of pidgin and Creole Languages},
+  title        = {Phonetic correlates of stress and tone in a mixed system},
+  pages        = {261-284},
+  volume       = {19(2)},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.27},
+}
+
+@InCollection{Santen2008,
+  author    = {van Santen, Jan and Mishra, T and Klabbers, E},
+  date      = {2008},
+  title     = {Springer Handbook of Speech Processing},
+  chapter   = {Prosodic Processing},
+  editor    = {Benesty, Jacob and M. Mohan, Sondhi and Huang,},
+  location  = {Verlag Berlin Heidelberg},
+  pages     = {471--487},
+  publisher = {Springer},
+  owner     = {alejandro correa},
+  timestamp = {2011.08.12},
+}
+
+@TechReport{Schoetz2003,
+  author      = {Sch\"otz, Susanne},
+  date        = {2003},
+  institution = {Lund University, Department of Linguistics and Phonetics},
+  title       = {Prosody in relation to Paralinguistic Phonetics --Earlier and Recent Definitions, Distinctions and Discussions},
+  owner       = {alejandro correa},
+  timestamp   = {2011.08.11},
+}
+
+@InCollection{Schwegler2011a,
+  author    = {Schwegler, Armin},
+  booktitle = {The Handbook of Hispanic Sociolinguistics},
+  date      = {2011},
+  title     = {Palenque (Colombia): Multilingualism in an Extraordinary Social and Historical Context},
+  editor    = {Manuel D\'iaz-Campos},
+  location  = {Wiley},
+  pages     = {446-472},
+  publisher = {Blackwell},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@InCollection{Schwegler2011a,
+  author    = {Schwegler, Armin},
+  booktitle = {Oralidad, identidad y resistencia en San Basilio de Palenque},
+  date      = {2011},
+  title     = {Sobre el origen africano de la lengua criolla de Palenque (Colombia)},
+  editor    = {Maglia, Graciela and Schwegler, Armin},
+  location  = {Bogot\'a},
+  publisher = {Instituto Caro y Cuervo/Universidad Javeriana},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Article{Schwegler2003,
+  author       = {Schwegler, Armin and Morton, Thomas},
+  date         = {2003},
+  journaltitle = {Revista Internacional de Ling\"u\'istica Ibe-roamericana (RILI)},
+  title        = {Vernacular Spanish in a microcosmos: Kateyano in El Palenque de San Basilio (Colombia)},
+  pages        = {97-159},
+  volume       = {1},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.27},
+}
+
+@Article{Scott1961,
+  author       = {N. C. Scott and R. H. Robins},
+  date         = {1961},
+  journaltitle = {Bulletin of the School of Oriental and African Studies},
+  title        = {Obituary: John Rupert Firth},
+  number       = {2},
+  pages        = {413-418},
+  volume       = {24},
+  owner        = {jacorread},
+  timestamp    = {2012.10.20},
+}
+
+@Article{Sjoelander2000,
+  author       = {Sj\"olander, Kare and Besko, Jonas},
+  date         = {2000},
+  journaltitle = {Sixth International Conference on Spoken Language Processing},
+  title        = {WaveSurfer - An open source speech tool},
+  pages        = {464-467},
+  volume       = {4},
+  owner        = {jacorread},
+  timestamp    = {2012.04.18},
+}
+
+@PhdThesis{Son1993,
+  author      = {van Son, R. J. J. H.},
+  date        = {1993},
+  institution = {University of Amsterdam},
+  title       = {Spectro-temporal features of vowel segments},
+  owner       = {jacorread},
+  timestamp   = {2013.06.18},
+}
+
+@Article{Son1992,
+  author       = {van Son, R. J. J. H. and Pols, L. C. W.},
+  date         = {1992},
+  journaltitle = {Journal of the Acoustical Society of America},
+  title        = {Formant movements of Dutch vowels in a text, read at normal and fast rate},
+  number       = {92},
+  pages        = {121-127},
+  volume       = {1},
+  owner        = {jacorread},
+  timestamp    = {2013.05.25},
+}
+
+@Article{Son1990,
+  author       = {van Son, R. J. J. H. and Pols, L. C. W.},
+  date         = {1990},
+  journaltitle = {Journal of the Acoustical Society of America},
+  title        = {Formant frequencies of Dutch vowels in a text, red at normal and fast rate},
+  number       = {88},
+  pages        = {1683-1693},
+  volume       = {4},
+  owner        = {jacorread},
+  timestamp    = {2013.05.25},
+}
+
+@Article{Sosa2003,
+  author       = {Sosa, Juan Manuel},
+  date         = {2003},
+  journaltitle = {Catalan Journal of Linguistics},
+  title        = {Wh-questions in Spanish: meanings and configuration variability},
+  pages        = {229-247},
+  volume       = {2},
+  owner        = {alejandro correa},
+  timestamp    = {2011.07.08},
+}
+
+@Book{Sosa1999,
+  author    = {Sosa, Juan Manuel},
+  date      = {1999},
+  title     = {La entonaci\'on del espa\~nol. Su estructura f\'onica, variabilidad y dialectolog\'ia.},
+  location  = {Madrid},
+  publisher = {C\'atedra},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.22},
+}
+
+@Book{Stevens1998,
+  author    = {Stevens, Kenneth},
+  date      = {1998},
+  title     = {Acoustic Phonetics},
+  location  = {Cambridge, MA},
+  publisher = {MIT Press},
+  owner     = {jacorread},
+  timestamp = {2013.09.17},
+}
+
+@Article{Stevens1955,
+  author       = {Stevens, Kenneth N. and House, Arthur S.},
+  date         = {1955},
+  journaltitle = {The Journal of the Acoustical Society of America},
+  title        = {Development of a Quantitative Description of Vowel Articulation},
+  doi          = {http://dx.doi.org/10.1121/1.1907943},
+  number       = {3},
+  pages        = {484-493},
+  url          = {http://scitation.aip.org/content/asa/journal/jasa/27/3/10.1121/1.1907943},
+  volume       = {27},
+  owner        = {jacorread},
+  timestamp    = {2014.04.21},
+}
+
+@Manual{Styler2012,
+  author       = {Styler, Will},
+  date         = {2012},
+  title        = {Using Praat for Linguistic Research},
+  edition      = {1.1.1},
+  organization = {University of Colorado at Boulder Phonetics lab},
+  url          = {http://savethevowels.org/praat},
+  owner        = {jacorread},
+  timestamp    = {2012.06.04},
+}
+
+@Book{Tomas1944,
+  author    = {Navarro Tom\'as},
+  date      = {1944},
+  title     = {Manual de entonaci\'on espa\~nola},
+  location  = {New York},
+  publisher = {Hispanic Institute in the United States},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.27},
+}
+
+@InCollection{Torruela1999,
+  author    = {Torruela, Joan and Llisterri, Joaquim},
+  booktitle = {Filolog\'ia e inform\'atica. Nuevas tendencias en los estudios filol\'ogicos},
+  date      = {1999},
+  title     = {Dise\~no de corpus textuales y orales},
+  editor    = {Blecua, J.M. and Claver\'ia, G. and S\'anchez, C. andTorruela, J},
+  location  = {Barcelona},
+  pages     = {45-77},
+  publisher = {Departamento de Filolog\'ia Espa\~nola, Universidad Aut\'onoma de Barcelona/ Editorial Milenio},
+  url       = {http://liceu.uab.es/~joaquim/publicacions/Torruela_Llisterri_99.pdf},
+  abstract  = {[No abstract]},
+  comment   = {\textbf{Dise\~no de corpus textuales y orales}
+	
+	
+	NOTA: el n\'umero de p\'aginas no corresponde al libro original sino
+	a su versi\'on electr\'onica.
+	
+	
+	\textbf{Objetivo}
+	
+	
+	'm\'as que describir investigaciones concretas que se han llevado
+	a cabo en el \'area de los corpus o a partir de ellos, presentamos
+	las pautaspara obtener un corpus suficientemente organizado y representativo
+	de la realidad que quiera reflejar, para que pueda ser explotado
+	con ciertas garant\'ias de \'exito' [1]
+	
+	
+	\textbf{Funci\'on de un corpus}
+	
+	
+	'La funci\'on principal de un corpus, tanto textual como oral, es
+	establecer la relaci\'on entre la teor\'ia y los datos; el corpus
+	tiene que mostrar a peque\~na escala c\'omo funciona una lengua natural;
+	pero para ello es necesario que est\'e dise\~nado correctamente sobre
+	unas bases estad\'isticas apropiadas que aseguren que el resultado
+	sea efectivamente un modelo de la realidad. Si el corpus tiene que
+	ser un modelo de la realidad ling\"u\'istica, o de una parte de esta
+	realidad, es necesario que sea neutro, o sea, que recoja muestras
+	proporcionales de todos sus aspectos (niveles, tem\'aticas, registros,
+	etc.). En la medida en que un corpus sea neutro, es decir, no marcado,
+	se podr\'a explotar posteriormente para trabajos y enfoques diferentes:
+	fon\'eticos, fonol\'ogicos, morfol\'ogicos, sint\'acticos, sem\'anticos,
+	pragm\'aticos, etc., siendo constantemente un producto actualizable
+	y reutilizable, dos conceptos important\'isimos de la investigaci\'on
+	de hoy, ya que si la tarea de confecci\'on de un corpus es considerable,
+	a pesar de la ayuda inform\'atica, lo m\'inimo que hay que asegurar
+	es que el resultado sea rentable, y lo ser\'a en la medida en que
+	pueda ser utilizado en diversos medios y para diversos fines.' [2]
+	
+	
+	\textbf{Tendencias}
+	
+	
+	\textbf{Morfolog\'ia y sintaxis}
+	
+	
+	''Los avances m\'as significativos en el campo de la ling\"u\'istica
+	de corpus se han producido en el \'area de la creaci\'on de modelos
+	probabil\'isticos de la lengua y como pruebas para verificar estos
+	modelos; ello ha permitido avanzar significativamente en el campo
+	de los an\'alisis gramaticales autom\'aticos de textos, tanto en
+	sus aspectos morfol\'agicos [tagging] como en sus aspectos sint\'acticos
+	(parsing). Pero \'ultimamente se han producido avances considerables
+	en \'areas m\'as aplicadas, como la de la traducci\'on autom\'atica
+	o la del reconocimiento y s\'intesis del habla''. [4]
+	
+	
+	\textbf{Lexicograf\'ia}
+	
+	
+	''La lexicograf\'ia y la terminolog\'ia son dos de los campos de investigaci\'on
+	y de estudio que m\'as se benefician de las informaciones que los
+	corpus textuales y los corpus de lengua
+	
+	oral aportan. \'Estos son de gran ayuda para configurar el lemario
+	de los diccionarios (tanto para incluir nuevas palabras como para
+	excluir las desusadas), as\'i c\'omo para separar las
+	
+	distintas acepciones de cada lema, para detectar las palabras co-ocurrentes,
+	las combinaciones sint\'acticas, etc. Los corpus tambi\'en proporcionan
+	material muy \'util para
+	
+	trabajar sobre fraseolog\'ia, la detecci\'on de neologismos y la obtenci\'on
+	de ejemplos reales susceptibles de aparecer en los diccionarios''.
+	[4]
+	
+	
+	\textbf{Estad\'istica ling\"u\'istica}
+	
+	
+	''Este m\'etodo de trabajo tambi\'en resulta muy productivo en el
+	campo de la estad\'istica ling\"u\'istica donde se utiliza para establecer
+	\'indices de frecuencias tanto de palabras, morfemas, s\'ilabas,
+	letras, etc., como de combinaciones l\'exicas de distinta naturaleza.
+	As\'i se pueden definir las reglas combinatorias de los formantes
+	l\'exicos, el grado de vitalidad
+	
+	de los elementos de formaci\'on de palabras, la frecuencia de aparici\'on
+	de diferentes tipos de vocablos (tecnicismos, barbarismos, neologismos,
+	etc.) o de diferentes niveles del lenguaje
+	
+	(vulgar, culto, literario, etc.), datos, estos \'ultimos, muy interesantes
+	no solo para los estudios lexic\'ografos sino tambi\'en para los
+	estudios socioling\"u\'isticos y estil\'isticos.'' [4]
+	
+	
+	\textbf{L2}
+	
+	
+	''Los corpus tambi\'en pueden proporcionar elementos muy \'utiles
+	en el campo de la ense\~nanza de lenguas, sobre todo a la hora de
+	preparar materiales o ejercicios de trabajo
+	
+	en clase basados en un uso real de la lengua. Del contenido de los
+	corpus puede desprenderse informaci\'on tanto de uso (palabras y
+	construcciones m\'as frecuentes en los
+	
+	libros de texto y lecturas recomendadas en relaci\'on con los materiales
+	aut\'enticos) como de correcci\'on de barbarismos o malos usos ling\"u\'isticos
+	(errores m\'as repetidos, construcciones
+	
+	no normativas, l\'exico mal usado, graf\'ias incorrectas, etc.). La
+	recopilaci\'on de corpus de producciones de estudiantes de lengua
+	extranjera constituye tambi\'en una fuente de datos
+	
+	sobre la interferencia entre la primera y la segunda lengua en todos
+	los niveles del an\'alisis ling\"u\'istico y una base emp\'irica
+	importante para el an\'alisis de errores y de las estrategias
+	
+	comunicativas de los alumnos''. [5]
+	
+	
+	\textbf{Teor\'ia literaria}
+	
+	
+	''En 'literatura pueden tener en los corpus una buena herramienta
+	para sus investigaciones. En el campo de la estil\'istica, por ejemplo,
+	los corpus pueden ayudar a definir los trazos que caracterizan distintos
+	estilos literarios o, en el terreno de la estilometr\'ia, los an\'alisis
+	estad\'isticos del uso de las palabras en los textos pueden dar luz
+	a problemas de adscripci\'on de trabajos de dudosa autor\'ia''. [6]
+	
+	
+	
+	\textbf{Aspectos principales del dise\~no de un corpus}:
+	
+	
+	1.Finalidad
+	
+	
+	2. Límites temporales, geogr\'aficos y ling\"u\'isticos
+	
+	
+	3. Tipo de Corpus: 
+	
+	
+	''Una vez establecidos la finalidad y los l\'imites hay que determinar
+	el tipo de corpus que se va a realizar. Para ello ser\'a necesario
+	definir cada uno de los par\'ametros siguientes:
+	
+	 a) el porcentaje y la distribuci\'on de los diferentes tipos de textos
+	que lo componen;
+	
+	 b) la especificidad de los textos;
+	
+	 c) la cantidad de texto que se tome de cada documento para formar
+	las muestras;
+	
+	 d) la codificaci\'on y las anotaciones que se le a\~naden; 
+	
+	 e) la documentaci\'on que le acompa\~ne.'' [16]
+	
+	
+	4. Poblaci\'on y muestra
+	
+	
+	'' De todos modos, la recopilaci\'on de una muestra representativa
+	del total de la lengua es imposible. En el caso de los corpus que
+	quieran representar la lengua general, la primera decisi\'on que
+	hay que tomar es la de si la muestra se va a escoger del lenguaje
+	que se oye y lee (lenguaje de recepci\'on: pocos
+	
+	productores pero muchos receptores), del lenguaje que se habla y escribe
+	(lenguaje de producci\'on: muchos productores con pocos receptores)
+	o de ambos.
+	
+	Cuanto m\'as alto sea el grado de especializaci\'on de los diferentes
+	grupos de la muestra m\'as peque\~nos ser\'an los problemas para
+	seleccionar los textos que se deben incluir en cada uno de ellos''.
+	
+	
+	'' La selecci\'on de las partes de los textos de las que se van a
+	extraer las muestras para un corpus de referenciase puede hacer de
+	tres maneras: a) al azar; b) dividiendo los textos en
+	
+	tres partes de extensi\'on parecida y extrayendo de cada una de ellas
+	las muestras en n\'umero y proporciones aproximadamente iguales;
+	c) determinando la estructura externa de los
+	
+	textos y decidiendo qu\'e niveles estructurales se usar\'an para el
+	muestreo [un n\'umero determinado de palabras o de frases de cada
+	cap\'itulo, un n\'umero determinado de cada apartado, un n\'umero
+	determinado de cada p\'arrafo, etc.].'' [20]
+	
+	
+	\textbf{M\'etodos para procesar un textos para un corpus}
+	
+	1. Escanear el texto dos veces y realizar un control del resultado
+	por parte de dos
+	
+	personas distintas.
+	
+	2. Comparar autom\'aticamente los dos ficheros, comprobando con el
+	original cada
+	
+	punto de divergencia.
+	
+	3. Realizar una lista de frecuencias para revisar sobre todo las unidades
+	de una sola
+	
+	aparici\'on (no es normal cometer varias veces el mismo error).
+	
+	4.Efectuar una lectura de la \'ultima versi\'on entre dos personas
+	trabajando juntas. [21]
+	
+	
+	\textbf{Procesamiento del Corpus}
+	
+	
+	- frecuencia de aparici\'on de palabras
+	
+	- \'indices y concordancias
+	
+	- lematizaci\'on
+	
+	-an\'alisis morfol\'ogico (tagging)
+	
+	-an\'alisis sint\'actico (parsing)
+	
+	-desambiguaci\'on sem\'antica
+	
+	- detecci\'on de unidades recurrentes (collocations)},
+  owner     = {jacorread},
+  timestamp = {2012.03.08},
+}
+
+@InProceedings{ValentinMarquez2006,
+  author    = {Valent\'in-M\'arquez, Wilfredo},
+  booktitle = {Selected proceedings of the 9th Hispanic Linguistics Symposium},
+  date      = {2006},
+  title     = {La occlusion glotal y la construcción ling\"u\'istica de identidades sociales en Puerto Rico},
+  editor    = {Sagarra, Nuria and Almeida, Jacqueline},
+  pages     = {326-341},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Unpublished{Velasquez2011,
+  author    = {Vel\'asquez, Eva Patricia},
+  date      = {2011},
+  title     = {Entonaci\'on en oraciones declarativas neutras, interrogativas y vocativos: una comparaci\'on entre variedades dialectales del espa\~nol de Colombia},
+  note      = {El Colegio de M\'exico},
+  owner     = {alejandro correa},
+  timestamp = {2011.03.09},
+}
+
+@Unpublished{Velasquez1960,
+  author    = {Vel\'asquez, Rogerio},
+  date      = {1960},
+  title     = {Breve historia del Choc\'o 1500-1852},
+  note      = {Manuscrito in\'edito: Instituto Colombiano de Antropolog\'ia e Historia},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Book{Weenink2011,
+  author    = {Weenink, David},
+  date      = {2011},
+  title     = {Speech Signal Processing with Praat},
+  publisher = {MS},
+  url       = {http://www.fon.hum.uva.nl/david/sspbook/sspbook.pdf},
+  owner     = {alejandro correa},
+  timestamp = {2011.10.31},
+}
+
+@InProceedings{Weenink2009,
+  author    = {Weenink, David},
+  booktitle = {Proceedings Interspeech},
+  date      = {2009},
+  title     = {The \textsc{K}lattGrid acoustic speech synthesizer},
+  pages     = {2059-2062},
+  url       = {http://www.fon.hum.uva.nl/david/ba_shs/doc/is2009_klattgrid.pdf.},
+  owner     = {jacorread},
+  timestamp = {2012.05.21},
+}
+
+@InCollection{Wells1997,
+  author    = {Wells, John},
+  booktitle = {Handbook of Standards and Resources for Spoken Language Systems},
+  date      = {1997},
+  title     = {\textsc{SAMPA} computer readable phonetic alphabet},
+  chapter   = {IV},
+  editor    = {Gibbon, D., Moore, R. and Winski, R.},
+  location  = {Berlin/New York},
+  number    = {684-732},
+  publisher = {Mouton de Gruyter},
+  owner     = {jacorread},
+  timestamp = {2012.10.21},
+}
+
+@Electronic{Wells2000,
+  author    = {Wells, John},
+  date      = {2000},
+  title     = {Computer-coding the \textsc{ipa}: a proposed extension of \textsc{sampa}},
+  note      = {<\url{http://www.phon.ucl.ac.uk/home/sampa/home.htm}>},
+  owner     = {jacorread},
+  timestamp = {2013.01.22},
+}
+
+@InProceedings{Wempe2003,
+  author    = {Wempe,Ton and Boersma, Paul},
+  booktitle = {Proceedings of the 15th International Congress of Phonetic Sciences},
+  date      = {2003-08},
+  title     = {The interactive design of an F0-related spectral analyser},
+  location  = {Barcelona},
+  owner     = {jacorread},
+  timestamp = {2012.05.21},
+}
+
+@Book{West2000,
+  author    = {West, Robert},
+  date      = {2000},
+  title     = {Las tierras bajas del Pac\'ifico de Colombia},
+  location  = {Bogot\'a},
+  note      = {(Trabajo original publicado en 1957)},
+  publisher = {Instituto Colombiano de Antropolog\'ia e Historia},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Article{Wintner2009,
+  author       = {Wintner, Shuly},
+  date         = {2009},
+  journaltitle = {Computational Linguistics},
+  title        = {What Science Underlies Natural Language Engineering?},
+  number       = {4},
+  pages        = {241-244},
+  volume       = {35},
+  owner        = {alejandro correa},
+  timestamp    = {2011.10.25},
+}
+
+@Electronic{Wood19942014,
+  author    = {Wood, Sidney},
+  title     = {Praat for Beginners},
+  url       = {\\ \url{http://swphonetics.com/praat/introduction/}},
+  note      = {\url{http://swphonetics.com/praat/introduction/}},
+  owner     = {jacorread},
+  timestamp = {2013.08.15},
+  year      = {1994-2014},
+}
+
+@Book{ZamoraMunne1982,
+  author    = {Zamora Munn\'e, Juan C. and Guitart, Jorge M.},
+  date      = {1982},
+  title     = {Dialectolog\'ia Hispanoamericana: Teor\'ia, Descripci\'on, Historia},
+  location  = {Salamanca},
+  publisher = {Ediciones Almar},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Article{Zwicker1961,
+  author       = {Zwicker, E.},
+  date         = {1961},
+  journaltitle = {The Journal of the Acoustical Society of America},
+  title        = {Subdivision of the Audible Frequency Range into Critical Bands (Frequenzgruppen)},
+  doi          = {http://dx.doi.org/10.1121/1.1908630},
+  number       = {2},
+  pages        = {248-248},
+  url          = {http://scitation.aip.org/content/asa/journal/jasa/33/2/10.1121/1.1908630},
+  volume       = {33},
+  owner        = {jacorread},
+  timestamp    = {2014.04.21},
+}
+
+@Book{Benesty2008,
+  date      = {2008},
+  title     = {Springer Handbook of Speech Processing},
+  editor    = {Benesty, Jacob and M. Mohan, Sondhi and Huang, Yiteng},
+  location  = {Verlag Berlin Heidelberg},
+  publisher = {Springer},
+  owner     = {alejandro correa},
+  timestamp = {2011.08.09},
+}
+
+@Book{Hirst1998,
+  date      = {1998},
+  title     = {Intonation Systems. A Survey of Twenty Languages},
+  editor    = {Hirst, D and Di Cristo, A.},
+  location  = {Cambridge},
+  publisher = {Cambridge University Press},
+  owner     = {jacorread},
+  timestamp = {2014.07.12},
+}
+
+@Book{Otalora1997,
+  date      = {1997},
+  title     = {L\'exico del habla culta de Santaf\'e de Bogot\'a},
+  editor    = {Ot\'alora, Hilda},
+  location  = {Bogot\'a},
+  publisher = {Instituto Caro y Cuervo},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.24},
+}
+
+@Book{Prieto2010,
+  date      = {2010},
+  title     = {Transcription of Intonation of the Spanish Language},
+  editor    = {Prieto, Pilar and Roseano, Paolo},
+  location  = {Muenchen},
+  note      = {Recuperado de: \url{http://prosodia.upf.edu/home/arxiu/publicacions/prieto/transcription_intonation_spanish.php}},
+  publisher = {Prieto2010Lincom Europa},
+  owner     = {alejandro correa},
+  timestamp = {2011.03.09},
+}
+
+@Book{Correa2014,
+  author     = {Correa, J. A.},
+  date       = {2014},
+  title      = {Manual de an\'alisis ac\'ustico del habla con Praat},
+  location   = {Bogot\'a},
+  note       = {Recuperado de: \url{http://www.bibliodigitalcaroycuervo.gov.co/998/}},
+  number     = {49},
+  publisher  = {Instituto Caro y Cuervo},
+  series     = {\textsc{Serie Minor}},
+  url        = {http://www.bibliodigitalcaroycuervo.gov.co/998/},
+  address    = {Bogot\'a},
+  bdsk-url-1 = {http://www.bibliodigitalcaroycuervo.gov.co/998/},
+  owner      = {jacorread},
+  timestamp  = {2013.03.24},
+  year       = {2014},
+}
+
+@Book{Cuervo19811983,
+  author    = {Instituto Caro y Cuervo},
+  title     = {Atlas ling\"u\'istico etnogr\'afico de Colombia (ALEC)},
+  location  = {Bogot\'a},
+  publisher = {Instituto Caro y Cuervo},
+  volume    = {5},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+  year      = {1981-1983},
+}
+
+@Book{Cuervo1907,
+  author    = {Cuervo, Rufino Jos\'e},
+  date      = {1907},
+  title     = {Apuntaciones cr\'iticas sobre el lenguaje bogotano},
+  location  = {Par\'is},
+  publisher = {Roger \& Cherniviz},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.21},
+}
+
+@Book{Cutler1983,
+  author    = {Cutler,A. and Ladd, D. R. (eds)},
+  date      = {1983},
+  title     = {Prosody: models and measurements.},
+  location  = {Berlin.},
+  publisher = {Springer-Verlag},
+  address   = {Berl\'in.},
+  owner     = {alejandro correa},
+  timestamp = {2011.08.12},
+  year      = {1983},
+}
+
+@Article{Dilley1995,
+  author       = {Dilley, Laura and Shattuck-Hufnagel and Stefanie and Ostendorf, Mari},
+  date         = {1995},
+  journaltitle = {Journal of phonetics},
+  title        = {Glottalization of Word-Initial Vowels as a Function of Prosodic Structure},
+  pages        = {423-444},
+  volume       = {24},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Article{Donohue2002,
+  author       = {Donohue, Mark},
+  date         = {2002},
+  journaltitle = {Oceanic Linguistics},
+  title        = {Which Sounds Change: Descent and Borrowing in the Skou Family},
+  number       = {1},
+  pages        = {171-221},
+  volume       = {41},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Article{Engstrand2001,
+  author       = {Engstrand, Olle and Krull, Diana},
+  date         = {2001},
+  journaltitle = {Working Papers, Lund University, Department of Linguistics},
+  title        = {Segment and Syllable Reduction: Preliminary Observations},
+  pages        = {26-29},
+  volume       = {49},
+  journal      = {Working Papers, Lund University, Department of Linguistics},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+  year         = {2001},
+}
+
+@Book{Escalante1954,
+  author    = {Escalante, A. (1954).},
+  date      = {1954},
+  title     = {El Palenque de San Basilio. Una comunidad de negros cimarrones},
+  location  = {Barranquilla},
+  publisher = {Editorial Mejoras},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.27},
+}
+
+@InCollection{EscandellVidal1999,
+  author    = {Escandell-Vidal, Victoria},
+  booktitle = {Gram\'atica Descriptiva de la Lengua Espa\~nola},
+  date      = {1999},
+  title     = {Los enunciados interrogativos. Aspectos sem\'anticos y pragm\'aticos},
+  chapter   = {61},
+  editor    = {Bosque, Ignacio and Demonte, Violeta},
+  location  = {Madrid},
+  pages     = {3929-3991},
+  publisher = {Real Academia Espa\~nola (Colecci\'on Nebrija y Bello) / Espasa},
+  volume    = {Vol 3},
+  owner     = {alejandro correa},
+  timestamp = {2011.07.06},
+}
+
+@Article{Esling2005,
+  author       = {Esling, John},
+  date         = {2005},
+  journaltitle = {Canadian Journal of Linguistics},
+  title        = {There is not Back Vowels: The Laryngeal Articulator Model},
+  pages        = {13-44},
+  volume       = {50},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Article{Esling2005,
+  author       = {Esling, John and Fraser, Katherine and Harris, Jimmy},
+  date         = {2005},
+  journaltitle = {Journal of Phonetics},
+  title        = {Glottal stop, Glottalized Resonants, and Pharyngeals: A Reinterpretation with Evidence from a Laryngoscopic Study of Nuuchahnulth (Nootka)},
+  pages        = {383- 410},
+  volume       = {33},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Article{Estebas2009,
+  author       = {Estebas, Eva and Prieto, Pilar},
+  date         = {2009},
+  journaltitle = {Estudios de Fon\'etica Experimental},
+  title        = {La notaci\'on pros\'odica en espa\~nol. Una revisi\'on del Sp\_ToBI.},
+  note         = {Recuperado de: \url{http://stel.ub.edu/labfon/sites/default/files/XVII-15.pdf}},
+  pages        = {263-283},
+  volume       = {18},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.22},
+}
+
+@Article{Estruch2007,
+  author       = {Estruch, M\'onica and Garrido, Juan Mar\'ia and Llisterri, Joaquin and Riera, Monserrat},
+  date         = {2007},
+  journaltitle = {Revista de Ling\"u\'istica Te\'orica y Aplicada},
+  title        = {T\'ecnicas y procedimientos para la representaci\'on de las curvas mel\'odicas},
+  note         = {Doi: \url{http://dx.doi.org/10.4067/S0718-48832007000200007}},
+  number       = {45},
+  pages        = {59-87},
+  volume       = {2},
+  journal      = {Revista de Ling\"u\'istica Te\'orica y Aplicada},
+  owner        = {jacorread},
+  timestamp    = {2012.08.06},
+  year         = {2007},
+}
+
+@Article{Face2003,
+  author       = {Face, Timothy},
+  date         = {2003},
+  journaltitle = {Catalan Journal of Linguistics},
+  title        = {Intonation in Spanish declaratives: differences between lab speech and spontaneous speech},
+  pages        = {115-131},
+  volume       = {2},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.27},
+}
+
+@Article{Face2007,
+  author       = {Face, Timothy and Prieto, Pilar},
+  date         = {2007},
+  journaltitle = {Journal of Portuguese Linguistics},
+  title        = {Rising accents in Castilian Spanish: a revision of Sp\_ToBi},
+  pages        = {117-146},
+  volume       = {6 (1)},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.24},
+}
+
+@Book{Fant1970,
+  author        = {Fant, Gunnar},
+  date          = {1970},
+  title         = {Acoustic theory of speech production},
+  location      = {The Hague},
+  note          = {Segunda impresi\'on},
+  publisher     = {Mouton},
+  address       = {The Hague},
+  date-added    = {2016-04-29 12:33:55 +0000},
+  date-modified = {2016-04-29 12:33:55 +0000},
+  owner         = {jacorread},
+  timestamp     = {2013.06.18},
+  year          = {1970},
+}
+
+@Article{Firth1948,
+  author       = {Firth, John Rupert},
+  date         = {1948},
+  journaltitle = {Transactions of the Philological Society},
+  title        = {Sounds and Prosodies},
+  number       = {1},
+  pages        = {127-152},
+  volume       = {47},
+  journal      = {Transactions of the Philological Society},
+  owner        = {jacorread},
+  timestamp    = {2012.10.20},
+  year         = {1948},
+}
+
+@Book{Florez1951,
+  author    = {Fl\'orez, Luis},
+  date      = {1951},
+  title     = {La pronunciaci\'on del espa\~nol en Bogot\'a},
+  location  = {Bogot\'a},
+  publisher = {Instituto Caro y Cuervo},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.21},
+}
+
+@InCollection{Flemming2009,
+  author    = {Flemming, Edward},
+  booktitle = {Phonological Weakness in English. From Old to Present- Day English},
+  date      = {2009},
+  title     = {The phonetics of schwa vowels},
+  editor    = {Minkova, Donka},
+  location  = {London},
+  number    = {78- 95},
+  publisher = {Palgrave MacMillan},
+  address   = {London},
+  owner     = {jacorread},
+  timestamp = {2013.05.20},
+  year      = {2009},
+}
+
+@Article{Flemming2007,
+  author       = {Flemming, E. and Johnson, Stephanie},
+  date         = {2007},
+  journaltitle = {Journal of the International Phonetic Association},
+  title        = {Rosa's roses: reduced vowels in American English},
+  number       = {1},
+  pages        = {83-96},
+  volume       = {37},
+  journal      = {Journal of the International Phonetic Association},
+  owner        = {jacorread},
+  timestamp    = {2013.05.26},
+  year         = {2007},
+}
+
+@Article{Florez1950,
+  author       = {Flor\'ez, Luis (1950) El habla del Choc\'o},
+  date         = {1950},
+  journaltitle = {Thesaurus},
+  pages        = {110-116},
+  volume       = {6},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Article{Fourakis1991,
+  author       = {Fourakis, Marios},
+  date         = {1991},
+  journaltitle = {Journal of the Acoustical Society of America},
+  title        = {Tempo, stress and vowel reduction in American English},
+  number       = {4},
+  pages        = {1816-1827},
+  volume       = {90},
+  journal      = {Journal of the Acoustical Society of America},
+  owner        = {jacorread},
+  timestamp    = {2013.04.27},
+  year         = {1991},
+}
+
+@Book{Friedmann1983,
+  author    = {Friedmann, Nina and Pati\~no, Carlos},
+  date      = {1983},
+  title     = {Lengua y sociedad en el palenque de San Basilio},
+  location  = {Bogot\'a},
+  publisher = {Instituto Caro y Cuervo},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.27},
+}
+
+@InCollection{Garrido2003,
+  author    = {Garrido, J. M.},
+  booktitle = {Teor\'ias de la entonaci\'on},
+  date      = {2003},
+  title     = {La escuela holandesa: el modelo \textsc{IPO}},
+  location  = {Barcelona},
+  publisher = {Ariel},
+  address   = {Barcelona},
+  owner     = {jacorread},
+  timestamp = {2012.11.28},
+  year      = {2003},
+}
+
+@PhdThesis{Garrido1996,
+  author      = {Garrido, Juan Mar\'ia},
+  date        = {1996},
+  institution = {Universitat Aut\'onoma de Barcelona},
+  title       = {Modelling Spanish Intonation for Text-to-Speech Applications},
+  owner       = {alejandro correa},
+  timestamp   = {2011.07.28},
+}
+
+@Article{Garrido1995,
+  author       = {Garrido, Juan Mar\'ia and Llisterri, Joaquim and De la Mota, Carmen and R\'ios, Antonio},
+  date         = {1995},
+  journaltitle = {Phonetica. Trabajos de Fon\'etica experimental},
+  title        = {Estudio comparado de las caracter\'isticas pros\'odicas de la oraci\'on simple en espa\~nol en dos modalidades de lectura.},
+  pages        = {173-194},
+  volume       = {6},
+  owner        = {alejandro correa},
+  timestamp    = {2011.09.19},
+}
+
+@Article{Garrido2000,
+  author       = {Garrido, Juan Mar\'ia and Ort\'in, Isabel and Quazza, Silvia and Salza, Pier and Mancini, Franca},
+  date         = {2000},
+  journaltitle = {Procesamiento del Lenguaje Natural},
+  title        = {Desarrollo de un m\'odulo de asignaci\'on de par\'ametros pros\'odicos para la versi\'on en espa\~nol del sistema de conversi\'on texto-habla ACTOR},
+  pages        = {183-190},
+  volume       = {24},
+  owner        = {alejandro correa},
+  timestamp    = {2011.09.15},
+}
+
+@InBook{Good2006,
+  author    = {Good, Jeff},
+  date      = {2006},
+  title     = {Structure and variation in language contact},
+  chapter   = {The phonetics of tone in Saramaccan},
+  editor    = {Deumert, Ana and Durrleman, Stephanie},
+  location  = {Amsterdam},
+  pages     = {9-28},
+  publisher = {Benjamins},
+  owner     = {alejandro correa},
+  timestamp = {2011.02.27},
+}
+
+@Article{Good2005,
+  author       = {Good, Jeff},
+  date         = {2005},
+  journaltitle = {Journal of Portuguese Linguistics},
+  title        = {Split Prosody and Creole Simplicity: The Case of Saramaccan},
+  pages        = {11-30},
+  volume       = {3},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Article{Granda1988,
+  author       = {Granda, Germ\'an de},
+  date         = {1988},
+  journaltitle = {Thesaurus},
+  title        = {Los esclavos del Choc\'o: su procedencia africana (S.XVIII) y su posible incidencia ling\"u\'istica en el espa\~nol del \'area},
+  pages        = {65-80},
+  volume       = {43},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Book{Granda1978,
+  author    = {Granda, Germ\'an de},
+  date      = {1978},
+  title     = {Estudios ling\"u\'isticos hisp\'anicos, afrohisp\'anicos y criollos.},
+  location  = {Madrid},
+  publisher = {Gredos},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Book{Granda1977,
+  author    = {Granda, Germ\'an de},
+  date      = {1977},
+  title     = {Estudios sobre un \'area dialectal hispanoamericana de poblaci\'on negra. Las tierras bajas occidentales de Colombia(1977)},
+  location  = {Bogot\'a},
+  publisher = {Instituto Caro y Cuervo},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Article{Granda1971,
+  author       = {Granda, Germ\'an de},
+  date         = {1971},
+  journaltitle = {Revista espa\~nola de Antropolog\'ia Americana},
+  title        = {Onom\'astica y procedencia africana de los esclavos negros en las minas del sur de la Gobernaci\'on de Popay\'an (siglo XVII)},
+  pages        = {381-422},
+  volume       = {4},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@InProceedings{Gubian2011,
+  author       = {Gubian, Michele},
+  booktitle    = {Proceedings of Very Large Scale Phonetics Research},
+  date         = {2011},
+  title        = {Funtional data analysis for phonetics research},
+  location     = {Philadelphia},
+  organization = {University of Pennsylvania},
+  owner        = {alejandro correa},
+  timestamp    = {2011.07.01},
+}
+
+@InCollection{Harrington2010a,
+  author    = {Harrington, Jonathan},
+  booktitle = {The Handbook of Phonetic Sciences},
+  date      = {2012},
+  title     = {Acoustic Phonetics},
+  chapter   = {3},
+  editor    = {Hardcastle, W.J. and Laver, J. and Gibbon, F.E.},
+  pages     = {81 -129},
+  publisher = {Willey-Blackwell},
+  series    = {Blackwell Handbooks in Linguistics},
+  address   = {Oxford},
+  owner     = {jacorread},
+  timestamp = {2012.08.06},
+  year      = {2010},
+}
+
+@Book{Harrington2010,
+  author    = {Harrington, Jonathan},
+  date      = {2010},
+  title     = {The Phonetic Analysis of Speech Corpora},
+  publisher = {Wiley-Blackwell},
+  owner     = {alejandro correa},
+  timestamp = {2011.10.03},
+  year      = {2010},
+}
+
+@Book{Hidalgo2006,
+  author    = {Hidalgo, Antonio},
+  date      = {2006},
+  title     = {Aspectos de la entonaci\'on espa\~nola: viejos y nuevos enfoques},
+  location  = {Madrid},
+  publisher = {Arco Libros},
+  owner     = {alejandro correa},
+  timestamp = {2011.07.01},
+}
+
+@Article{Hirst2011,
+  author       = {Hirst, Daniel},
+  date         = {2011},
+  journaltitle = {Journal of Speech Sciences},
+  title        = {The analysis by synthesis of speech melody: from data to models},
+  number       = {1},
+  pages        = {55-83},
+  volume       = {1},
+  owner        = {alejandro correa},
+  timestamp    = {2011.08.09},
+}
+
+@Article{Hualde2008,
+  author       = {Hualde, Jos\'e Ignacio and Schwegler, Armin},
+  date         = {2008},
+  journaltitle = {Journal of Pidgin and Creole Languages},
+  title        = {Intonation in Palenquero},
+  pages        = {1-31},
+  volume       = {23(1)},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.27},
+}
+
+@InCollection{Hyman2003,
+  author    = {Hyman, Larry},
+  booktitle = {The Bantu Languages},
+  date      = {2003},
+  title     = {Segmental Phonology},
+  editor    = {Nurse, Dereck and Philippson, Ger\'ard},
+  location  = {London},
+  publisher = {Routledge/Curzon},
+  url       = {linguistics.berkeley.edu/~hyman/Bantu_segmental. pdf},
+  owner     = {jacorread},
+  timestamp = {2012.02.01},
+}
+
+@Article{Hyman2009,
+  author       = {Hyman, Larry},
+  date         = {2009},
+  journaltitle = {UC Berkeley Phonology Lab Annual Report},
+  title        = {Penultimate Lengthening in Bantu: Analysis and Spread},
+  pages        = {195-209},
+  volume       = {1},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.27},
+}
+
+@Article{Hyman2006,
+  author       = {Hyman, Larry},
+  date         = {2006},
+  journaltitle = {Phonology},
+  title        = {Word-prosodic typology},
+  note         = {Doi: \url{http://dx.doi.org/10.1017/S0952675706000893}},
+  pages        = {225-257},
+  volume       = {23},
+  owner        = {alejandro correa},
+  timestamp    = {2011.02.27},
+}
+
+@Article{Jacquot1962,
+  author       = {Jacquot, Andr\'e},
+  date         = {1962},
+  journaltitle = {Journal of African Languages},
+  title        = {Notes sur la phonologie du beembe},
+  pages        = {232-242},
+  volume       = {5},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Book{Johnson2008,
+  author    = {Johnson, Keith},
+  date      = {2008},
+  title     = {Quantitative Methods In Linguistics},
+  location  = {Oxford},
+  publisher = {Blackwell},
+  owner     = {alejandro correa},
+  timestamp = {2011.09.29},
+}
+
+@Book{Johnson2006,
+  author    = {Johnson, Keith},
+  date      = {2006},
+  title     = {Acoustic and auditory Phonetics},
+  edition   = {Second edition},
+  location  = {Cambridge},
+  publisher = {Blackwell Publishers},
+  address   = {Cambridge},
+  owner     = {alejandro correa},
+  timestamp = {2011.09.30},
+  year      = {2006},
+}
+
+@InProceedings{Johnson2004,
+  author       = {Johnson, Keith},
+  booktitle    = {Proceedings of the 1st Session of the 10th International Symposium},
+  date         = {2004},
+  title        = {Massive Reduction in Conversational American English},
+  location     = {Tokyo},
+  organization = {The National Institute for Japanese Language},
+  pages        = {29-54},
+  owner        = {jacorread},
+  timestamp    = {2012.02.01},
+}
+
+@Article{Klatt1990,
+  author       = {Klatt, D.H. and Klatt, L.C.},
+  date         = {1990},
+  journaltitle = {Journal of the Acoustic Society of America},
+  title        = {Analysis, synthesis, and perception of voice quality variations among female and male talkers},
+  pages        = {820-857},
+  volume       = {87},
+  journal      = {Journal of the Acoustic Society of America},
+  owner        = {jacorread},
+  timestamp    = {2012.05.01},
+  year         = {1990},
+}
+
+@Article{Correa2021,
+  author       = {Correa, Alejandro},
+  date         = {2021},
+  journaltitle = {Loquens},
+  title        = {Sexo, espacio acústico y centralización de las vocales del español de Bogotá},
+  doi          = {https://doi.org/10.3989/loquens.2021.e084},
+  issue        = {(1-2)},
+  pages        = {e84},
+  volume       = {8},
+}
+
+@Thesis{Correa2021a,
+  author      = {Correa, José Alejandro},
+  date        = {2021},
+  institution = {Universitat Autònoma de Barcelona.},
+  title       = {Reducción fonética de las vocales del español de Bogotá (Colombia)},
+  type        = {phdthesis},
+  url         = {https://www.tdx.cat/handle/10803/673154},
+}
+
+@Article{Avelino2018,
+  author       = {Avelino, Heriberto},
+  date         = {2018},
+  journaltitle = {Journal of the International Phonetic Association},
+  title        = {Mexico City Spanish},
+  doi          = {doi:10.1017/S0025100316000232},
+  number       = {2},
+  pages        = {223-230},
+  volume       = {48},
+}
+
+@Article{BoydBowman1952,
+  author       = {Boyd-Bowman, Peter},
+  date         = {1952},
+  journaltitle = {Nueva Revista de Filología Hispánica},
+  title        = {La pérdida de las vocales átonas en la altiplanicie mexicana},
+  number       = {2},
+  pages        = {138-140},
+  volume       = {6},
+}
+
+@Article{Canellada1960,
+  author       = {Canellada, María Josefa and Zamora Vicente, Alonso},
+  date         = {1960},
+  journaltitle = {Nueva Revista de Filología Hispánica},
+  title        = {Vocales caducas en el español mexicano},
+  number       = {3-4},
+  pages        = {221-241},
+  volume       = {14},
+}
+
+@Book{Canfield1981,
+  author    = {Canfield, Lincoln},
+  date      = {1981},
+  title     = {Spanish Pronunciation in the Americas},
+  location  = {Chicago:},
+  publisher = {The University of Chicago Press},
+}
+
+@Article{Delattre1969a,
+  author       = {Delattre, Pierre.},
+  date         = {1969},
+  journaltitle = {International Review of Applied Linguistics in Language Teaching},
+  title        = {An acoustic and articulatory study of vowel reduction in four languages},
+  doi          = {https://doi.org/10.1515/iral.1969.7.4.295},
+  number       = {4},
+  pages        = {295-326},
+  volume       = {7},
+}
+
+@Article{LopeBlanch1963,
+  author       = {Lope Blanch, Juan},
+  date         = {1963},
+  journaltitle = {Nueva Revista de Filología Hispánica},
+  title        = {En torno a las vocales caedizas del español mexicano},
+  number       = {1-2},
+  pages        = {1-19.},
+  volume       = {17},
+}
+
+@Book{QuesadaPacheco2010,
+  author    = {Quesada Pacheco, Miguel Ángel},
+  date      = {2010},
+  title     = {El español hablado en América Central: Nivel fonético},
+  location  = {Frankfurt/Madrid},
+  publisher = {Iberoaméricana Vervuert},
+}
+
+@Article{Sessarego2012,
+  author       = {Sessarego, Sandro},
+  date         = {2012},
+  journaltitle = {Revista Internacional de Lingüística Iberoamericana},
+  title        = {Unstressed vowel reduction in Cochabamba, Bolivia},
+  number       = {20},
+  pages        = {213-227},
+  volume       = {2},
+}
+
+@Article{Sessarego2012a,
+  author       = {Sessarego, Sandro},
+  date         = {2012},
+  journaltitle = {Revista Brasileira de Estudos do Contato Lingüístico},
+  title        = {Vowel weakening in Afro-Yungueño: Linguistic and social considerations},
+  pages        = {279-294.},
+  volume       = {2},
+}
+
+@InBook{Serrano2006,
+  author    = {Serrano, Julio},
+  booktitle = {Líderes lingüísticos: Estudios de variación y cambio},
+  date      = {2006},
+  title     = {En torno a las vocales caedizas del español mexicano: una aproximación sociolingüística},
+  editor    = {Martín Butragueño, Pedro},
+  location  = {México D. F.},
+  pages     = {37-60},
+  publisher = {El Colegio de México},
+}
+
+@BookInBook{Azcunaga2010,
+  author    = {Azcúnaga, Raúl},
+  booktitle = {El español hablado en América Central: Nivel fonético},
+  date      = {2010},
+  title     = {Fonética del español salvadoreño},
+  editor    = {Quesada Pacheco, Miguel Ángel},
+  location  = {Frankfurt/Madrid},
+  pages     = {8-114},
+  publisher = {Iberoamericana Vervuert},
+}
+
+@BookInBook{Rosales2010,
+  author    = {Rosales, María},
+  booktitle = {El español hablado en América Central: Nivel fonético},
+  date      = {2010},
+  title     = {El español de Nicaragua},
+  editor    = {Quesada Pacheco, Miguel Ángel},
+  location  = {Frankfurt/Madrid},
+  pages     = {137-215},
+  publisher = {Iberoamericana Vervuert},
+}
+
+@Article{Lipski1990,
+  author       = {Lipski, John},
+  date         = {1990},
+  journaltitle = {Hispanic Linguistics},
+  title        = {Aspects of Ecuadorian vowel reduction},
+  number       = {1},
+  pages        = {1-19},
+  volume       = {4},
+}
+
+@InBook{Delforge2008,
+  author    = {Delforge, Ann Marie},
+  booktitle = {Proceedings of the 3rd Conference on Laboratory Approaches to Spanish Phonology},
+  date      = {2008},
+  title     = {Unstressed Vowel Reduction in Andean Spanish},
+  editor    = {Colantoni, Laura and Steele, Jeffrey},
+  location  = {Somerville},
+  pages     = {107-124},
+  publisher = {Cascadilla Proceedings Project},
+}
+
+@Book{Winter2020,
+  author    = {Winter, Bodo},
+  date      = {2020},
+  title     = {Statistics for linguists: An introduction using R},
+  publisher = {Routledge},
+}
+
+@BookInBook{Utgaard2010,
+  author    = {Utgård, Katrine},
+  booktitle = {El español hablado en América Central: Nivel fonético},
+  date      = {2010},
+  title     = {El español de Guatemala},
+  editor    = {Quesada Pacheco, Miguel Ángel},
+  location  = {Frankfurt/Madrid},
+  pages     = {49-79},
+  publisher = {Iberoamericana Vervuert},
+}
+
+@Article{Labov1974,
+  author       = {Labov, William},
+  date         = {1974},
+  journaltitle = {Language in Society},
+  title        = {Some principles of linguistic methodology},
+  number       = {1},
+  pages        = {97-20},
+  volume       = {1},
+}
+
+@InBook{Wagner2011,
+  author    = {Wagner, Natasha},
+  booktitle = {The Oxford handbook of Laboratory Phonology},
+  date      = {2011},
+  title     = {Methods for studying spontaneous speech},
+  editor    = {A. C. Cohn and C. Fougeron and M. Huffman},
+  pages     = {621-633},
+  publisher = {Oxford University Press},
+}
+
+@Article{Wagner2015,
+  author       = {Wagner, Petra and Trouvain, Jürgen and Zimmerer, Frank},
+  date         = {2015},
+  journaltitle = {Journal of Phonetics},
+  title        = {In defense of stylistic diversity in speech research},
+  issue        = {48},
+  pages        = {1-12},
+}
+
+@Article{Niebuhr2015,
+  author       = {Niebuhr, O. and Michaud, A.},
+  date         = {2015},
+  journaltitle = {\textsc{KALIPHO}},
+  title        = {Speech data acquisition: the underestimated challenge},
+  editor       = {Universität zu Kiel},
+  pages        = {1-42},
+  subtitle     = {Theoretical and empirical foundations of experimental phonetics},
+  url          = {https://halshs.archives-ouvertes.fr/halshs-01026295v4/document},
+  volume       = {3},
+}
+
+@Article{Groennum1984,
+  author       = {Grønnum, N.},
+  date         = {1984},
+  journaltitle = {\textit{Speech Communication}},
+  title        = {A Danish phonetically annotated spontaneous speech corpus (DanPASS)},
+  pages        = {594–603.},
+  volume       = {51},
+}
+
+@InBook{Schilling2013,
+  author    = {Schilling, Natalie},
+  booktitle = {Research Methods in Linguistics},
+  date      = {2013},
+  title     = {Surveys and interviews},
+  editor    = {Robert J. Podesva and Devyani Sharma},
+  pages     = {96-115},
+  publisher = {Cambridge University Press},
+}
+
+@Article{Anderson1991,
+  author       = {Anderson, A.H. and Bader, M. anf Bard, E.G. and Boyle, E. and Doherty, G. and Garrod, S. and Isard, S. and Kowtko, J. and McAllister, J. nad Miller, J. and Sotillo, C. and Thompson, H.S. and Weinert, R.},
+  date         = {1991},
+  journaltitle = {Lang. Speech},
+  title        = {The HCRC map task corpus.},
+  pages        = {351–366},
+  url          = {<http://www.hcrc.ed.ac.uk/ maptask/>},
+  volume       = {34},
+}
+
+@InProceedings{Torreira2010,
+  author    = {Torreira, F. and Ernestus, M.},
+  booktitle = {\textit{Proceedings of the Conference on Language Resources and Evaluation}},
+  date      = {2010},
+  title     = {The Nijmegen Corpus of Casual Spanish.},
+  pages     = {2981-2985},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
