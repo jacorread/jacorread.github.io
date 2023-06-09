@@ -1,7 +1,7 @@
 ---
 title: "Tareas de recolección de datos para la investigación fonética"
 author: "Alejandro Correa"
-subtitle: "[https://tinyurl.com/phondata](https://tinyurl.com/phondata)"
+subtitle: "[https://tinyurl.com/tareasfonetica](https://tinyurl.com/tareasfonetica)"
 format: revealjs
 editor: visual
 date: ""
@@ -309,6 +309,6 @@ Conversación telefónica
 
 ### ![](graphics/2021%20Twitter%20logo%20-%20blue.png){width="32" height="32"} <https://twitter.com/sci_phonetics>
 
-### 🧑‍💻 <https://tinyurl.com/phondata>
+### 🧑‍💻 [h](https://tinyurl.com/phondata){.uri}<https://tinyurl.com/tareasfonetica>
 
 ## Bibliografía
