@@ -1,7 +1,7 @@
 ---
 title: "Tareas de recolección de datos para la investigación fonética"
 author: "Alejandro Correa"
-subtitle: "[tinyurl.com/caedizas](tinyurl.com/caedizas)"
+subtitle: "[https://tinyurl.com/phondata](https://tinyurl.com/phondata)"
 format: revealjs
 editor: visual
 date: ""
@@ -131,7 +131,7 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 
 *Elaborado por Linda Rodríguez* ![](graphics/RV18T4R.wav)
 
-## Encuesta de situaciones 
+## Encuesta de situaciones
 
 ::: columns
 ::: {.column width="50%"}
@@ -237,7 +237,7 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 
 Conversación entrevistado/investigador como en el *Buckeye Corpus*.
 
--    Pero hay falta de familiaridad entre los participantes.
+-   Pero hay falta de familiaridad entre los participantes.
 
 -   Hay superposición involuntaria de turnos.
 
@@ -251,7 +251,7 @@ Conversación telefónica
 
 ## Habla conversacional
 
--    Conversación entre amigos pero, uno de ellos es aliado del investigador.
+-   Conversación entre amigos pero, uno de ellos es aliado del investigador.
 
 -   La tarea consiste en llegar a un acuerdo sobre asuntos que lleven a la polarización .
 
@@ -303,10 +303,12 @@ Conversación telefónica
 
 ### ¡Gracias por su atención! 🤘
 
-### 🌎 <https://jacorread.github.io/> 
+### 🌎 <https://jacorread.github.io/>
 
 ### ✉️ [alejandro.correa\@caroycuervo.gov.co](alejandro.correa@caroycuervo.gov.co)
 
-###  ![](graphics/2021 Twitter logo - blue.png){width="32" height="32"} <https://twitter.com/sci_phonetics> 
+### ![](graphics/2021%20Twitter%20logo%20-%20blue.png){width="32" height="32"} <https://twitter.com/sci_phonetics>
+
+### 🧑‍💻 <https://tinyurl.com/phondata>
 
 ## Bibliografía
