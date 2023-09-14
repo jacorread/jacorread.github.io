@@ -5,6 +5,8 @@ Soy un lingüista interesado en la fonética experimental, en la fonética y fon
 
 ## Publicaciones
 
+Correa, A. y Rodríguez, L. C. (en prensa). El español afrocolombiano del Chocó. En: Luana Lamberti y Ana Lívia Agostinho (eds.). _Línguas Afro-Ibéricas: contato e sócio-história / Lenguas Afro-Ibéricas: contacto y sociohistoria_. Language Science Press.
+
 Correa, A. y Rodríguez, L. C. (2022). Corpus de habla leída y conversacional del español de Colombia (CLC). En Alejandro Correa (ed.). _Estudios actuales de fonética y fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.
 
 Ros, O., Rivas L. M., Correa, A., Nieto, V., Murillo, J. D., y Caputo, G. (2022). [La Facultad Seminario Andrés Bello del Instituto Caro y Cuervo](https://www.revistaaleph.com.co/images/ediciones_pdf/Revista_Aleph-202.pdf). _Revista Aleph_, 202, pp. 24-40.
@@ -28,3 +30,11 @@ Correa, J. A. (2012). [El español del Pacífico de Colombia: dos rasgos fonéti
 Correa, J. A. (2012). [La entonación del criollo palenquero y del kateyano de San Basilio de Palenque (Colombia)](http://bibliotecadigital.caroycuervo.gov.co/918/). En: Maglia, G., y Schwegler, A.(eds.): _Palenque (Colombia): oralidad, identidad y resistencia: un enfoque interdisciplinario_. Bogotá: Instituto Caro y Cuervo/ Pontificia Universidad Javeriana.
 
 Correa, J. A. (2010). Sobre el habla popular en la poesía de Candelario Obeso. En: Maglia, G. (ed.): _Si yo fuera Tambó. Poesía selecta de Candelario Obeso y Jorge Artel_. Bogotá: Pontificia Universidad Javeriana/ Universidad del Rosario.
+
+## Presentaciones recientes
+
+Correa, Alejandro (2023). [Tareas de recolección de datos para la investigación fonética](https://jacorread.github.io/docs/speechdata/speechdata.html#/title-slide). Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, Universidad de Cartagena, 9 de junio de 2023.
+
+Correa, Alejandro (2023). [Las vocales caedizas del español bogotano](https://jacorread.github.io/docs/afonas.html#/title-slide). Servei de Tractament de la Parla i del So (STPS), Universitat Autònoma de Barcelona, 9 de mayo de 2023.
+
+
