@@ -33,7 +33,9 @@ Correa, J. A. (2010). Sobre el habla popular en la poesía de Candelario Obeso. 
 
 ## Presentaciones recientes
 
-Correa, Alejandro (2023). [La educación híbrida, equidad, inclusión y calidad en Colombia](). Congreso Internacional de Innovación Educativa, Universidad la Gran Colombia, 2,3, y 4 de octubre de 2023. 
+Estos son algunos de los temas e investigaciones que he compartido recientemente con mis colegas y estudiantes:
+
+Correa, Alejandro (2023). [La educación híbrida, equidad, inclusión y calidad en Colombia](). Congreso Internacional de Innovación Educativa, Universidad la Gran Colombia, 2,3 y 4 de octubre de 2023. 
 
 Correa, Alejandro (2023). [Tareas de recolección de datos para la investigación fonética](https://jacorread.github.io/docs/speechdata/speechdata.html#/title-slide). Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, Universidad de Cartagena, 9 de junio de 2023.
 
