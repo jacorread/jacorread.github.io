@@ -1,6 +1,7 @@
 ## Inicio
 
-Soy un lingüista interesado en la fonética experimental, en la fonética y fonología del español, la reducción fonética, el habla espontánea y el análisis de corpus orales. Actualmente imparto cursos de fonética y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/).  
+Soy un lingüista interesado en la fonética experimental, en la fonética y fonología del español, la reducción fonética, el habla espontánea y el análisis de corpus orales. Actualmente imparto cursos de fonética y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/).
+
 
 
 ## Publicaciones

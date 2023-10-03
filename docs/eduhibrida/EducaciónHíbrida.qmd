@@ -1,0 +1,138 @@
+---
+title: "Educación híbrida: equidad, inclusión y calidad en Colombia"
+author: "Alejandro Correa"
+subtitle: "[tinyurl.com/caedizas](tinyurl.com/caedizas)"
+date: ""
+institute: "Facultad Seminario Andrés Bello, Instituto Caro y Cuervo"
+format: revealjs
+width: 1600
+height: 900
+logo: https://www.ugc.edu.co/bogota/templates/yootheme/cache/5b/Logo-horizontal-5b1a0f59.webp
+editor: visual
+toc: true
+toc-depth: 1
+toc-title: "Tabla de contenidos"
+slide-number: true
+multiplex: true
+controls: true
+footer: "Congreso Internacional de Innovación Educativa, Universidad La Gran Colombia, 4 de octubre de 2023"
+---
+
+# Introducción
+
+## Graduados de maestría en 2022 (Datos SNIES)
+
+```{r message=FALSE}
+library(tidyverse) 
+library(readr)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+mapmaster<-read_tsv('C:/Users/scien/OneDrive/Autoevaluación 2022/estadisticas/mapa4.txt', locale = readr::locale(encoding = "windows-1252"))
+
+#install.packages("devtools")
+#devtools::install_github("nebulae-co/colmaps")
+library("colmaps")
+```
+
+```{r echo=FALSE}
+
+#| output-location: column
+#| code-line-numbers: "|2"
+
+gg <- mapmaster %>%
+  filter(año == 2022) %>%
+  colmap(departamentos, data = ., data_id = "id_depto", var = "graduados") 
+gg +
+scale_fill_gradientn(colours = colorspace::diverge_hcl(7))
+```
+
+## Graduados de maestría entre 2018-2022 (Datos SNIES)
+
+```{r echo=FALSE}
+gg2 <- ggplot(data=mapmaster,
+              mapping = aes(x=graduados, y =reorder(depto, graduados),
+                            color = año) )
+  gg2+ geom_point(size=3)+
+                labs(x="Graduados de Maestría en Colombia 2018-2022",
+                     y= "", color="año")+ 
+    theme_minimal()
+```
+
+## Problema
+
+-   Hay serios obstáculos que limitan la presencia y participación de los estudiantes a nivel de posgrado (**inclusión**).
+
+-   No parece haber justicia e imparcialidad a la hora acceder a la educación de posgrado (**equidad**).
+
+-   Hay disparidades basadas en la pobreza, el lugar de residencia y la pertenencia étnica (**equidad**).
+
+-   Hay limitaciones en el acceso a educación de calidad (formación e investigación) .
+
+## Pregunta
+
+¿Cómo facilitar el acceso a una educación de posgrado que permita superar las brechas basadas en la pobreza, el lugar de residencia y la pertenencia étnica?
+
+`{«La educación híbrida tiene un enorme potencial para mejorar el acceso a educación de calidad y la capacidad de nuestros territorios».}`
+
+## Modelo
+
+## Objetivos
+
+-   «Capitalizar las lecciones aprendidas» de la pandemia de COVID-19.
+
+-   Explorar posibilidades para mejorar el acceso a educación de calidad a un sector más amplio de la población colombiana.
+
+-   Acortar brechas (competencias y habilidades investigativas) existentes en la región.
+
+## Modalidad educativa de la Maestría en Lingüística del ICC
+
+```{mermaid}
+journey
+    title Evolución de la modalidad educativa MLING
+  section Presencial
+      2014-2020: 4: Presencial, Pedag.
+  section Remota de emergencia
+      2020-2021: 1: TICs
+   section Remota/presencial
+      2021-2022: 4: TICs, Presencial
+  section Presencial
+     2022- 2023: 4: Presencial, TICs, Pedag.
+  section Adaptación curricular
+     2024- 2025: 4: Presencial, TICs, Pedag.
+  section Modalidad Híbrida (blended)
+      2026: 5: Presencial, Virtual, TICs, Pedag.
+```
+
+## Bullets
+
+```{mermaid}
+journey
+    title Evolución de la modalidad educativa MLING
+  section Presencial
+      2014-2020: 4: Presencial, Pedag.
+  section Remota de emergencia
+      2020-2021: 1: TICs
+   section Remota/presencial
+      2021-2022: 4: TICs, Presencial
+  section Presencial
+     2022- 2023: 4: Presencial, TICs, Pedag.
+  section Adaptación curricular
+     2024- 2025: 4: Presencial, TICs, Pedag.
+  section Modalidad Híbrida (blended)
+      2026: 5: Presencial, Virtual, TICs, Pedag.
+```
+
+## 💥
+
+::: r-fit-text
+¡Gracias por su atención!
+:::
+
+***Contacto:***
+
+### 🌎 <https://jacorread.github.io/>
+
+### ✉️ [alejandro.correa\@caroycuervo.gov.co](alejandro.correa@caroycuervo.gov.co)
+
+## Bibliografía

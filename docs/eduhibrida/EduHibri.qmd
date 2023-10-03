@@ -1,0 +1,396 @@
+---
+title: "Educación híbrida: equidad, inclusión y calidad en Colombia"
+author: "Alejandro Correa"
+subtitle: "[tinyurl.com/caedizas](tinyurl.com/caedizas)"
+date: ""
+institute: "Facultad Seminario Andrés Bello, Instituto Caro y Cuervo"
+format: revealjs
+width: 1600
+height: 900
+logo: https://www.ugc.edu.co/bogota/templates/yootheme/cache/5b/Logo-horizontal-5b1a0f59.webp
+editor: visual
+toc: false
+bibliography: biblio.bib
+#toc-depth: 1
+#toc-title: "Tabla de contenidos"
+slide-number: true
+multiplex: true
+controls: true
+footer: "Congreso Internacional de Innovación Educativa, Universidad La Gran Colombia, 4 de octubre de 2023"
+---
+
+# Introducción {background-color="LightBlue"}
+
+```{r message=FALSE}
+library(tidyverse) 
+library(readr)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+mapmaster<-read_tsv('C:/Users/scien/OneDrive/Autoevaluación 2022/estadisticas/mapa4.txt', locale = readr::locale(encoding = "windows-1252"))
+mapasonoro<-read_tsv('C:/Users/scien/OneDrive/Autoevaluación 2022/estadisticas/mapasonoro.txt', locale = readr::locale(encoding = "windows-1252"))
+
+#install.packages("devtools")
+#devtools::install_github("nebulae-co/colmaps")
+library("colmaps")
+```
+
+## Instituto Caro y Cuervo, Facultad Seminario Andrés Bello
+
+::: columns
+::: {.column width="60%"}
+![Foto: Instituto Caro y Cuervo](imag/ICC.jpg)
+:::
+
+::: {.column width="40%"}
+::: incremental
+-   Maestría en Lingüística.
+
+-   Aumentar la cobertura (enfoque regional).
+
+-   Mantener la calidad.
+
+-   Mantener el mismo número de horas de trabajo.
+:::
+:::
+:::
+
+## Graduados de maestría entre 2018-2022 (Datos SNIES)
+
+```{r echo=FALSE}
+gg2 <- ggplot(data=mapmaster, mapping = aes(x=graduados, y =reorder(depto, graduados), color = año) )
+gg2+ geom_point(size=3)+
+  labs(x="Graduados de Maestría en Colombia 2018-2022",                      y= "", color="año")+ theme_minimal()
+```
+
+@SNIES2023
+
+## Graduados de programas de maestría
+
+```{r}
+gg <- mapmaster %>%
+  filter(año == 2022) %>%
+  colmap(departamentos, data = ., data_id = "id_depto", var = "graduados") 
+gg +
+scale_fill_gradientn(colours = colorspace::diverge_hcl(7))
+```
+
+@SNIES2023
+
+## Hablantes de lenguas nativas de Colombia
+
+```{r}
+
+gg2 <- mapasonoro %>%
+  colmap(departamentos, data = ., data_id = "id_depto", var = "Hablantes") 
+gg2 +
+scale_fill_gradientn(colours = colorspace::diverge_hcl(7))
+```
+
+@MinCultura2022
+
+## Equidad e inclusión
+
+::: columns
+::: {.column width="40%"}
+![Foto: Instituto Caro y Cuervo](imag/amazonas.jpg){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+Siguiendo las definiciones de la @UNESCO2017 concluimos que:
+
+-   Hay obstáculos que limitan la presencia y participación de los estudiantes (**inclusión**).
+
+-   Hay disparidades basadas en la **pobreza**, el **lugar de residencia** y la **pertenencia étnica** (**equidad**).
+
+-   Hay limitaciones en el acceso a **educación de calidad** (formación e investigación)
+
+-   Educación de posgrado (*servicio* vs. *derecho*) [@Wasserman2021, p. 51]
+:::
+:::
+
+## Oportunidad de aprender
+
+::: columns
+::: {.column width="50%"}
+![Foto: Instituto Caro y Cuervo](imag/amazonas2.jpg){width="700"}
+:::
+
+::: {.column width="50%"}
+-   Estamos en un momento propicio para «capitalizar las lecciones aprendidas» de la pandemia de COVID-19 [@AriasOrtiz2021].
+
+-   Evaluar las **estrategias tradicionales.**
+
+-   Explorar posibilidades para mejorar el acceso a educación en Colombia.
+
+-   Acortar brechas (competencias y habilidades investigativas) existentes en la región.
+:::
+:::
+
+## Programas flexibles
+
+::: columns
+::: {.column width="50%"}
+`La educación híbrida tiene un enorme potencial para mejorar el acceso a educación de calidad y la capacidad de nuestros territorios.`
+:::
+
+::: {.column width="50%"}
+![Foto: Instituto Caro y Cuervo](imag/mambe.jpg){width="450"}
+:::
+:::
+
+# La modalidad híbrida {background-color="LightBlue"}
+
+## Definición
+
+::: columns
+::: {.column width="50%"}
+::: columns
+-   La **modalidad híbrida** es la combinación de modalidades (presencial y virtual), tiempos (sincrónicos y asincrónicos).
+-   Incluye **estrategias** que apuntan a una integración de entornos tecnológicos y prácticos de enseñanza para la inclusión educativa.
+-   **No es** el simple reemplazo de presencialidad por videoconferencias.
+
+[@Lion2023]
+:::
+:::
+
+::: {.column width="50%"}
+![Foto: Instituto Caro y Cuervo](imag/plumas3.jpg){width="450"}
+:::
+:::
+
+## Evolución de las modalidades desde 2020
+
+```{mermaid}
+journey
+    title Evolución de la modalidad educativa MLING
+  section Presencial
+      2014-2020: 4: Presencial, Pedag.
+  section Remota de emergencia
+      2020-2021: 1: TICs
+   section Remota/presencial
+      2021-2022: 4: TICs, Presencial
+  section Presencial
+     2022- : 4: Presencial, TICs, Pedag.
+  section Modalidad Híbrida (blended)
+      2026: 5: Presencial, Virtual, TICs, Pedag.
+```
+
+# Componentes básicos {background-color="LightBlue"}
+
+## Componentes
+
+::: columns
+::: {.column width="50%"}
+1.  Equipamiento y conectividad
+2.  **Adaptación curricular**
+3.  **Estrategias pedagógicas**
+4.  **Contenidos multimedia**
+5.  **Seguimiento y autoevaluación**
+
+[@AriasOrtiz2021]
+:::
+
+::: {.column width="50%"}
+![Foto: Instituto Caro y Cuervo](imag/mochila.jpg){width="450"}
+:::
+:::
+
+## Adaptación curricular (Créditos)
+
+```{dot}
+digraph G {
+pad=0.05
+nodesep=0.5
+ranksep=0.1
+edge[minlen=3]
+
+// NIVEAU 1
+node[shape=box, style="rounded, filled", fillcolor=black, fontcolor=white, fontsize=14]
+a1[label="4 créditos (192h)"]
+
+
+// NIVEAU 2
+node[fillcolor=grey90, fontcolor=black, penwidth=1.5, fontsize=12]
+b1[label="Trabajo directo (48h)"]
+b2[label="Trabajo autónomo (144h)"]
+
+
+
+// NIVEAU 3
+node[fillcolor=grey90, style="dashed, rounded, filled", fontcolor=black, penwidth=1.5, fontsize=12]
+c1[label="Trabajo directo (16h)"]
+c2[label="Trabajo virtual (32h)"]
+
+
+
+// LABELS
+node[shape=plain, fillcolor=none, margin=0, fontcolor=grey30, fontsize=10]
+l1[label="Están compuestos de"]
+l2[label="Se distribuye en"]
+
+
+edge[color=grey20, penwidth=0.9, arrowsize=0.7]
+
+// LIENS CLASSIQUES
+l1->{b1,b2}
+l2->{c1, c2}
+   
+
+// LIENS AVEC LABELS
+edge[arrowhead=none, minlen=2]
+a1->l1
+{b1,b1}->l2
+
+
+}
+```
+
+## Adaptación curricular (Horas semanales)
+
+```{dot}
+
+digraph G {
+pad=0.01
+nodesep=0.5
+ranksep=0.1
+edge[minlen=3]
+
+// NIVEAU 1
+node[shape=box, style="rounded, filled", fillcolor=black, fontcolor=white, fontsize=14]
+a1[label="4 créditos (12h)"]
+
+
+// NIVEAU 2
+node[fillcolor=grey90, fontcolor=black, penwidth=1.5, fontsize=12]
+b1[label="Trabajo directo (1h)"]
+b2[label="Trabajo autónomo (9h)"]
+b3 [label="Trabajo virtual (2h)"]
+
+
+// NIVEAU 3
+node[fillcolor=grey90, style="dashed, rounded, filled", fontcolor=black, penwidth=1.5, fontsize=12]
+c1[label="Trabajo directo síncrono"]
+c2[label="Trabajo directo presencial"]
+
+
+
+// LABELS
+node[shape=plain, fillcolor=none, margin=0, fontcolor=grey30, fontsize=10]
+l1[label="Están compuestos de"]
+l2[label="Relación temporal"]
+
+
+edge[color=grey20, penwidth=0.9, arrowsize=0.7]
+
+// LIENS CLASSIQUES
+l1->{b1,b2, b3}
+l2->{c1, c2}
+   
+
+// LIENS AVEC LABELS
+edge[arrowhead=none, minlen=2]
+a1->l1
+{b1,b1}->l2
+
+
+}
+```
+
+## Estrategias pedagógicas
+
+::: columns
+::: {.column width="50%"}
+![Foto: Instituto Caro y Cuervo](imag/multimedia3.jpg){width="1000"}
+:::
+
+::: {.column width="50%"}
+### Educación basada en problemas
+
+La EBP [@Nilson2010]:
+
+• Trabajo en equipo.
+
+• Liderazgo y gestión de proyectos.
+
+• Estrategias para entender y conducir estudios de manera independiente.
+
+• Búsqueda de información para la gestión de la investigación.
+
+• **Apropiación social del conocimiento.**
+:::
+:::
+
+## Contenidos multimedia
+
+::: columns
+::: {.column width="50%"}
+-   Fatiga de Zoom [@Massner2021].
+
+-   El uso de videos ha demostrado ser efectivo en Aula Invertida [@Purwanti2022].
+
+-   Foros, ejercicios interactivos, etc.
+
+-   **Pertinencia pedagógica**.
+:::
+
+::: {.column width="50%"}
+![Foto: Instituto Caro y Cuervo](imag/multimedia2.jpg){width="1000"}
+:::
+:::
+
+## Seguimiento y autoevaluación
+
+::: columns
+::: {.column width="50%"}
+-   Escuchar la voz de los estudiantes.
+
+-   Adoptar una actitud crítica ante la labor docente.
+
+-   El docente debe experimentar, fallar y corregir.
+
+-   El docente sabe elegir las herramientas que aportan un valor añadido.
+
+@Bram2021
+:::
+
+::: {.column width="50%"}
+![Foto: Instituto Caro y Cuervo](imag/Seguimiento2.jpg)
+:::
+:::
+
+# Recomendaciones {background-color="LightBlue"}
+
+*Consideraciones finales*
+
+## Tecnología y educación
+
+::: columns
+::: {.column width="60%"}
+La educación híbrida ayuda a democratizar el acceso a la educación [@Lion2023, p. 23], pero:
+
+-   No abundan pruebas sobre el impacto de la tecnología sobre el aprendizaje [@UNESCO2023, p. 7].
+
+-   «La tecnología ofrece educación para unos, pero excluye a muchos más» [@UNESCO2023, p. 7].
+
+-   «Ni la mejor de las tecnologías puede sustituir a un buen profesor» [@Espot2019, p. 121].
+:::
+
+::: {.column width="40%"}
+![Foto: Instituto Caro y Cuervo](imag/sonajero.jpg){width="450"}
+:::
+:::
+
+## 💥
+
+::: r-fit-text
+¡Gracias por su atención!
+:::
+
+***Contacto:***
+
+### 🌎 <https://jacorread.github.io/>
+
+### ✉️ [alejandro.correa\@caroycuervo.gov.co](alejandro.correa@caroycuervo.gov.co)
+
+## Bibliografía
