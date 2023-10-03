@@ -1,7 +1,7 @@
 ---
 title: "Educación híbrida: equidad, inclusión y calidad en Colombia"
 author: "Alejandro Correa"
-subtitle: "[tinyurl.com/caedizas](tinyurl.com/caedizas)"
+subtitle: "[https://tinyurl.com/eduhibrida](https://tinyurl.com/eduhibrida)"
 date: ""
 institute: "Facultad Seminario Andrés Bello, Instituto Caro y Cuervo"
 format: revealjs
