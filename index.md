@@ -11,7 +11,7 @@ Correa, A. y Rodríguez, L. C. (en prensa). Las vocales caedizas del español bo
 
 Correa, A. y Rodríguez, L. C. (en prensa). El español afrocolombiano del Chocó. En: Luana Lamberti y Ana Lívia Agostinho (eds.). _Línguas Afro-Ibéricas: contato e sócio-história / Lenguas Afro-Ibéricas: contacto y sociohistoria_. Language Science Press.
 
-Correa, A. (2023). Sobre el habla popular en la poesía de Candelario Obeso. En: Maglia, G. y Sônia Queiroz (eds.).[ _Poesia afrocolombiana. Edição bilíngue espanhol-português_] (https://www.editoraufmg.com.br/#/pages/ebook/998). Universidade Federal de Minas Gerais y Pontificia Universidad Javeriana. [Artículo reimpreso de Correa 2010].
+Correa, A. (2023). Sobre el habla popular en la poesía de Candelario Obeso. En: Maglia, G. y Sônia Queiroz (eds.).[ _Poesia afrocolombiana. Edição bilíngue espanhol-português_](https://www.editoraufmg.com.br/#/pages/ebook/998). Universidade Federal de Minas Gerais y Pontificia Universidad Javeriana. [Artículo reimpreso de Correa 2010].
 
 Correa, A. y Rodríguez, L. C. (2022). Corpus de habla leída y conversacional del español de Colombia (CLC). En Alejandro Correa (ed.). _Estudios actuales de fonética y fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.
 
