@@ -15,7 +15,7 @@ toc-title: "Tabla de contenidos"
 slide-number: true
 multiplex: true
 controls: true
-footer: "Facultad de Comunicaciones y Filología, Universidad de Antioquia, 9 de octubre de 2023"
+footer: "Facultad de Comunicaciones y Filología, Universidad de Antioquia, 8 y 9 de octubre de 2023"
 ---
 
 # Principios metodológicos de Labov {background-color="LightBlue"}
@@ -321,7 +321,9 @@ Conversación telefónica
 
 ### ✉️ [linda.rodriguez\@caroycuervo.gov.co](alejandro.correa@caroycuervo.gov.co)
 
-🧑‍🏫 **Presentación:**
+**Enlaces de interés**
+
+🧑‍🏫 **Presentación: <https://tinyurl.com/tareasfonetica2>**
 
 🌎 **Archivos disponibles en *Open Science Framework*:**
 
