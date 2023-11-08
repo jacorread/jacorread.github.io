@@ -1,0 +1,330 @@
+---
+title: "Corpus de habla leída y conversacional del español de Colombia"
+author: "Alejandro Correa y Linda Rodríguez"
+subtitle: " _Tareas de recolección de datos para la investigación fonética_"
+format: revealjs
+editor: visual
+date: ""
+institute: "Instituto Caro y Cuervo"
+logo: https://www.caroycuervo.gov.co/publicaciones/2022/02/logo-caro-y-cuervo.png 
+css: logo.css
+bibliography: biblio.bib
+toc: true
+toc-depth: 1
+toc-title: "Tabla de contenidos"
+slide-number: true
+multiplex: true
+controls: true
+footer: "Facultad de Comunicaciones y Filología, Universidad de Antioquia, 9 de octubre de 2023"
+---
+
+# Principios metodológicos de Labov {background-color="LightBlue"}
+
+## Estilo de habla y grado de atención
+
+#### Principio de cambio de estilo
+
+> «No hay hablantes que usen un solo estilo de habla» [@Labov1974, p. 112]
+
+#### Principio de atención
+
+> «Los estilos de habla se pueden organizar a lo largo de una sola dimensión, esto es, de acuerdo con la cantidad de atención empleada al hablar« [@Labov1974, p. 112]
+
+## El principio vernacular
+
+::: columns
+::: {.column width="50%"}
+> «El estilo de habla más regular en cuanto a su estructura y a sus relaciones con la evolución del lenguaje es el **vernacular,** esto es, aquel en el cual se presta menos atención al hablar» [@Labov1974, p. 112]
+:::
+
+::: {.column width="50%"}
+![Foto: Instituto Caro y Cuervo](graphics/mochila.jpg){fig-align="center" width="300"}
+:::
+:::
+
+## Paradoja del observador
+
+::: columns
+::: {.column width="50%"}
+> «Para obtener datos lingüísticos relevantes debemos observar cómo habla la gente cuando no está siendo observada» [@Labov1974, p. 113]
+:::
+
+::: {.column width="50%"}
+![](graphics/Paradox.jpg)
+:::
+:::
+
+## Los estilos de habla [@Wagner2011]
+
+![](graphics/Estilos.png){fig-align="center"}
+
+# Habla planificada o «cuidada» {background-color="LightBlue"}
+
+## Lectura de palabras
+
+::: columns
+::: {.column width="50%"}
+-   *Citation form*
+
+-   Pares mínimos
+
+-   Habla hiperarticulada o enfática.
+
+-   Fonología léxica
+
+-   Su es uso limitado
+:::
+
+::: {.column width="50%"}
+| Palabra | Glosa        | Palabra | Glosa   |
+|---------|--------------|---------|---------|
+| ɾɨɲo    | mujer        | ɾɨɨɲo   | sapo    |
+| dɨe     | sangre       | dɨɨe    | ceniza  |
+| hɨde    | sembrar yuca | hɨɨde   | rezar   |
+| nɨkaɨ   | sueño        | nɨɨkaɨ  | aliento |
+:::
+:::
+
+## Frases marco
+
+::: columns
+::: {.column width="50%"}
+*Le gusta el rojo*
+
+*Le aprieta la faja*
+
+*Tiene mucho rollo*
+
+*Ha puesto la mesa*
+
+*Ha cometido un robo*
+
+*Le ha dado un poco*
+:::
+
+::: {.column width="50%"}
+-   Estructura sintáctica y semántica.
+
+-   Interpretación unívoca.
+
+-   Posición del sonido dentro de la sílaba (ataque, núcleo o coda).
+
+-   Efecto serie .
+
+    [@Llisterri1991, p. 72]
+:::
+:::
+
+## Textos fonéticamente controlados
+
+-   Permite reflejar la ocurrencia de los fonemas de la lengua.
+
+-   Permite incluir las palabras en diferentes posiciones de frase.
+
+-   Los hablantes no pueden hiperarticular las palabras objeto del estudio.
+
+-   No hay efecto serie.
+
+## Texto (español de Cartagena)
+
+> El turismo [despunta]{.underline} en Bolívar, donde el Instituto de Cultura y Turismo, en alianza con el Gobierno Nacional y los [despachos]{.underline} municipales [respectivos]{.underline}, han buscado fortalecer como [destino]{.underline} [turístico]{.underline} a otros municipios del departamento, además de la ciudad de Cartagena. Por ejemplo, muchos colombianos y extranjeros llegaron a Santa Cruz de Mompox para disfrutar del turismo religioso que se [destaca]{.underline} en [este]{.underline} municipio por la temporada de Semana Santa.
+
+*Elaborado por Udiluz Monsalve* ![](graphics/cartagena.wav)
+
+## Texto (español bogotano)
+
+> El municipio de Buenaventura cubre parte de la ruta conocida como la «vía al mar». Su población es de tez oscura y muy culta. En los últimos días ocupa la atención de los medios porque su población marcha en procura de hacer valer sus derechos: quieren un mayor impulso financiero para obtener más cupos escolares, poner la lupa sobre los corruptos, brindar ayudas a los adultos mayores, capturar a los miembros de los grupos armados, acabar con las torturas, entre otros.
+
+*Elaborado por Linda Rodríguez* ![](graphics/RV18T4R.wav)
+
+# Habla semicontrolada o «semiespontánea» {background-color="LightBlue"}
+
+## Encuesta de situaciones
+
+::: columns
+::: {.column width="50%"}
+*Mira el dibujo y di lo que hace la niña*
+
+ ![](graphics/bebe-limonada.wav)
+
+![](graphics/Bebe%20limonada.jpg){width="250"}
+:::
+
+::: {.column width="50%"}
+*Estás paseando al perro, Bobi, y se te escapa. Llámalo*
+
+![](graphics/Bobi.wav)
+
+![](graphics/perro.jpg){width="344"}
+:::
+
+[@Prieto2010]
+:::
+
+## Tarea de mapas
+
+::: columns
+::: {.column width="50%"}
+### Características
+
+-   Objetivo inducir un diálogo.
+
+-   Crear una situación alrededor de un mapa;
+
+-   Pero cada participante tiene un mapa diferente y uno tiene que guiar al otro;
+
+@Anderson1991
+:::
+
+::: {.column width="50%"}
+### Ventajas:
+
+-   Vocabulario controlado.
+
+-   Las unidades entonativas producidas con espontaneidad.
+
+-   Interacción entre los participantes.
+:::
+:::
+
+## Tareas de mapas ![](graphics/Mapas_1.wav)
+
+::: columns
+::: {.column width="40%"}
+![](graphics/mapa1.png){fig-align="center" width="464"}
+:::
+
+::: {.column width="40%"}
+![](graphics/mapa2.png){fig-align="center" width="464"}
+:::
+:::
+
+## Figuras
+
+![](graphics/figuras.jpg){fig-align="center"}
+
+[@Groennum1984]
+
+## Figuras adaptadas al español
+
+![](graphics/Figuras2.png){fig-align="center" width="1500"}
+
+![](graphics/Red_de_figuras.wav)
+
+# Habla no planificada o «no cuidada» {background-color="LightBlue"}
+
+## Narraciones
+
+![](graphics/peras.wav)
+
+![](graphics/pears.mp4){fig-align="center" width="3600" height="500"}
+
+## Entrevista sociolingüística
+
+::: columns
+::: {.column width="50%"}
+-   Busca el habla «vernacular».
+
+-   Temas de interés universal
+
+-   ¿Es un registro poco natural?
+
+-   Requiere habilidades experiencia
+
+    [@Schilling2013]
+
+![](graphics/audio1.wav)
+:::
+
+::: {.column width="50%"}
+![](graphics/Montes.jpg){width="525"}
+:::
+:::
+
+## Habla conversacional
+
+Conversación entrevistado/investigador como en el *Buckeye Corpus*.
+
+-   Pero hay falta de familiaridad entre los participantes.
+
+-   Hay superposición involuntaria de turnos.
+
+Conversación telefónica
+
+-   La superposición se evita grabando un hablante por canal.
+
+-   Pero hay un ancho de banda limitado (500-3500 Hz).
+
+[@Wagner2011, p. 624-625]
+
+## Habla conversacional
+
+-   Conversación entre amigos pero, uno de ellos es aliado del investigador.
+
+-   La tarea consiste en llegar a un acuerdo sobre asuntos que lleven a la polarización .
+
+-   Hay superposición involuntaria de turnos.
+
+@Torreira2010
+
+## Habla conversacional
+
+![](graphics/casual.jpg)
+
+![](graphics/spontaneous.wav)
+
+@Torreira2010
+
+# ¿Cómo elegir una tarea de recolección de datos? {background-color="LightBlue"}
+
+## Delimitar el objeto de estudio
+
+::: columns
+::: {.column width="50%"}
+-   Las TRD deben seleccionarse en función de la(s) pregunta(s) de investigación.
+
+-   Las TRD **determinan**, **condicionan** y **limitan** el alcance de los resultados obtenidos en una investigación lingüística.
+:::
+
+::: {.column width="50%"}
+![](graphics/ideas.png)
+:::
+:::
+
+## ¿Coleccionista o investigador?
+
+::: columns
+::: {.column width="80%"}
+![](graphics/collector.jpg){fig-align="center"}
+:::
+:::
+
+## Recomendaciones adicionales
+
+-   Protección de datos (Consentimiento informado).
+
+-   Tener un comportamiento cultural y socialmente aduecuado.
+
+-   Valorar el conocimiento del informante.
+
+-   Pagar o compensar por el tiempo, interés y esfuerzo.
+
+-   Explicar el claramente el procedimiento del procedimiento.
+
+-   Proteger los datos.
+
+@Niebuhr2015
+
+## ¡Gracias por su atención!
+
+### ✉️ [alejandro.correa\@caroycuervo.gov.co](alejandro.correa@caroycuervo.gov.co)
+
+### ✉️ [linda.rodriguez\@caroycuervo.gov.co](alejandro.correa@caroycuervo.gov.co)
+
+🧑‍🏫 **Presentación:**
+
+🌎 **Archivos disponibles en *Open Science Framework*:**
+
+[**https://osf.io/8xyrn/**](https://osf.io/8xyrn/)
+
+## Bibliografía {background-color="LightBlue"}

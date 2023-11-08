@@ -1,0 +1,34 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introducción}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Principios metodológicos}{4}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Tareas de recolección de datos}{10}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Corpus \textit {ad hoc}}{11}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Habla no controlada}{19}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{3}{Monólogos}{20}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{4}{Tareas de mapas}{21}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{5}{Habla conversacional}{26}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{6}{Sexo y género}{29}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{7}{Intervariabilidad}{30}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{8}{Muestreo}{33}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{9}{Consideraciones éticas}{35}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{La grabación}{36}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Procedimiento}{37}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Condiciones}{38}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{3}{Recomendaciones}{39}{0}{3}
