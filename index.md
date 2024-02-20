@@ -13,7 +13,7 @@ Correa, A. y Rodríguez, L. C. (en prensa). El español afrocolombiano del Choc�
 
 Correa, A. (2023). Sobre el habla popular en la poesía de Candelario Obeso. En: Maglia, G. y Sônia Queiroz (eds.).[ _Poesia afrocolombiana. Edição bilíngue espanhol-português_](https://www.editoraufmg.com.br/#/pages/ebook/998). Universidade Federal de Minas Gerais y Pontificia Universidad Javeriana. [Artículo reimpreso de Correa 2010].
 
-Correa, A. y Rodríguez, L. C. (2022). Corpus de habla leída y conversacional del español de Colombia (CLC). En Alejandro Correa (ed.). _Estudios actuales de fonética y fonología del español de Colombia_. Bogotá: Instituto Caro y Cuervo.
+Correa, A. y Rodríguez, L. C. (2022). Corpus de habla leída y conversacional del español de Colombia (CLC). En Alejandro Correa (ed.). [_Estudios actuales de fonética y fonología del español de Colombia_](https://selloeditorial.caroycuervo.gov.co/documentos/EstudiosActualesDeFonetica.pdf). Bogotá: Instituto Caro y Cuervo.
 
 Ros, O., Rivas L. M., Correa, A., Nieto, V., Murillo, J. D., y Caputo, G. (2022). [La Facultad Seminario Andrés Bello del Instituto Caro y Cuervo](https://www.revistaaleph.com.co/images/ediciones_pdf/Revista_Aleph-202.pdf). _Revista Aleph_, 202, pp. 24-40.
 
