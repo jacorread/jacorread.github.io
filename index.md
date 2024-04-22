@@ -6,6 +6,7 @@ Soy un lingüista interesado en la fonética experimental, en la fonética y fon
 
 ## Publicaciones
 
+Correa, Alejandro (en prensa). Educación híbrida, equidad, inclusión y calidad en Colombia. _Actas del VIII Congreso Internacional de Innovación Educativa_, Universidad la Gran Colombia, 2,3 y 4 de octubre de 2023.
 
 Correa, A. y Rodríguez, L. C. (en prensa). Las vocales caedizas del español bogotano. _Lexis_.
 

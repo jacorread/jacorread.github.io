@@ -270,6 +270,56 @@ b3 [label="Trabajo virtual (2h)"]
 
 // NIVEAU 3
 node[fillcolor=grey90, style="dashed, rounded, filled", fontcolor=black, penwidth=1.5, fontsize=12]
+c1[label="Trabajo directo presencial"]
+c2[label="Trabajo directo síncrono"]
+
+
+
+
+// LABELS
+node[shape=plain, fillcolor=none, margin=0, fontcolor=grey30, fontsize=10]
+l1[label="Están compuestos de"]
+l2[label="Relación temporal"]
+
+
+edge[color=grey20, penwidth=0.9, arrowsize=0.7]
+
+// LIENS CLASSIQUES
+l1->{b1,b2, b3}
+l2->{c1, c2}
+   
+
+// LIENS AVEC LABELS
+edge[arrowhead=none, minlen=2]
+a1->l1
+{b1,b1}->l2
+
+
+}
+```
+
+```{dot}
+
+digraph G {
+pad=0.01
+nodesep=0.5
+ranksep=0.1
+edge[minlen=3]
+
+// NIVEAU 1
+node[shape=box, style="rounded, filled", fillcolor=black, fontcolor=white, fontsize=14]
+a1[label="4 créditos (12h)"]
+
+
+// NIVEAU 2
+node[fillcolor=grey90, fontcolor=black, penwidth=1.5, fontsize=12]
+b1[label="Trabajo directo (2h)"]
+b2[label="Trabajo autónomo (9h)"]
+b3 [label="Trabajo virtual (1h)"]
+
+
+// NIVEAU 3
+node[fillcolor=grey90, style="dashed, rounded, filled", fontcolor=black, penwidth=1.5, fontsize=12]
 c1[label="Trabajo directo síncrono"]
 c2[label="Trabajo directo presencial"]
 
@@ -295,6 +345,10 @@ a1->l1
 
 
 }
+```
+
+```{dot}
+
 ```
 
 ## Estrategias pedagógicas
