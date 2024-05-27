@@ -11,7 +11,7 @@ Correa, Alejandro (en prensa). Educación híbrida, equidad, inclusión y calida
 
 Correa, A. y Rodríguez, L. C. (en prensa). El español afrocolombiano del Chocó. En: Luana Lamberti y Ana Lívia Agostinho (eds.). _Línguas Afro-Ibéricas: contato e sócio-história / Lenguas Afro-Ibéricas: contacto y sociohistoria_. Language Science Press.
 
-Correa, A. y Rodríguez, L. C. (2024). Las vocales caedizas del español bogotano. _Lexis_,Vol. XLVIII (1) https://doi.org/10.18800/lexis.202401.011
+Correa, A. y Rodríguez, L. C. (2024). Las vocales caedizas del español bogotano. _Lexis_, 48(1) [https://doi.org/10.18800/lexis.202401.011](https://doi.org/10.18800/lexis.202401.011)
 
 Correa, A. (2023). Sobre el habla popular en la poesía de Candelario Obeso. En: Maglia, G. y Sônia Queiroz (eds.).[ _Poesia afrocolombiana. Edição bilíngue espanhol-português_](https://www.editoraufmg.com.br/#/pages/ebook/998). Universidade Federal de Minas Gerais y Pontificia Universidad Javeriana. [Artículo reimpreso de Correa 2010].
 
