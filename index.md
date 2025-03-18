@@ -6,7 +6,7 @@ Soy un lingüista interesado en la fonética experimental, en la fonética y fon
 
 ## Publicaciones
 
-Correa, A. (en prensa). [La reducción fonética de las vocales y sus factores determinantes](https://www.ub.edu/journalofexperimentalphonetics/). _Estudios de Fonética Experimental_.
+Correa, A. (en prensa). La reducción fonética de las vocales y sus factores determinantes. [_Estudios de Fonética Experimental_](https://www.ub.edu/journalofexperimentalphonetics/).
 
 
 Correa, A. (en prensa). Educación híbrida, equidad, inclusión y calidad en Colombia. _Actas del VIII Congreso Internacional de Innovación Educativa_, Universidad la Gran Colombia, 2,3 y 4 de octubre de 2023.
