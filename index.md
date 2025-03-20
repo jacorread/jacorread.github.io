@@ -6,11 +6,11 @@ Soy un lingüista interesado en la fonética experimental, en la fonética y fon
 
 ## Publicaciones
 
+Correa, A. (en preparación). _Fundamentos de fonética_. Disponible en: [osf.io/uy2vp](osf.io/uy2vp).
+
 Correa, A. (en prensa). La reducción fonética de las vocales y sus factores determinantes. [_Estudios de Fonética Experimental_](https://www.ub.edu/journalofexperimentalphonetics/).
 
-
 Correa, A. (en prensa). Educación híbrida, equidad, inclusión y calidad en Colombia. _Actas del VIII Congreso Internacional de Innovación Educativa_, Universidad la Gran Colombia, 2,3 y 4 de octubre de 2023.
-
 
 Correa, A. y Rodríguez, L. C. (en prensa). El español afrocolombiano del Chocó. En: Luana Lamberti y Ana Lívia Agostinho (eds.). _Línguas Afro-Ibéricas: contato e sócio-história / Lenguas Afro-Ibéricas: contacto y sociohistoria_. Language Science Press.
 
