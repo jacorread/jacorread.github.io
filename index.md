@@ -6,7 +6,7 @@ Soy un lingüista interesado en la fonética experimental, en la fonética y fon
 
 ## Publicaciones
 
-Correa, A. (en preparación). _Fundamentos de fonética_. Disponible en: [osf.io/uy2vp](osf.io/uy2vp).
+Correa, A. (en preparación). _Fundamentos de fonética_. Disponible en: [https://osf.io/uy2vp/](https://osf.io/uy2vp/).
 
 Correa, A. (en prensa). La reducción fonética de las vocales y sus factores determinantes. [_Estudios de Fonética Experimental_](https://www.ub.edu/journalofexperimentalphonetics/).
 
