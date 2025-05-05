@@ -8,11 +8,11 @@ Soy un lingüista interesado en la fonética experimental, en la fonética y fon
 
 Correa, A. (en preparación). _Fundamentos de fonética_. Disponible en: [https://osf.io/uy2vp/](https://osf.io/uy2vp/).
 
-Correa, A. (en prensa). La reducción fonética de las vocales y sus factores determinantes. [_Estudios de Fonética Experimental_](https://www.ub.edu/journalofexperimentalphonetics/).
-
-Correa, A. (en prensa). Educación híbrida, equidad, inclusión y calidad en Colombia. _Actas del VIII Congreso Internacional de Innovación Educativa_, Universidad la Gran Colombia, 2,3 y 4 de octubre de 2023.
-
 Correa, A. y Rodríguez, L. C. (en prensa). El español afrocolombiano del Chocó. En: Luana Lamberti y Ana Lívia Agostinho (eds.). _Línguas Afro-Ibéricas: contato e sócio-história / Lenguas Afro-Ibéricas: contacto y sociohistoria_. Language Science Press.
+
+Correa, A. (en prensa). La reducción fonética de las vocales y sus factores determinantes. [_Estudios de Fonética Experimental_](https://www.ub.edu/journalofexperimentalphonetics/), 34, xx-xx.
+
+Correa, A. (2024). Educación híbrida, equidad, inclusión y calidad en Colombia. _Actas del VIII Congreso Internacional de Innovación Educativa_, Universidad la Gran Colombia, 2,3 y 4 de octubre de 2023.
 
 Correa, A. y Rodríguez, L. C. (2024). Las vocales caedizas del español bogotano. _Lexis_, 48(1) [https://doi.org/10.18800/lexis.202401.011](https://doi.org/10.18800/lexis.202401.011)
 
@@ -22,7 +22,7 @@ Correa, A. y Rodríguez, L. C. (2022). Corpus de habla leída y conversacional d
 
 Ros, O., Rivas L. M., Correa, A., Nieto, V., Murillo, J. D., y Caputo, G. (2022). [La Facultad Seminario Andrés Bello del Instituto Caro y Cuervo](https://www.revistaaleph.com.co/images/ediciones_pdf/Revista_Aleph-202.pdf). _Revista Aleph_, 202, pp. 24-40.
 
-Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogotá (Colombia)](http://hdl.handle.net/10803/673154), Tesis de doctorado, Universitat Autònoma de Barcelona.
+Correa, J. A. (2021). [Reducción fonética de las vocales del español de Bogotá (Colombia)](https://portalrecerca.uab.cat/es/studentTheses/reducci%C3%B3n-fon%C3%A9tica-de-las-vocales-del-espa%C3%B1ol-de-bogot%C3%A1-colombia), Tesis de doctorado, Universitat Autònoma de Barcelona.
 
 Correa, A. (2021). Sexo, espacio acústico y centralización de las vocales del español de Bogotá. _Loquens_, 8(1-2), e84. [https://doi.org/10.3989/loquens.2021.e084](https://doi.org/10.3989/loquens.2021.084).
 
