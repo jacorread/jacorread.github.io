@@ -12,7 +12,7 @@ Correa, A. y Rodríguez, L. C. (en prensa). El español afrocolombiano del Choc�
 
 Correa, A. (en prensa). La reducción fonética de las vocales y sus factores determinantes. [_Estudios de Fonética Experimental_](https://www.ub.edu/journalofexperimentalphonetics/), 34, xx-xx.
 
-Correa, A. (2024). [Educación híbrida, equidad, inclusión y calidad en Colombia] (https://ojs.ugc.edu.co/index.php/CongresoInnovaEd/article/view/2023_vol.2_n2_20). _Actas del VIII Congreso Internacional de Innovación Educativa_, Universidad la Gran Colombia, 2,3 y 4 de octubre de 2023.
+Correa, A. (2024). [Educación híbrida, equidad, inclusión y calidad en Colombia](https://ojs.ugc.edu.co/index.php/CongresoInnovaEd/article/view/2023_vol.2_n2_20). _Actas del VIII Congreso Internacional de Innovación Educativa_, Universidad la Gran Colombia, 2,3 y 4 de octubre de 2023.
 
 Correa, A. y Rodríguez, L. C. (2024). Las vocales caedizas del español bogotano. _Lexis_, 48(1) [https://doi.org/10.18800/lexis.202401.011](https://doi.org/10.18800/lexis.202401.011)
 
