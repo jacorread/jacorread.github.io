@@ -14,7 +14,7 @@ Correa, A. (en prensa). La reducción fonética de las vocales y sus factores de
 
 Correa, A. y Rodríguez, L. C. (2024). Las vocales caedizas del español bogotano. _Lexis_, 48(1) [https://doi.org/10.18800/lexis.202401.011](https://doi.org/10.18800/lexis.202401.011)
 
-Correa, A. (2023). [Educación híbrida, equidad, inclusión y calidad en Colombia](https://doi.org/10.18634/congreso_2023_n2_20). _Actas del VIII Congreso Internacional de Innovación Educativa_, Universidad la Gran Colombia, 2, 3 y 4 de octubre de 2023.
+Correa, A. (2023). [Educación híbrida, equidad, inclusión y calidad en Colombia](https://ojs.ugc.edu.co/index.php/CongresoInnovaEd/article/view/2023_vol2_n2_20). _Actas del VIII Congreso Internacional de Innovación Educativa_, Universidad la Gran Colombia, 2, 3 y 4 de octubre de 2023.
 
 Correa, A. (2023). Sobre el habla popular en la poesía de Candelario Obeso. En: Maglia, G. y Sônia Queiroz (eds.).[ _Poesia afrocolombiana. Edição bilíngue espanhol-português_](https://www.editoraufmg.com.br/#/pages/ebook/998). Universidade Federal de Minas Gerais y Pontificia Universidad Javeriana. [Artículo reimpreso de Correa 2010].
 
