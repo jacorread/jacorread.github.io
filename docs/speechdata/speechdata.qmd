@@ -15,7 +15,7 @@ toc-title: "Tabla de contenidos"
 slide-number: true
 multiplex: true
 controls: true
-footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, Universidad de Cartagena, 9 de junio de 2023"
+footer: "Facultad de Ciencias de la Educación, Universidad de Magdalena, 8 de abril de 2025"
 ---
 
 # Introducción
@@ -38,7 +38,7 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 
 ## Paradoja del observador
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 > «Para obtener datos lingüísticos relevantes debemos observar cómo habla la gente cuando no está siendo observada» [@Labov1974, p. 113]
 :::
@@ -46,7 +46,7 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 ::: {.column width="50%"}
 ![](graphics/Paradox.jpg)
 :::
-:::
+:::::
 
 ## Los estilos de habla [@Wagner2011]
 
@@ -56,7 +56,7 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 
 ## Lectura de palabras
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   *Citation form*
 
@@ -77,11 +77,11 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 | hɨde    | sembrar yuca | hɨɨde   | rezar   |
 | nɨkaɨ   | sueño        | nɨɨkaɨ  | aliento |
 :::
-:::
+:::::
 
 ## Frases marco
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 *Le gusta el rojo*
 
@@ -107,7 +107,7 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 
     [@Llisterri1991, p. 72]
 :::
-:::
+:::::
 
 ## Textos fonéticamente controlados
 
@@ -133,7 +133,7 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 
 ## Encuesta de situaciones
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 *Mira el dibujo y di lo que hace la niña*
 
@@ -151,11 +151,11 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 :::
 
 [@Prieto2010]
-:::
+:::::
 
 ## Tarea de mapas
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ### Características
 
@@ -177,11 +177,11 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 
 -   Interacción entre los participantes.
 :::
-:::
+:::::
 
 ## Tareas de mapas ![](graphics/Mapas_1.wav)
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 ![](graphics/mapa1.png){fig-align="center" width="464"}
 :::
@@ -189,7 +189,7 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 ::: {.column width="40%"}
 ![](graphics/mapa2.png){fig-align="center" width="464"}
 :::
-:::
+:::::
 
 ## Figuras
 
@@ -213,7 +213,7 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 
 ## Entrevista sociolingüística
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Busca el habla «vernacular».
 
@@ -231,7 +231,7 @@ footer: "Programa de Lingüística y Literatura, Facultad de Ciencias Humanas, U
 ::: {.column width="50%"}
 ![](graphics/Montes.jpg){width="525"}
 :::
-:::
+:::::
 
 ## Habla conversacional
 
@@ -277,11 +277,11 @@ Conversación telefónica
 
 ## ¿Coleccionista o investigador?
 
-::: columns
+:::: columns
 ::: {.column width="80%"}
 ![](graphics/collector.jpg){fig-align="center"}
 :::
-:::
+::::
 
 ## Recomendaciones éticas
 
