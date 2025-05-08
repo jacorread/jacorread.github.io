@@ -46,4 +46,4 @@ Correa, J. A. (2010). Sobre el habla popular en la poesía de Candelario Obeso. 
 
 Estos son algunos de los temas e investigaciones que he compartido recientemente con mis colegas y estudiantes:
 
-Correa, Alejandro (2025). [Tareas de recolección de datos para la investigación fonética](https://jacorread.github.io/docs/speechdata/speechdata.html#/title-slide). Facultad de Ciencias de la Educación, Universidad de Magdalena, 5 de mayo de 2023.
+Correa, Alejandro (2025). [Tareas de recolección de datos para la investigación fonética](https://jacorread.github.io/docs/speechdata/speechdata.html#/title-slide). Facultad de Ciencias de la Educación, Universidad de Magdalena, 5 de mayo de 2025.
