@@ -10,8 +10,7 @@ Correa, A. (en preparación). _Fundamentos de fonética_. Disponible en: [https:
 
 Correa, A. y Rodríguez, L. C. (en prensa). El español afrocolombiano del Chocó. En: Luana Lamberti y Ana Lívia Agostinho (eds.). _Línguas Afro-Ibéricas: contato e sócio-história / Lenguas Afro-Ibéricas: contacto y sociohistoria_. Language Science Press.
 
-Correa, A. (2025). La reducción fonética de las vocales y sus factores determinantes. [_Estudios de Fonética Experimental_](https://www.ub.edu/journalofexperimentalphonetics/), 34, 129–152. https://doi.org/10.1344/efe-2025-34-129-152
-
+Correa, A. (2025). La reducción fonética de las vocales y sus factores determinantes. _Estudios de Fonética Experimental_, 34. [https://doi.org/10.1344/efe-2025-34-129-152](https://revistes.ub.edu/index.php/experimentalphonetics/article/view/48196)
 
 Correa, A. y Rodríguez, L. C. (2024). Las vocales caedizas del español bogotano. _Lexis_, 48(1) [https://doi.org/10.18800/lexis.202401.011](https://doi.org/10.18800/lexis.202401.011)
 
