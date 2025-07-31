@@ -6,7 +6,7 @@ Soy un lingüista interesado en la fonética experimental, en la fonética y fon
 
 ## Publicaciones
 
-Correa, A. (en prensa). Hablar es gesticular: dos calas del españolcolombiano. _Revista de Occidente_.
+Correa, A. (en prensa). Hablar es gesticular: dos calas del español colombiano. _Revista de Occidente_.
 
 Correa, A. y Rodríguez, L. C. (en prensa). El español afrocolombiano del Chocó. En: Luana Lamberti y Ana Lívia Agostinho (eds.). _Línguas Afro-Ibéricas: contato e sócio-história / Lenguas Afro-Ibéricas: contacto y sociohistoria_. Language Science Press.
 
