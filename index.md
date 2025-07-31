@@ -6,7 +6,9 @@ Soy un lingüista interesado en la fonética experimental, en la fonética y fon
 
 ## Publicaciones
 
-Correa, A. y Rodríguez, L. C. (2025). El español afrocolombiano del Chocó. En: Luana Lamberti y Ana Lívia Agostinho (eds.). _Línguas Afro-Ibéricas: contato e sócio-história / Lenguas Afro-Ibéricas: contacto y sociohistoria_. Language Science Press.
+Correa, A. (en prensa). Habla es gesticular: dos calas del españolcolombiano. Revista de Occidente.
+
+Correa, A. y Rodríguez, L. C. (en prensa). El español afrocolombiano del Chocó. En: Luana Lamberti y Ana Lívia Agostinho (eds.). _Línguas Afro-Ibéricas: contato e sócio-história / Lenguas Afro-Ibéricas: contacto y sociohistoria_. Language Science Press.
 
 Correa, A. (2025). La reducción fonética de las vocales y sus factores determinantes. _Estudios de Fonética Experimental_, 34. [https://doi.org/10.1344/efe-2025-34-129-152](https://revistes.ub.edu/index.php/experimentalphonetics/article/view/48196)
 
