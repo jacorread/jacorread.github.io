@@ -4,8 +4,6 @@ Soy lingüista de la Universidad Nacional de Colombia, máster en Fonética y Fo
 
 
 
-
-
 ## Publicaciones
 
 Correa, A. (en prensa). Hablar es gesticular: dos calas del español colombiano. _Revista de Occidente_.
