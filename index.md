@@ -1,6 +1,6 @@
 ## Inicio
 
-Soy lingüista de la Universidad Nacional de Colombia, máster en Fonética y Fonología del Consejo Superior de Investigaciones Científicas y doctor en Filología Española de la Universitat Autònoma de Barcelona. Desde el año 2018 coordina la Maestría en Lingüística de la Facultad Seminario Andrés Bello y actualmente es el líder del grupo de Investigación en lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/) (Bogotá, Colombia). Su investigación se centra en el estudio de la fonética y fonología del español colombiano y en el análisis cuantitativo de corpus lingüísticos. Sus intereses también incluyen temas de relevancia para la academia colombiana como la apropiación social del conocimiento, la ciencia abierta y la innovación pedagógica.
+Soy lingüista de la Universidad Nacional de Colombia, máster en Fonética y Fonología del Consejo Superior de Investigaciones Científicas y doctor en Filología Española de la Universitat Autònoma de Barcelona. Desde el año 2018 coordino la Maestría en Lingüística de la Facultad Seminario Andrés Bello y actualmente lidero el grupo de Investigación en lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/) (Bogotá, Colombia). Mi investigación se centra en el estudio de la fonética y fonología del español colombiano y en el análisis cuantitativo de corpus lingüísticos. Mis intereses también incluyen la apropiación social del conocimiento, la ciencia abierta y la innovación pedagógica.
 
 
 
