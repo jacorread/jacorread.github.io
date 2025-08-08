@@ -25,15 +25,10 @@
         
         <p> <a href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001499652"> | CVLAC</a> | <a href="https://scholar.google.com/citations?user=FoJeWqYAAAAJ&hl=en">Google Scholar</a> | </p>
         
-        <p> <img src="/assets/imag/efe.png" alt="Art"></p>
        
        
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
+        {% if site.logo2 %}
+          <img src="{{site.logo2 | relative_url}}" alt="Logo2" />
         {% endif %}
       </header>
       <section>
