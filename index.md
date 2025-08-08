@@ -1,6 +1,8 @@
 ## Inicio
 
-Soy un lingüista interesado en la fonética experimental, en la fonética y fonología del español, la reducción fonética, el habla espontánea y el análisis de corpus orales. Actualmente imparto cursos de fonética y estadística en la Maestría en Lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/).
+Soy lingüista de la Universidad Nacional de Colombia, máster en Fonética y Fonología del Consejo Superior de Investigaciones Científicas y doctor en Filología Española de la Universitat Autònoma de Barcelona. Desde el año 2018 coordina la Maestría en Lingüística de la Facultad Seminario Andrés Bello y actualmente es el líder del grupo de Investigación en lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/) (Bogotá, Colombia). Su investigación se centra en el estudio de la fonética y fonología del español colombiano y en el análisis cuantitativo de corpus lingüísticos. Sus intereses también incluyen temas de relevancia para la academia colombiana como la apropiación social del conocimiento, la ciencia abierta y la innovación pedagógica.
+
+
 
 
 
