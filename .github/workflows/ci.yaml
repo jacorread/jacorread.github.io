@@ -1,18 +1,80 @@
+#on:
+ # push:
+#  pull_request:
+  #  types: [opened, synchronize]
+#jobs:
+#  build:
+ #   runs-on: ubuntu-latest
+  #  name: script/cibuild
+  #  steps:
+  #    - uses: actions/checkout@v2
+  #    - uses: ruby/setup-ruby@v1
+   #     with:
+   #       ruby-version: 2.7
+   #       bundler-cache: true
+  #   - name: build
+#        run: script/bootstrap
+ #    - name: test
+  #     run: script/cibuild
+  
+  # Este flujo de trabajo compila y despliega un sitio de Jekyll en GitHub Pages.
+name: Deploy Jekyll site to Pages
+
+# Se activa en cada 'push' a la rama principal (main) y también se puede
+# ejecutar manualmente desde la pestaña de Actions en GitHub.
 on:
   push:
-  pull_request:
-    types: [opened, synchronize]
+    branches: ["main"]
+
+  # Permite ejecutar este flujo de trabajo manualmente.
+  workflow_dispatch:
+
+# Otorga permisos de lectura y escritura al token del flujo de trabajo.
+# Esto es crucial para que pueda compilar y publicar la página.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Asegura que solo se ejecute un despliegue a la vez, cancelando los anteriores si se activa uno nuevo.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# El trabajo 'build' es el que se encarga de compilar el sitio de Jekyll.
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: script/cibuild
     steps:
-      - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@v1
+      # 1. Descarga tu repositorio.
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      # 2. Configura GitHub Pages para el entorno de despliegue.
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # 3. Compila el sitio de Jekyll usando la acción oficial.
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
         with:
-          ruby-version: 2.7
-          bundler-cache: true
-     - name: build
-        run: script/bootstrap
-     - name: test
-       run: script/cibuild
+          source: ./
+          destination: ./_site
+
+      # 4. Sube el sitio compilado como un "artefacto" para el siguiente trabajo.
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  # El trabajo 'deploy' se encarga de publicar el artefacto subido en GitHub Pages.
+  deploy:
+    # Este trabajo depende de que el trabajo 'build' se complete exitosamente.
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      # 5. Despliega el artefacto en GitHub Pages.
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
