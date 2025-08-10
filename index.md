@@ -1,6 +1,6 @@
 ## Inicio
 
-Estudié lingüista en la Universidad Nacional de Colombia, luego cursé el Máster en Fonética y Fonología del Consejo Superior de Investigaciones Científicas/UIMP, y en 2021 culminé el doctorado en Filología Española de la Universitat Autònoma de Barcelona. Desde 2018 coordino la Maestría en Lingüística de la Facultad Seminario Andrés Bello y actualmente lidero el grupo de Investigación en lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/) (Bogotá, Colombia). Mi investigación se centra en el estudio de la fonética y fonología del español colombiano y en el análisis cuantitativo de corpus lingüísticos. Mis intereses también incluyen la apropiación social del conocimiento, la ciencia abierta y la innovación pedagógica.
+Estudié lingüística en la Universidad Nacional de Colombia, cursé el Máster en Fonética y Fonología del Consejo Superior de Investigaciones Científicas/UIMP (Madrid, España), y un doctorado en Filología Española de la Universitat Autònoma de Barcelona. Actualmente coordino la Maestría en Lingüística de la Facultad Seminario Andrés Bello y lidero el grupo de Investigación en lingüística del [Instituto Caro y Cuervo](https://www.caroycuervo.gov.co/) (Bogotá, Colombia). Mi investigación se centra en el estudio de la fonética y fonología del español y en el análisis cuantitativo de corpus lingüísticos. Mis intereses también incluyen la apropiación social del conocimiento, la ciencia abierta y la innovación pedagógica.
 
 
 
