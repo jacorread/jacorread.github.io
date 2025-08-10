@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -36,13 +34,22 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
+              <!-- INICIO DE LA NUEVA SECCIÓN PARA LA ÚLTIMA PUBLICACIÓN -->
+        <div style="text-align: center; margin-bottom: 20px;">
+          <h3>🚀 ¡Mi última publicación!</h3>
+          <!--
+            Se ha actualizado este enlace y la imagen con la información de tu última publicación.
+          -->
+          <a href="https://revistes.ub.edu/index.php/experimentalphonetics/article/view/48196" target="_blank" rel="noopener noreferrer">
+            <img 
+              src="https://revistes.ub.edu/public/journals/121/cover_issue_3000_en_US.png" 
+              alt="Miniatura de la última publicación" 
+              style="border-radius: 8px; max-width: 100%; height: auto; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
+            />
+          </a>
+        </div>
+        <!-- FIN DE LA NUEVA SECCIÓN -->
+        
       </header>
       <section>
 
@@ -59,4 +66,3 @@
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
-
