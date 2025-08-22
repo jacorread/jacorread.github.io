@@ -1,0 +1,179 @@
+---
+title: "Estadística para lingüistas"
+Subtitle: "Proporciones y visualización de datos"
+author: "Alejandro Correa | Instituto Caro y Cuervo | Maestría en Lingüística"
+institute: "Instituto Caro y Cuervo"
+format: revealjs
+editor: visual
+font-size: "small" # O "xx-small" para un tamaño aún menor
+slide-number: true
+---
+
+## Paquetes y datos
+
+1.  Descargar el archivo 'Rling_workspace.RData' que contiene tablas con datos lingüísticos.
+
+```{r echo= TRUE}
+
+load("/Users/scien/OneDrive/Clases/EstadísticaparaLingüistas/2025/sesión 3/Rling_workspace.RData")
+```
+
+```{r echo= TRUE}
+#install.packages("ggplot2")
+```
+
+```{r}
+library(ggplot2)
+```
+
+## Tabla
+
+```{r echo=TRUE}
+data(sent) #carga los datos
+head(sent) #resume los promeros casos
+```
+
+## Resumen
+
+Para averiguar cuántos casos hay por cada variable con la función `summary()` :
+
+```{r echo = TRUE}
+summary(sent)
+```
+
+```{r echo = TRUE}
+summary(sent$clause) 
+```
+
+## Extraer frecuencias
+
+Resumen de la variable **clause**:
+
+```{r echo = TRUE}
+summary(sent$clause) 
+```
+
+La función `table()` también nos permite extraer frecuencias:
+
+```{r echo = TRUE}
+table(sent$clause)
+```
+
+## Calcular proporciones
+
+Las proporciones varían entre 0 y 1.
+
+1.  Creamos una variable especificando la tabla y la columna de nuestro interés:
+
+```{r echo= T}
+sent.t <- table(sent$clause)
+```
+
+2.  Calculamos las proporciones con `prop.table()`
+
+```{r echo= T}
+prop.table(sent.t)
+```
+
+## Calcular proporciones
+
+Calcular la proporción del nivel **Intrans** de la variable **clause:**
+
+```{r echo=T}
+mean(sent$clause=="Intrans")
+```
+
+Para convertir las proporciones en porcentajes:
+
+```{r echo= T}
+prop.table(sent.t)*100 #Extrae Porcentajes
+```
+
+## Diagrama de pastel
+
+```{r echo=T}
+pie(sent.t)
+```
+
+## Diagrama de pastel con rótulos
+
+Añadimos rótulos:
+
+```{r echo=T}
+sent_labels<-prop.table(sent.t)*100 #Proporciones a porcentaje
+sent_labels<-paste(sent_labels,"%", sep="") #añade %
+sent_labels 
+```
+
+Cambiamos los colores a escala de grises:
+
+```{r echo = T}
+sent_colours<-c("black","grey40","grey80") #escala de grises
+```
+
+## Diagrama de pastel con rótulos y escala de grises
+
+Nuevo diagrama:
+
+```{r echo = T}
+
+pie(sent.t, main="Tipos de claúsula", labels=sent_labels, col=sent_colours)
+legend(0.9,0,legend=levels(sent$clause), fill= sent_colours)
+
+```
+
+## Diagrama de barras
+
+```{r echo= T}
+barplot(sent.t, main="Tipos de claúsula", col="grey50",cex.names=1.2, xlab = "Clausula", ylab="Frecuencia")
+# la función cex.names permite incrementar el tamaño de la fuente
+```
+
+## Diagrama de puntos
+
+```{r echo= T}
+
+dotchart(sent.t, main="Tipos de claúsula", xlab = "Clause type", ylab="Frequency", lcolor="black",pch=16, xlimit=c(0,12))
+#la función xlimit muestra el rango de los datos
+
+```
+
+## Ejercicio
+
+Los datos que usaremos en este ejercicio [Mapa sonoro de las Lenguas Nativas de Colombia](https://www.datos.gov.co/Cultura/Mapa-Sonoro-Lenguas-Nativas-de-Colombia/734h-gxtn) de la Dirección de Poblaciones del Ministerio de Cultura de Colombia que contiene información básica de 62 lenguas de Colombia para 2017.
+
+## Instrucciones
+
+Lo primero que debemos hacer es abrir la tabla. Para abrirla, tenga en cuenta que el archivo tiene la terminación `.csv`
+
+```{r echo = T}
+tabla.poblaciones<-read.csv("/Users/scien/OneDrive/Clases/EstadísticaparaLingüistas/2025/sesión 3/MapaSonoroCol.csv", header= T, encoding="UTF-8")
+```
+
+La columna 2 hay una larga descripción de cada lengua, así que debemos abrir la tabla con todas las columnas menos esta. Resuma los datos con la función correspondiente.
+
+## Preguntas
+
+1.  Defina una variable con el código necesario para buscar el nombre de la lengua de la familia `TUKANO` que tiene 30 hablantes:
+
+    -   Con la función `print` obtenga el grado de vitalidad de esta lengua:
+
+2.  ¿Qué otras lenguas se clasifican en el nivel `En situación critica`? Escriba la línea para buscar la información:
+
+## Preguntas
+
+3.  Ahora, con la función `length()` obtenga el número de lenguas que cumplen las siguientes condiciones.
+
+<div>
+
+-   Lenguas que tienen menos de `5000` hablantes pero superan los `2500` hablantes.
+
+-   Lenguas que no están en peligro
+
+</div>
+
+4.  Con la función `plot` diagrame la vitalidad de la lengua en función del número de hablantes.
+
+## Preguntas
+
+5.  Como se puede ver, hay algunas lenguas con más de 14 000 hablantes. Vamos a diagramar solamente las lenguas con un número mayor o igual a 10 000 hablantes. Escriba una línea de código para extraer la información:
