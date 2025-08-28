@@ -1,0 +1,173 @@
+---
+title: "Estadística para lingüistas"
+subtitle: "Proporciones y visualización de datos"
+author: "Alejandro Correa"
+institute: "Maestría en Lingüística | Instituto Caro y Cuervo"
+logo: https://www.ugc.edu.co/bogota/templates/yootheme/cache/5b/Logo-horizontal-5b1a0f59.webp
+format: html
+editor: visual
+---
+
+## Resultados de aprendizaje esperados
+
+-   Aprender a calcular proporciones
+
+-   Crear gráficos y conocer técnicas de visualización de variables cualitativas
+
+## Datos
+
+1.  Descargue el archivo `Rling_workspace.RData` y guárdelo en una carpeta. Este archivo contiene datos (tablas) lingüísticos.
+2.  Cargue el conjunto de datos con la función `load()`
+
+```{r eval= FALSE, echo = TRUE}
+load("/Users/mycomputer/tablas/Rling_workspace.RData")
+```
+
+```{r eval= TRUE, echo= FALSE}
+
+load("/Users/scien/OneDrive/Clases/EstadísticaparaLingüistas/tablas/Rling_workspace.RData")
+```
+
+> Nota: Tenga en cuenta que la función `load()` no sirve para abrir tablas. En este caso está abriendo un conjunto de datos de un paquete.
+
+El programa R funciona con paquetes de código que agrupan rutinas de programación para hacer tareas específicas como aplicar una prueba estadística, realizar diagramas, entre otras. Por ejemplo, para hacer figuras con colores y rótulos ajustables vamos a usar el paquete `ggplot2` :
+
+```{r echo= TRUE , eval=FALSE}
+install.packages("ggplot2")
+```
+
+Ahora solo debemos cargar el paquete. En la siguiente línea, he decidido usar `#` para bloquear la instalación del paquete `ggplot2`, pues ya está instalado en mi computador y solo quiero cargar la librería:
+
+```{r}
+#install.packages("ggplot2")
+library(ggplot2)
+```
+
+## Tabla
+
+Vamos a abrir la tabla `sent` con la función `data`:
+
+```{r echo=TRUE}
+data(sent) #carga los datos
+```
+
+Con la función `head()` obtenemos un resumen de los datos:
+
+```{r}
+head(sent) #resume los promeros casos
+
+```
+
+## Resumen
+
+Para averiguar cuántos casos hay por cada variable con la función `summary()` :
+
+```{r echo = TRUE}
+summary(sent)
+```
+
+Para averiguar cuántos casos hay para la variable `clause` de la tabla `sent`:
+
+```{r echo = TRUE}
+summary(sent$clause) 
+```
+
+## Extraer frecuencias
+
+Resumen de la variable **clause**:
+
+```{r echo = TRUE}
+summary(sent$clause) 
+```
+
+La función `table()` también nos permite extraer frecuencias:
+
+```{r echo = TRUE}
+table(sent$clause)
+```
+
+## 1. Calcular proporciones
+
+Las proporciones varían entre 0 y 1.
+
+1.  Creamos una variable especificando la tabla y la columna de nuestro interés:
+
+```{r echo= T}
+sent.t <- table(sent$clause)
+```
+
+2.  Calculamos las proporciones con `prop.table()`
+
+```{r echo= T}
+prop.table(sent.t)
+```
+
+### 1.1. Calcular porcentajes
+
+Calcular la proporción del nivel **Intrans** de la variable **clause:**
+
+```{r echo=T}
+mean(sent$clause=="Intrans")
+```
+
+Para convertir las proporciones en porcentajes:
+
+```{r echo= T}
+prop.table(sent.t)*100 #Extrae Porcentajes
+```
+
+## 2. Diagrama de pastel
+
+```{r echo=T}
+pie(sent.t)
+```
+
+### 2.1. Diagrama de pastel con rótulos
+
+Añadimos rótulos:
+
+```{r echo=T}
+sent_labels<-prop.table(sent.t)*100 #Proporciones a porcentaje
+sent_labels<-paste(sent_labels,"%", sep="") #añade %
+sent_labels 
+```
+
+Cambiamos los colores a escala de grises:
+
+```{r echo = T}
+sent_colours<-c("black","grey40","grey80") #escala de grises
+```
+
+### 2.2. Diagrama de pastel con rótulos y escala de grises
+
+Nuevo diagrama:
+
+```{r echo = T}
+
+pie(sent.t, main="Tipos de claúsula", labels=sent_labels, col=sent_colours)
+legend(0.9,0,legend=levels(sent$clause), fill= sent_colours)
+
+```
+
+### 2.3. Diagrama de barras
+
+```{r echo= T}
+barplot(sent.t, main="Tipos de claúsula", col="grey50",cex.names=1.2, xlab = "Clausula", ylab="Frecuencia")
+# la función cex.names permite incrementar el tamaño de la fuente
+```
+
+### 2.4. Diagrama de puntos
+
+```{r echo= T, warning= FALSE}
+
+dotchart(sent.t, main="Tipos de claúsula", xlab = "Clause type", ylab="Frequency", lcolor="black",pch=16, xlimit=c(0,12))
+
+```
+
+## Bibliografía 📚
+
+1.  Gries, Stefan. 2013. *Statistic for linguistics with R. A practical introduction*. Berlin: Mouton de Gruyter.
+
+2.  Levshina, Natalia. 2015. *How to Do Linguistics with R: Data exploration and statistical analysis*. Amsterdam: John Benjamins. Capítulo 2, pp. 21-40.
+
+3.  Smith, Bridget J., Beckman, Mary E., and Foltz, Anouschka (2016). *Analyzing the sounds of languages*. Ohio State University. Tabla 1, y capítulo 0. Recuperado de: \[<http://hdl.handle.net/1811/77848%5D>
