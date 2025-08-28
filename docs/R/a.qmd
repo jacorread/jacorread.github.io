@@ -1,0 +1,261 @@
+---
+title: "**Estadística para Lingüistas**"
+subtitle: "Introducción a R"
+author: "Alejandro Correa"
+institute: "Maestría en Lingüística | Instituto Caro y Cuervo"
+logo: https://www.ugc.edu.co/bogota/templates/yootheme/cache/5b/Logo-horizontal-5b1a0f59.webp
+format: html
+editor: visual
+---
+
+## Resultados de aprendizaje esperados
+
+-   Aprender los elementos básicos de la *sintaxis* de R
+
+-   Aprender a usar *vectores* y tablas en R
+
+-   Aprender a abrir *tablas* y guardarlas en R
+
+-   Aprender a buscar información en R usando *operadores lógicos*
+
+## Características de R
+
+-   Es un *entorno de programación* (elaborar análisis, desarrollar aplicaciones y programas).
+
+-   Permite la aplicación de técnicas de análisis estadístico.
+
+-   Figuras para representar datos con alta calidad y una amplia gama de colores.
+
+-   Tiene una distribución gratuita.
+
+-   Tiene una amplia comunidad de usuarios que actualiza el programa, comparte código, publica libros, etcétera.
+
+Hay un extensa bibliografía sobre R y la investigación lingüística.
+
+## 1. Operaciones básicas
+
+### 1.1. R como una calculadora
+
+```{r}
+2 + 2 #suma
+```
+
+```{r}
+218 - 7 #resta
+```
+
+```{r, echo = TRUE}
+10*2 # multiplicación
+```
+
+```{r, echo = TRUE}
+10/2 # división
+```
+
+### 1. 2. Operaciones aritméticas
+
+```{r, echo = TRUE}
+4^2 # calcula 4 a la potencia de 2
+```
+
+```{r, echo= TRUE}
+16 ^(1/2) #calcula la raíz cuadrada de 16
+```
+
+```{r}
+(459 + 51) / 3 # Suma 51 a 459 y divide el resultado por 3.
+459 + (51 / 3) # Suma 459 al resultado de dividir 51 por 3.
+```
+
+### 1.3. Asignación de variables
+
+Para definir los valores de una variable podemos usar el operador `<-` o el signo igual `=` Yo prefiero el operador `<-` para distinguir rápidamente el nombre de mis variables.
+
+```{r}
+a <- (459+51)/3
+```
+
+```{r}
+b = 459+ (51)/3
+```
+
+```{r}
+a ; b
+```
+
+```{r}
+a + b
+```
+
+## 2. Vectores
+
+Los vectores son conjuntos de datos de una variable. Pueden estar constituidos por caracteres (para variables nominales) o cuantitativas (para variables continuas).
+
+Vectores numéricos :
+
+```{r}
+números <- c(1, 2, 3); números
+```
+
+Vectores de caracteres:
+
+```{r}
+tres.nombres <- c("Camilo", "Andrés", "Pedro")
+tres.nombres
+```
+
+Cuando trabajemos con vectores estamos trabajando con *operaciones* que podemos aplicar al análisis de nuestros datos, que generalmente tenemos organizados en con los casos organizados en filas y las variables en columnas .
+
+Si necesitamos **combinar** dos vectores:
+
+```{r}
+números1 <- c(1, 2, 3); números2 <- c(4, 5, 6)
+números.y.números2 <- c(números1,números2) # concatena dos vectores
+números.y.números2
+```
+
+Lo mismo puede realizarse con la función `append`:
+
+```{r}
+números.y.números2 <- append(números1,números2) # concatena dos vectores
+números.y.números2
+```
+
+### 2.1 Extraer elementos 
+
+Tenemos el vector `x`, que está constituído por cinco letras:
+
+```{r}
+x <- c("a", "b", "c", "d", "e") 
+print(x)
+```
+
+Para extraer el tercer elemento del vector `x` :
+
+```{r}
+x[3]
+```
+
+Otra manera de obtener esta información es asociar el tercer elemento a una variable `y` :
+
+```{r}
+y <- 3
+```
+
+Así que el tercer elemento del vector `x` es:
+
+```{r}
+x[y] 
+```
+
+Para crear un vector que **inicie** en 10 y **termine** en 1:
+
+```{r}
+x <- c(10:1) 
+print(x)
+```
+
+Para **buscar** los elementos del vector `x` que equivalen a `4`:
+
+```{r}
+x==4
+```
+
+Para **buscar** los elementos del vector `x` menores o igual a `7`:
+
+```{r}
+x<= 7 
+```
+
+Para **buscar** los elementos del vector `x` que no son iguales a `8`:
+
+```{r}
+x!=8 # which elements of x are not 8
+```
+
+Para **buscar** los elementos del vector `x` que son mayores a `8` y menores a `3`:
+
+```{r}
+(x>8 | x<3) # which elements of x are >8 or <3
+```
+
+Para **buscar** los elementos que equivalen a 4:
+
+```{r}
+sum(x==4) # how many elements in x are 4
+```
+
+Para **buscar** el número de elementos del vector `x` mayores a 8 o menores a 3:
+
+```{r}
+sum(x>8 | x<3) 
+```
+
+Para **buscar** cuántos elementos del vector `x`son mayores a 8 o menores a 3:
+
+```{r}
+table(x>8 | x<3) 
+```
+
+Para **buscar** en qué posición del vector `x` se encuentran los elementos igual a 4:
+
+```{r}
+which(x==4)
+```
+
+Para **buscar** en qué posición del vector `x` se encuentran los elementos que igual o menores a 7:
+
+```{r}
+x;
+which(x<=7)
+```
+
+Para **buscar** en qué posición del vector `x` se encuentran los elementos diferentes a 8:
+
+```{r}
+x;
+which(x!=8)
+```
+
+## 3. Funciones y argumentos
+
+El programa R funciona con funciones, que son comandos que sirven para realizar tareas (operaciones, mediciones, pruebas estadísticas, etcétera) específicas. Imaginemos que tomamos los números del al 15. Para eso creamos un vector con 15 elementos:
+
+```{r}
+some.data <- c(1:15) # or some.data 
+```
+
+Supongamos que queremos hacer un sorteo entre 15 compañeros: 5 de ellos trabajarán el fin de semana. Así que con la función `sample` seleccionamos 5 miembros del grupo de manera aleatoria:
+
+```{r}
+sample(x=some.data, size=5, replace=TRUE, prob=NULL)
+```
+
+Estos también podemos hacerlos con los nombres:
+
+```{r}
+finde <- c("Alicia", "Carolina","Natalia","Andrea","Abril","José","Daniel","Abraham","Samuel","Gloria","Eliana","Alejandro","Javier","Miguel","Mariana") 
+```
+
+Trabajarán el `finde` :
+
+```{r}
+sample(x=finde, size=5, replace=FALSE, prob=NULL)
+```
+
+Como vemos en la línea anterior, las funciones tienen argumentos. En los ejemplos anteriores los argumentos son:
+
+-   `x`: una estructura de datos (un vector) con los elementos que se desean muestrear
+-   `size`: el tamaño de la muestra
+-   `replace`: si se asigna el argumento `replace = FALSE` cada elemento del vector se puede muestrear una vez (opción por defecto), pero si el argumento es `replace = TRUE`, los elementos se pueden muestrear varias veces. Esta última opción no sirve para un sorteo.
+-   `prob`: la probabilidad de aparición de los elementos del vector. El valor por defecto es `NULL`, lo cual significa que todos los elementos tienen la misma probabilidad.
+
+(Gries, 2013, p.62)
+
+## Bibliografía 📚
+
+1.  Gries, Stefan. 2013. *Statistic for linguistics with R. A practical introduction*. Berlin: Mouton de Gruyter.
+
+2.  Levshina, Natalia. 2015. *How to Do Linguistics with R: Data exploration and statistical analysis*. Amsterdam: John Benjamins. Capítulo 2, pp. 21-40.
+
+3.  Smith, Bridget J., Beckman, Mary E., and Foltz, Anouschka (2016). *Analyzing the sounds of languages*. Ohio State University. Tabla 1, y capítulo 0. Recuperado de: \[<http://hdl.handle.net/1811/77848%5D>
