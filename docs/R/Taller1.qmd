@@ -43,7 +43,7 @@ library(qcc)
 pareto.chart(table(tabla1$FILLER), main="Frecuencias de aparición de las disfluencias")
 ```
 
-**Pregunta**: Teniendo en cuenta los conceptos de **frecuencia absoluta**, **frecuencia relativa** y **frecuencia acumulada,** describa los datos correspondientes a las disfluencias *uh*, *uhm* y *silence*. En la figura usted cuenta con las apariciones, los porcentajes y la línea indica el valor de las frecuencias absolutas.
+**Pregunta**: Teniendo en cuenta los conceptos de **frecuencia absoluta**, **frecuencia relativa** y **frecuencia acumulada,** describa los datos correspondientes a las disfluencias *uh*, *uhm* y *silence*. En la figura usted cuenta con las apariciones, los porcentajes y la línea indica el valor de las frecuencias acumuladas.
 
 **2.1. Medidas de tendencia central**
 
