@@ -1,0 +1,106 @@
+---
+title: "Taller 1"
+format: html
+editor: visual
+---
+
+## 1. Preregistro (2.0)
+
+En este punto realizaremos un preregistro de nuestro proyecto de grado. El objetivo de este documento es definir qué datos trataremos cuantitativamente, definir las hipótesis y el procedimiento de análisis. Redacte de manera clara los siguientes aspectos de su investigación:
+
+**Descripción**: describa el problema y el propósito de la investigación de manera clara y concisa.
+
+**Hipótesis**: formule la hipótesis principal teniendo en cuenta la revisión de los antecedentes que realizó para redactar su anteproyecto de grado. Si su trabajo tiene una orientación descriptiva o exploratoria, lo más conveniente es formular la hipótesis como una *hipótesis no direccional*. Ahora, hay temas de investigación con un número amplio de antecedentes: en este caso es más fácil elegir una *hipótesis direccional* y replicarla con nuevos datos.
+
+**Análisis**: aclarar si se trata de un estudio experimental o exploratorio (de corpus). Justifique su respuesta con base en la bibliografía discutida en las primeras tres sesiones de clase.
+
+**Variables:** en este apartado explique qué variables dependientes y qué variables independientes analizará en su trabajo. Explique si son variables nominales, ordinales o de razón.
+
+## 2. Análisis de información estadística (2.0)
+
+Los datos que observará a continuación hacen parte de una investigación sobre disfluencias. La tabla nos dice si los hablantes usaron *uh*, *uhm* o *silencios* (FILLER). También dice si los hablantes son hombres o mujeres (SEX), si los datos provienen de un diálogo o un monólogo (GENRE) y cuántos milisegundos dura cada disfluencia (LENGHT). A continuación podemos ver el resumen de las variables:
+
+```{r echo= FALSE}
+
+tabla1<-read.table("/Users/scien/OneDrive/Clases/EstadísticaparaLingüistas/tablas/uh.txt", header= T)
+```
+
+```{r}
+str(tabla1)
+```
+
+```{r echo = FALSE}
+table(tabla1$FILLER)
+
+```
+
+```{r echo=FALSE, warning=FALSE, message = FALSE}
+library(qcc)
+
+```
+
+```{r echo=FALSE}
+pareto.chart(table(tabla1$FILLER), main="Frecuencias de aparición de las disfluencias")
+```
+
+**Pregunta**: Teniendo en cuenta los conceptos de **frecuencia absoluta**, **frecuencia relativa** y **frecuencia acumulada,** describa los datos correspondientes a las disfluencias *uh*, *uhm* y *silence*. En la figura usted cuenta con las apariciones, los porcentajes y la línea indica el valor de las frecuencias absolutas.
+
+**2.1. Medidas de tendencia central**
+
+**Pregunta:** teniendo en cuenta el diagrama de cajas y las medidas de tendencia central para la variable `LENGTH` (duración de las disfluencias), escriba un párrafo respondiendo si las disfluencias varían en función del estilo de habla (diálogo *vs.* monólogo). Asegúrese de usar la terminología estudiada en el libro de texto del curso.
+
+```{r echo=FALSE}
+library(ggplot2)
+```
+
+```{r echo=FALSE}
+gr2<-ggplot(tabla1, aes(x = FILLER, y = LENGTH, fill=GENRE)) + 
+  geom_boxplot()
+gr2
+```
+
+```{r echo= FALSE}
+tapply(tabla1$LENGTH, tabla1$FILLER, function(x) {
+  c(
+    media = mean(x, na.rm = TRUE),
+    mediana = median(x, na.rm = TRUE),
+    desviacion = sd(x, na.rm = TRUE),
+     RangoIntercuartil = IQR(x, na.rm = TRUE)
+  )
+})
+```
+
+## 3. Proporciones (1.0)
+
+Los datos que usaremos en este ejercicio [Mapa sonoro de las Lenguas Nativas de Colombia](https://www.datos.gov.co/Cultura/Mapa-Sonoro-Lenguas-Nativas-de-Colombia/734h-gxtn) de la Dirección de Poblaciones del Ministerio de Cultura de Colombia que contiene información básica de 62 lenguas de Colombia para 2017.
+
+```{r echo= FALSE}
+lenguasCol <- read.csv("/Users/scien/OneDrive/Clases/EstadísticaparaLingüistas/tablas/MapaSonoroCol.csv", header= T, encoding="UTF-8")
+```
+
+a\. Con la función `table` obtenga el número de lenguas que están en los diferentes grados de vitalidad. Aquí debe resultar una fila con los diferentes niveles de esta variable, y debajo otra fila con las frecuencias absolutas.
+
+```{r, echo = FALSE, eval=FALSE}
+lenguas.vitalidad <- table(lenguasCol$Vitalidad)
+lenguas.vitalidad
+```
+
+b\. Transforme estos datos a proporciones y luego a porcentajes.
+
+```{r echo= FALSE, eval=FALSE}
+prop.table(lenguas.vitalidad)*100
+```
+
+c\. Haga un diagrama de pastel (con porcentajes) y describa la figura usando la terminología estudiada en el libro de texto.
+
+```{r echo=FALSE, eval=FALSE}
+sent_labels2 <- round(prop.table(lenguas.vitalidad)*100, 2)
+sent_labels2 <- paste(sent_labels2, "%", sep=" ")
+sent_labels2
+sent_colours2 <- c("black", "grey20", "grey80", "grey70")
+```
+
+```{r echo=FALSE, eval=FALSE}
+pie(lenguas.vitalidad, main="Vitalidad de las lenguas colombianas", labels= sent_labels2, col= sent_colours2)
+legend("topright", legend= levels(lenguasCol$Vitalidad), fill= sent_colours2, cex = 0.75)
+```
