@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Alejandro Correa">
+
+<title>Estadística para lingüistas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="t.test_files/libs/clipboard/clipboard.min.js"></script>
+<script src="t.test_files/libs/quarto-html/quarto.js"></script>
+<script src="t.test_files/libs/quarto-html/popper.min.js"></script>
+<script src="t.test_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="t.test_files/libs/quarto-html/anchor.min.js"></script>
+<link href="t.test_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="t.test_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="t.test_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="t.test_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="t.test_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Estadística para lingüistas</h1>
+<p class="subtitle lead">Pruebas paramétricas y no paramétricas</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    Alejandro Correa 
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Maestría en Lingüística | Instituto Caro y Cuervo
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="comparación-de-dos-grupos" class="level2">
+<h2 class="anchored" data-anchor-id="comparación-de-dos-grupos">1. Comparación de dos grupos</h2>
+<ul>
+<li><p>Comparar medidas de tendencia central de dos grupos</p></li>
+<li><p>Confirmar o falsear hipótesis basadas en dos variables</p></li>
+<li><p>Para realizar una comparación es necesario usar una prueba o <em>test</em></p>
+<ul>
+<li>Pruebas dependientes (datos emparejados)</li>
+<li>Pruebas independientes (datos no emparejados)</li>
+<li>Las pruebas pueden ser de una cola o de dos colas</li>
+</ul></li>
+</ul>
+<section id="condiciones-para-aplicar-una-prueba-t-independiente" class="level3">
+<h3 class="anchored" data-anchor-id="condiciones-para-aplicar-una-prueba-t-independiente">1.1 Condiciones para aplicar una <em>prueba t</em> independiente:</h3>
+<ol type="1">
+<li>Las muestras deben haber sido seleccionadas de manera aleatoria de la población que representan.</li>
+<li>Las observaciones deben ser independientes a nivel inter e intragrupal.</li>
+<li>Las variables son de intervalo o razón (cuantitativas).</li>
+<li>La distribución de los datos debe ser normal o superar las 30 observaciones.</li>
+<li>Las varianzas deben ser homogéneas.</li>
+</ol>
+</section>
+<section id="condiciones-para-aplicar-una-prueba-t-dependiente" class="level3">
+<h3 class="anchored" data-anchor-id="condiciones-para-aplicar-una-prueba-t-dependiente">1.2 Condiciones para aplicar una prueba t dependiente</h3>
+<ol type="1">
+<li>Las muestras deben haber sido seleccionadas de manera aleatoria de la población que representan.</li>
+<li>Las observaciones deben ser independientes a nivel inter e intragrupal.</li>
+<li>Las variables son de intervalo o razón (cuantitativas).</li>
+<li>Las diferencias entre observaciones (apareadas) deben tener una distribución normal o superar las 30 observaciones.</li>
+<li>Las varianzas deben ser homogéneas.</li>
+</ol>
+</section>
+</section>
+<section id="condiciones-para-aplicar-una-prueba-no-paramétrica-wilcoxon-o-matt-whitney" class="level2">
+<h2 class="anchored" data-anchor-id="condiciones-para-aplicar-una-prueba-no-paramétrica-wilcoxon-o-matt-whitney">1.3 Condiciones para aplicar una prueba no paramétrica (Wilcoxon o Matt-Whitney)</h2>
+<ol type="1">
+<li>Las muestras deben haber sido seleccionadas de manera aleatoria de la población que representan.</li>
+<li>Las observaciones deben ser independientes a nivel inter e intragrupal.</li>
+<li>Las variables son al menos de tipo <em>ordinal</em>.</li>
+<li>Las varianzas deben ser homogéneas.</li>
+</ol>
+</section>
+<section id="prueba-t" class="level1">
+<h1>2. Prueba t</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">"/Users/scien/OneDrive/Clases/EstadísticaparaLingüistas/tablas/Rling_workspace.RData"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">2.1 Variables</h2>
+<ol type="1">
+<li><code>syl</code>: número de sílabas</li>
+<li><code>let</code>: número de letras</li>
+<li><code>imag</code>: grado de abstracción (1 a 7)</li>
+<li><code>conc</code>: grado de concreción (1 a 7)</li>
+<li><code>associ</code>: número de asociaciones</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(pym_high)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in data(pym_high): data set 'pym_high' not found</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(pym_low)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in data(pym_low): data set 'pym_low' not found</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(pym_high)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      syl            let             imag            conc           assoc     
+ Min.   :1.00   Min.   : 4.00   Min.   :2.770   Min.   :1.830   Min.   :4.88  
+ 1st Qu.:1.00   1st Qu.: 5.00   1st Qu.:4.100   1st Qu.:3.203   1st Qu.:5.69  
+ Median :2.00   Median : 6.00   Median :5.050   Median :5.850   Median :6.24  
+ Mean   :1.78   Mean   : 5.82   Mean   :5.171   Mean   :5.074   Mean   :6.38  
+ 3rd Qu.:2.00   3rd Qu.: 7.00   3rd Qu.:6.353   3rd Qu.:6.590   3rd Qu.:7.16  
+ Max.   :5.00   Max.   :10.00   Max.   :6.870   Max.   :7.000   Max.   :9.12  </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(pym_high); <span class="fu">str</span>(pym_low)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>'data.frame':   50 obs. of  5 variables:
+ $ syl  : int  1 1 1 1 1 1 2 1 5 2 ...
+ $ let  : int  4 4 4 6 4 4 7 4 10 8 ...
+ $ imag : num  4.13 4.07 6.5 6.63 3.03 6.6 6.2 6.87 6.53 4.1 ...
+ $ conc : num  2.47 2.96 6.25 6.59 2.6 7 6.38 6.83 5.87 3.63 ...
+ $ assoc: num  7 6.78 6.88 7.52 5.88 7.96 7.28 5.12 7.2 5.8 ...</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>'data.frame':   51 obs. of  5 variables:
+ $ syl  : int  1 1 4 2 4 1 3 2 3 5 ...
+ $ let  : int  3 3 10 6 9 6 6 6 9 12 ...
+ $ imag : num  6.57 5.97 2.4 6.43 3.57 6.53 6.5 3.43 6.37 3.2 ...
+ $ conc : num  6.93 6.62 2.25 6.69 2.92 6.59 7 2.99 6.59 2.49 ...
+ $ assoc: num  5.32 6.04 5.36 8 5.92 6.88 7.13 5.33 5.92 5.2 ...</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(pym_low)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      syl             let              imag            conc      
+ Min.   :1.000   Min.   : 3.000   Min.   :1.830   Min.   :1.730  
+ 1st Qu.:2.000   1st Qu.: 6.000   1st Qu.:3.600   1st Qu.:2.740  
+ Median :2.000   Median : 7.000   Median :5.230   Median :4.850  
+ Mean   :2.529   Mean   : 7.098   Mean   :4.885   Mean   :4.728  
+ 3rd Qu.:3.000   3rd Qu.: 9.000   3rd Qu.:6.165   3rd Qu.:6.620  
+ Max.   :5.000   Max.   :14.000   Max.   :6.570   Max.   :7.000  
+     assoc      
+ Min.   :3.000  
+ 1st Qu.:5.345  
+ Median :5.920  
+ Mean   :5.857  
+ 3rd Qu.:6.460  
+ Max.   :8.000  </code></pre>
+</div>
+</div>
+</section>
+<section id="hipótesis" class="level2">
+<h2 class="anchored" data-anchor-id="hipótesis">2.2 Hipótesis</h2>
+<blockquote class="blockquote">
+<h2 id="las-palabras-con-alta-frecuencia-de-ocurrencia-presentan-un-número-mayor-de-asociaciones-que-las-palabras-con-baja-frecuencia-de-ocurrencia." class="anchored">Las palabras con alta frecuencia de ocurrencia presentan un número mayor de asociaciones que las palabras con baja frecuencia de ocurrencia.</h2>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">boxplot</span>(pym_high<span class="sc">$</span>assoc, pym_low<span class="sc">$</span>assoc, <span class="at">names =</span> <span class="fu">c</span>(<span class="st">"Alta frecuencia"</span>, <span class="st">"Baja frecuencia"</span>), <span class="at">main =</span> <span class="st">"Número de asociaciones por tipo de palabra"</span>, <span class="at">xlab =</span> <span class="st">"Grupo"</span>, <span class="at">ylab =</span> <span class="st">"Promedio del número de asociaciones"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="t.test_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">boxplot.stats</span>(pym_low<span class="sc">$</span>assoc)<span class="sc">$</span>out</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>pym_low[pym_low<span class="sc">$</span>assoc <span class="sc">==</span> <span class="dv">3</span>, ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>          syl let imag conc assoc
+criterion   4   9 1.83 1.93     3</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="tipo-de-test" class="level1">
+<h1>2.3 Tipo de test</h1>
+<ol type="1">
+<li>¿Dependiente o independiente?</li>
+<li>¿Una cola o dos colas?</li>
+<li>¿Cumple con todas las condiciones?</li>
+</ol>
+<p>Hipótesis nula: No hay diferencias entre grupos</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(pym_high<span class="sc">$</span>assoc, pym_low<span class="sc">$</span>assoc, <span class="at">alternative =</span> <span class="st">"greater"</span>) <span class="co"># doble cola alternative="two.sided"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Welch Two Sample t-test
+
+data:  pym_high$assoc and pym_low$assoc
+t = 2.6717, df = 98.281, p-value = 0.004417
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.1977777       Inf
+sample estimates:
+mean of x mean of y 
+ 6.380000  5.857451 </code></pre>
+</div>
+</div>
+<p>El valor de <code>p-value = 0.004417</code>indica que las diferencias son significativas. Para una hipótesis alternativa negativa:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(pym_low<span class="sc">$</span>assoc, pym_high<span class="sc">$</span>assoc, <span class="at">alternative =</span> <span class="st">"less"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Welch Two Sample t-test
+
+data:  pym_low$assoc and pym_high$assoc
+t = -2.6717, df = 98.281, p-value = 0.004417
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1977777
+sample estimates:
+mean of x mean of y 
+ 5.857451  6.380000 </code></pre>
+</div>
+</div>
+<p>El valor de <code>p-value = 0.004417</code>indica que las diferencias son significativas.</p>
+<section id="intervalo-de-confianza" class="level2">
+<h2 class="anchored" data-anchor-id="intervalo-de-confianza">2.4 Intervalo de confianza</h2>
+<blockquote class="blockquote">
+<p>Significa que el intervalo tiene un 95% de probabilidad de incluir la <em>media</em> de la población</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Identifica un rango de valores con el 95 % de probabilidad de incluir un valor verdadero (la media) de la población (Gries,2013, p.134)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(CI = \bar{x} \pm t * ES\)</span></p>
+</blockquote>
+<section id="paso-1-calcular-el-error-estándard" class="level3">
+<h3 class="anchored" data-anchor-id="paso-1-calcular-el-error-estándard">Paso 1: calcular el error estándard</h3>
+<p><span class="math inline">\(SE_{\bar{x}}= \frac{s}{\sqrt[]{n}}\)</span></p>
+<p>Para calcular el error estándar necesitamos conocer el valor de la desviación típica:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(pym_high<span class="sc">$</span>assoc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.9299967</code></pre>
+</div>
+</div>
+<p>También necesitamos saber el número de casos u observaciones de la variable que estamos analizando:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">length</span>(pym_high<span class="sc">$</span>assoc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 50</code></pre>
+</div>
+</div>
+<p><span class="math inline">\(SE_{\bar{x}}= \frac{0.92}{\sqrt[]{50}}\)</span></p>
+<p><span class="math inline">\(SE_{\bar{x}}=1.314286\)</span></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>se.high <span class="ot">&lt;-</span> <span class="fu">sd</span>(pym_high<span class="sc">$</span>assoc)<span class="sc">/</span><span class="fu">sqrt</span>(<span class="fu">length</span>(pym_high<span class="sc">$</span>assoc))</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>se.high</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1315214</code></pre>
+</div>
+</div>
+</section>
+<section id="paso-2-calcular-el-intervalo-de-confianza-95" class="level3">
+<h3 class="anchored" data-anchor-id="paso-2-calcular-el-intervalo-de-confianza-95">Paso 2: calcular el intervalo de confianza 95%</h3>
+<p><span class="math inline">\(CI= \bar{x} \pm 1.96 * SE\)</span></p>
+<blockquote class="blockquote">
+<p>La constante de 1.96 corresponde a un umbral de significancia del 0.05% para una distribución normal con una media de 0 y una DE de 1.</p>
+</blockquote>
+<p>Se calcula el <strong>límite inferior</strong> del Intervalo de confianza para las palabras con <strong>alta frecuencia</strong>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>límiteInf.high <span class="ot">&lt;-</span> <span class="fu">mean</span>(pym_high<span class="sc">$</span>assoc) <span class="sc">-</span> <span class="fl">1.96</span><span class="sc">*</span>se.high</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>límiteInf.high</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6.122218</code></pre>
+</div>
+</div>
+<p>Se calcula el <strong>límite superior</strong> del Intervalo de Confianza para las palabras con <strong>alta frecuencia</strong>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>límiteSup.high <span class="ot">&lt;-</span> <span class="fu">mean</span>(pym_high<span class="sc">$</span>assoc) <span class="sc">+</span> <span class="fl">1.96</span><span class="sc">*</span>se.high</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>límiteSup.high</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6.637782</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="se-repite-el-procedimiento-con-las-palabras-de-baja-frecuencia" class="level2">
+<h2 class="anchored" data-anchor-id="se-repite-el-procedimiento-con-las-palabras-de-baja-frecuencia"><strong>Se repite el procedimiento con las palabras de baja frecuencia</strong></h2>
+<section id="error-típico-o-estándard" class="level3">
+<h3 class="anchored" data-anchor-id="error-típico-o-estándard">Error típico o estándard</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>se.low <span class="ot">&lt;-</span> <span class="fu">sd</span>(pym_low<span class="sc">$</span>assoc)<span class="sc">/</span><span class="fu">sqrt</span>(<span class="fu">length</span>(pym_low<span class="sc">$</span>assoc))</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>se.low</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1447616</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="intervalos-de-confianza" class="level2">
+<h2 class="anchored" data-anchor-id="intervalos-de-confianza">Intervalos de confianza</h2>
+<p>Se calcula el <strong>límite inferior</strong> del Intervalo de Confianza para las <strong>palabras con baja frecuencia</strong>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>límiteInf.low <span class="ot">&lt;-</span> <span class="fu">mean</span>(pym_low<span class="sc">$</span>assoc) <span class="sc">-</span> <span class="fl">1.96</span><span class="sc">*</span>se.low</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>límiteInf.low</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 5.573718</code></pre>
+</div>
+</div>
+<p>Se calcula el <strong>límite superior</strong> del Intervalo de Confianza para las <strong>palabras con baja frecuencia</strong>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>límiteSup.low <span class="ot">&lt;-</span> <span class="fu">mean</span>(pym_low<span class="sc">$</span>assoc) <span class="sc">+</span> <span class="fl">1.96</span><span class="sc">*</span>se.low</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>límiteSup.low</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6.141184</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="diagrama-con-intervalos-de-confianza" class="level1">
+<h1>Diagrama con intervalos de confianza</h1>
+<p>Agrupamos los valores medios, los cuales vamos a representar en diagramas de barra.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>medias <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">mean</span>(pym_high<span class="sc">$</span>assoc), <span class="fu">mean</span>(pym_low<span class="sc">$</span>assoc))</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>medias</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6.380000 5.857451</code></pre>
+</div>
+</div>
+<p>Agrupamos los límites inferiores de cada grupo:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>ci.limiteInferior <span class="ot">&lt;-</span> <span class="fu">c</span>(límiteInf.high, límiteInf.low)</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>ci.limiteInferior</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6.122218 5.573718</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>ci.limiteSuperior <span class="ot">&lt;-</span> <span class="fu">c</span>(límiteSup.high, límiteSup.low)</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>ci.limiteSuperior </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6.637782 6.141184</code></pre>
+</div>
+</div>
+<section id="diagramar-media-y-intervalo-de-confianza" class="level3">
+<h3 class="anchored" data-anchor-id="diagramar-media-y-intervalo-de-confianza">Diagramar media y intervalo de confianza</h3>
+<p>Agupamos en una tabla los valores obtenidos en el paso anterior:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>assoc.intervalos <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">grupos =</span> <span class="fu">c</span>(<span class="st">"High"</span>, <span class="st">"Low"</span>), <span class="at">media =</span> medias, <span class="at">se =</span> <span class="fu">c</span>(se.high, se.low))</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>assoc.intervalos</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  grupos    media        se
+1   High 6.380000 0.1315214
+2    Low 5.857451 0.1447616</code></pre>
+</div>
+</div>
+<p>Ahora diagramamos:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(assoc.intervalos, <span class="fu">aes</span>(<span class="at">x=</span>grupos, <span class="at">y=</span>media)) <span class="sc">+</span> <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">"identity"</span>, <span class="at">fill=</span><span class="st">"lightblue"</span>, <span class="at">colour =</span> <span class="st">"black"</span>) <span class="sc">+</span> <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">ymin=</span> media<span class="fl">-1.96</span><span class="sc">*</span>se, <span class="at">ymax=</span>media<span class="fl">+1.96</span><span class="sc">*</span>se), <span class="at">width=</span><span class="fl">0.2</span>) <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title =</span><span class="st">" Intervalos de confianza"</span>, <span class="at">x =</span> <span class="st">"Frecuencia de aparición"</span>, <span class="at">y =</span> <span class="st">"Promedio del número de asociaciones"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="t.test_files/figure-html/unnamed-chunk-24-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="comparando-grupos-con-distribución-no-normal-con-la-prueba-de-wilcoxon" class="level1">
+<h1>3. Comparando grupos con distribución no normal con la prueba de Wilcoxon</h1>
+<section id="variables-e-hipótesis" class="level2">
+<h2 class="anchored" data-anchor-id="variables-e-hipótesis">3.1 Variables e hipótesis</h2>
+<p><strong>Variable</strong>: Grado de concreción de la palabra (<code>concreteness</code>)</p>
+<blockquote class="blockquote">
+<p>## Las palabras frecuencia de ocurrencia alta y baja presentan valores diferentes en cada parámetro.</p>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(pym_high)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in data(pym_high): data set 'pym_high' not found</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(pym_low)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in data(pym_low): data set 'pym_low' not found</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(pym_high<span class="sc">$</span>conc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  1.830   3.203   5.850   5.074   6.590   7.000 </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(pym_low<span class="sc">$</span>conc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  1.730   2.740   4.850   4.728   6.620   7.000 </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(pym_high<span class="sc">$</span>conc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  1.830   3.203   5.850   5.074   6.590   7.000 </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="fu">qqnorm</span>(pym_high<span class="sc">$</span>conc, <span class="at">main =</span> <span class="st">"Q-Q plot del grado de concreción"</span>)</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a><span class="fu">qqline</span>(pym_high<span class="sc">$</span>conc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="t.test_files/figure-html/unnamed-chunk-29-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb59"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">density</span>(pym_high<span class="sc">$</span>conc), <span class="at">main =</span> <span class="st">"Density plot of concreteness scores"</span>, <span class="at">xlab =</span> <span class="st">"Concreteness"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="t.test_files/figure-html/unnamed-chunk-30-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<section id="confirmamos-la-no-normalidad" class="level3">
+<h3 class="anchored" data-anchor-id="confirmamos-la-no-normalidad">Confirmamos la no normalidad</h3>
+<p>Hipotesis nula del test de shapiro: la distribución es normal</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">shapiro.test</span>(pym_high<span class="sc">$</span>conc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  pym_high$conc
+W = 0.8468, p-value = 1.269e-05</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="fu">shapiro.test</span>(pym_low<span class="sc">$</span>conc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  pym_low$conc
+W = 0.85526, p-value = 1.827e-05</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="qué-tipo-de-prueba-usar" class="level2">
+<h2 class="anchored" data-anchor-id="qué-tipo-de-prueba-usar">3.3 ¿Qué tipo de prueba usar?</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wilcox.test</span>(pym_high<span class="sc">$</span>conc, pym_low<span class="sc">$</span>conc, <span class="at">correct =</span> <span class="cn">FALSE</span>, <span class="at">conf.int =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Wilcoxon rank sum test
+
+data:  pym_high$conc and pym_low$conc
+W = 1380, p-value = 0.4757
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -0.2699598  0.7700643
+sample estimates:
+difference in location 
+             0.1599588 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb66"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="co"># correct= FALSE cancela una corrección y conf.int= TRUE indica que se usa el 95% de intervalo de confianza</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="comparando-datos-dependientes-con-distribución-normal" class="level1">
+<h1>4. Comparando datos dependientes con distribución normal</h1>
+<section id="condiciones-de-aplicación-de-la-prueba" class="level2">
+<h2 class="anchored" data-anchor-id="condiciones-de-aplicación-de-la-prueba">4.1 Condiciones de aplicación de la prueba</h2>
+<ol type="1">
+<li>Las muestras deben haber sido seleccionadas de manera aleatoria de la población que representan.</li>
+<li>Las variables son de intervalo o razón (cuantitativas).</li>
+<li>Las diferencias entre observaciones (apareadas) deben tener una distribución normal o superar las 30 observaciones.</li>
+<li>Las varianzas deben ser homogéneas.</li>
+</ol>
+</section>
+<section id="variables-e-hipótesis-1" class="level2">
+<h2 class="anchored" data-anchor-id="variables-e-hipótesis-1">4.2 Variables e hipótesis</h2>
+<p><strong>Variable</strong>: Número de asociaciones (<code>assoc</code>)</p>
+<blockquote class="blockquote">
+<p>Los hablantes nativos presentan mayor número de asociaciones que los hablantes no nativos.</p>
+</blockquote>
+<section id="datos-de-las-palabras-con-alta-frecuencia" class="level3">
+<h3 class="anchored" data-anchor-id="datos-de-las-palabras-con-alta-frecuencia">Datos de las palabras con alta frecuencia</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb67"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(pym_high)<span class="co"># vamos a tomarlos como los datos de los hablantes nativos</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in data(pym_high): data set 'pym_high' not found</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb69"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(pym_high<span class="sc">$</span>assoc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> num [1:50] 7 6.78 6.88 7.52 5.88 7.96 7.28 5.12 7.2 5.8 ...</code></pre>
+</div>
+</div>
+</section>
+<section id="datos-creados-ad-hoc" class="level3">
+<h3 class="anchored" data-anchor-id="datos-creados-ad-hoc">Datos creados <em>ad hoc</em></h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb71"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a>diff <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">50</span>, <span class="sc">-</span><span class="fl">1.35</span>, <span class="fl">1.27</span>)<span class="co">#casos+media+desviación</span></span>
+<span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(diff)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]  0.435574461 -1.242874708 -2.018944967 -0.961520896 -0.898438414
+[6]  0.004005931</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb73"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a>nn <span class="ot">&lt;-</span> pym_high<span class="sc">$</span>assoc <span class="sc">+</span> diff <span class="co">#Creamos los datos sobre los hablantes no nativos</span></span>
+<span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(nn)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 7.435574 5.537125 4.861055 6.558479 4.981562 7.964006</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb75"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a>nn <span class="ot">&lt;-</span> <span class="fu">round</span>(nn, <span class="dv">2</span>) <span class="co"># redondeamos los datos a dos decimales</span></span>
+<span id="cb75-2"><a href="#cb75-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(nn)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 7.44 5.54 4.86 6.56 4.98 7.96</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="se-confirma-la-normalidad" class="level2">
+<h2 class="anchored" data-anchor-id="se-confirma-la-normalidad">Se confirma la normalidad</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb77"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a><span class="fu">shapiro.test</span>(diff)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  diff
+W = 0.98751, p-value = 0.8719</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="prueba-dependiente" class="level1">
+<h1>Prueba dependiente</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb79"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(pym_high<span class="sc">$</span>assoc, nn, <span class="at">alternative =</span> <span class="st">"greater"</span>, <span class="at">paired =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Paired t-test
+
+data:  pym_high$assoc and nn
+t = 6.5211, df = 49, p-value = 1.831e-08
+alternative hypothesis: true mean difference is greater than 0
+95 percent confidence interval:
+ 0.9642915       Inf
+sample estimates:
+mean difference 
+          1.298 </code></pre>
+</div>
+</div>
+</section>
+<section id="referencias" class="level1">
+<h1>Referencias</h1>
+<ol type="1">
+<li><p>Levshina, Natalia. 2015. <em>How to Do Linguistics with R: Data exploration and statistical analysis</em>. Amsterdam: John Benjamins. Capítulo 5, pp.&nbsp;87-113.</p></li>
+<li><p><a href="https://benjamins.com/sites/z.195/list/toc-exx" class="uri">https://benjamins.com/sites/z.195/list/toc-exx</a></p></li>
+</ol>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
