@@ -1,0 +1,306 @@
+---
+title: "Regresión_guion"
+author: "Alejandro Correa"
+format: html
+editor: visual
+---
+
+```{r}
+library(languageR)
+data("durationsGe")
+data("durationsOnt")
+```
+
+## Condiciones de las tablas de datos
+
+1.  **Datos**: deben estar expresados en cuadros de datos (*Data Frame*)
+2.  Las **filas** son casos (*tokens*) o participantes, mientras que las **columnas** son variables
+3.  Las **variables dependientes** pueden ser numéricas
+4.  Las tablas no deben incluír **celdas vacíos** o las celdas deben estar marcadas como `NA`.
+
+```{r}
+summary(durationsGe)
+```
+
+```{r}
+durationsGeNA<- na.exclude(durationsGe)
+summary(durationsGeNA)
+```
+
+## Modelos de regresión para los afijos
+
+```{r}
+mGe <- lm(DurationOfPrefix ~ Frequency + SpeechRate+ Sex + SpeechRate*Sex, data = durationsGeNA)
+summary(mGe)
+```
+
+## Selección de las variables independientes
+
+**El parámetro es AIC (Akaike Information Criterion)**
+
+En el método *forward direction* se inicia con un modelo nulo (b0). El computador luego busca el predictor que mejor predice el valor de la variable dependiente y lo retiene en el modelo.
+
+```{r}
+m0 <- lm(DurationOfPrefix ~ 1, data = durationsGeNA)
+m.fw <- step(m0, direction = "forward", scope = ~ Frequency + SpeechRate+ Sex + SpeechRate*Sex)
+```
+
+```{r}
+m.fw
+```
+
+Con el método inverso (The backward method) se inicia con todos los predictores y, de acuerdo con el AIC, remueve los predictores que no contribuyen al modelo.
+
+```{r}
+m.bw <- step(mGe, direction = "backward")
+```
+
+```{r}
+m.bw
+```
+
+Con el método bidireccional inicia como el método hacia adelante (forward method), pero cada vez que añade un predictor, remueve los que son redundantes.
+
+```{r}
+m.both <- step(mGe, scope = ~ Frequency + SpeechRate+ Sex + SpeechRate*Sex)
+```
+
+```{r}
+m.both
+```
+
+## Verificación de las condiciones de la regresión lineal
+
+```{r}
+mGe2 <- lm(DurationOfPrefix ~ Frequency + SpeechRate, data = durationsGeNA)
+summary(mGe2)
+```
+
+### A. Valores atípicos y observaciones con influencia o peso
+
+```{r}
+library(car)
+```
+
+El argumento `id.method = "identify"` de la función `influencePlot ()` permite elegir interactivamente los valores atípicos:
+
+1.  En la ordenada **Studentized residuals**\*: muestran la discrepancia entre los valores ajustados y los valores observados: identificar los casos por encima de 2 y por debajo de -2.
+
+2.  **Hat value**: la influencia de un dato sobre los valores ajustados (lénas verticales).
+
+3.  **Cook's distance**: el tamaño de las burbujas indica las consecuencias de remover de una caso sobre los coeficientes y los valores ajustados.
+
+```{r}
+influencePlot(mGe2, id.method = "identify")
+```
+
+```{r}
+durationsGeNA[c(256, 261,271,323),]
+```
+
+### C. Las variable dependiente debe ser numérica
+
+> la duración es numérica
+
+\### D. La relación entre la variable dependiente y la variable indenpendiente es lineal
+
+La función `crPlot()` permite verificar la linealidad
+
+```{r}
+par(mfrow = c(1, 2))
+
+crPlot(mGe2, var = "Frequency")
+
+crPlot(mGe2, var = "SpeechRate")
+
+par(mfrow = c(1, 1))
+```
+
+\### E. Ausencia de heterocedasticidad
+
+```{r}
+plot(mGe2, which = 1)
+```
+
+La función `ncvTest(m)` permite aplicar la prueba *constant variance*, cuya hipótesis nula es que los residuos tienen una varianza constante (*homocedasticidad*).
+
+```{r}
+ncvTest(mGe2)
+```
+
+```{r}
+boxCox(mGe2)
+```
+
+```{r}
+boxCox(mGe2, lambda = seq(0,1, 1/10))
+```
+
+```{r}
+m.trans<- lm(DurationOfPrefix^0.3 ~ Frequency + SpeechRate, data = durationsGeNA)
+ncvTest(m.trans)
+```
+
+**Con la transformación queda solucionado el problema de la heterocedasticidad**
+
+\### F. Debe haber ausencia de multicolinealidad.
+
+La multicolinealidad se presenta cuando hay una fuerte correlación entre dos variables independientes y descarta el efectos de factores subyacentes. la función `vif()` permite detectarla (VIF no debe superar el valor de 10).
+
+```{r}
+car::vif(m.trans)
+```
+
+### G. Los residuos no deben estar autocorrelacionados
+
+```{r}
+durbinWatsonTest(m.trans)
+```
+
+**No hay autocorrelación**
+
+\### H. Los residuos deben tener una distribución normal
+
+```{r}
+shapiro.test(residuals(m.trans))
+```
+
+```{r}
+plot(m.trans, which=2)
+```
+
+# Ont-
+
+## 1. Condiciones de las tablas de datos
+
+1.  **Datos**: deben estar expresados en cuadros de datos (*Data Frame*)
+2.  Las **filas** son casos (*tokens*) o participantes, mientras que las **columnas** son variables
+3.  Las **variables dependientes** pueden ser numéricas
+4.  Las tablas no deben incluír **celdas vacíos** o las celdas deben estar marcadas como `NA`.
+
+```{r}
+library(languageR)
+data("durationsOnt")
+summary(durationsOnt)
+```
+
+## Modelos de regresión para los afijos
+
+```{r}
+mOnt <- lm(DurationOfPrefix ~ Frequency + SpeechRate+ Sex +  YearOfBirth+ PlosivePresent+ Frequency*PlosivePresent, data = durationsOnt)
+summary(mOnt)
+```
+
+```{r}
+mOnt
+```
+
+## Selección de las variables independientes
+
+**El parámetro es AIC (Akaike Information Criterion)**
+
+En el método *forward direction* se inicia con un modelo nulo (b0). El computador luego busca el predictor que mejor predice el valor de la variable dependiente y lo retiene en el modelo.
+
+```{r}
+m02 <- lm(DurationOfPrefix ~ 1, data = durationsOnt)
+m.fw2 <- step(m02, direction = "forward", scope = ~ Frequency + SpeechRate+ Sex +  YearOfBirth+ PlosivePresent+ Frequency*PlosivePresent)
+```
+
+```{r}
+m.fw2
+```
+
+Con el método inverso (The backward method) se inicia con todos los predictores y, de acuerdo con el AIC, remueve los predictores que no contribuyen al modelo.
+
+```{r}
+m.bw2 <- step(mOnt, direction = "backward")
+```
+
+```{r}
+m.bw2 
+```
+
+Con el método bidireccional inicia como el método hacia adelante (forward method), pero cada vez que añade un predictor, remueve los que son redundantes.
+
+```{r}
+m.both2 <- step(mOnt, scope = ~ Frequency + SpeechRate+ Sex +  YearOfBirth+ PlosivePresent+ Frequency*PlosivePresent)
+```
+
+```{r}
+m.both2 
+```
+
+## Verificación de las condiciones de la regresión lineal
+
+```{r}
+mOnt2 <- lm(DurationOfPrefix ~ SpeechRate+ Sex + YearOfBirth+ PlosivePresent, data = durationsOnt)
+summary(mOnt2)
+```
+
+### A. Valores atípicos y observaciones con influencia o peso
+
+El argumento `id.method = "identify"` de la función `influencePlot ()` permite elegir interactivamente los valores atípicos:
+
+1.  En la ordenada **Studentized residuals**\*: muestran la discrepancia entre los valores ajustados y los valores observados: identificar los casos por encima de 2 y por debajo de -2.
+
+2.  **Hat value**: la influencia de un dato sobre los valores ajustados (lénas verticales).
+
+3.  **Cook's distance**: el tamaño de las burbujas indica las consecuencias de remover de una caso sobre los coeficientes y los valores ajustados.
+
+```{r}
+influencePlot(mOnt2, id.method = "identify")
+```
+
+```{r}
+durationsOnt[c(85,36,71,66,2), ]
+```
+
+### C. Las variable dependiente debe ser numérica
+
+> ¿Los tiempos de reacción son numéricos?
+
+\### D. La relación entre la variable dependiente y la variable indenpendiente es lineal
+
+La función `crPlot()` permite verificar la linealidad
+
+```{r}
+par(mfrow = c(1, 3))
+
+crPlot(mOnt2, var = "SpeechRate")
+
+crPlot(mOnt2, var = "YearOfBirth")
+
+crPlot(mOnt2, var = "PlosivePresent")
+
+par(mfrow = c(1, 1))
+```
+
+### E. Ausencia de heterocedasticidad
+
+```{r}
+plot(mOnt2, which = 1)
+```
+
+La función `ncvTest(m)` permite aplicar la prueba *constant variance*, cuya hipótesis nula es que los residuos tienen una varianza constante (*homocedasticidad*).
+
+```{r}
+ncvTest(mOnt)
+```
+
+*No hay problema con la homocedasticidad*
+
+```{r}
+durbinWatsonTest(mOnt)
+```
+
+**No hay autocorrelación**
+
+\### H. Los residuos deben tener una distribución normal
+
+```{r}
+shapiro.test(residuals(mOnt))
+```
+
+```{r}
+plot(mOnt, which=2)
+```

@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Alejandro Correa">
+
+<title>Regresión_guion</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="rlm_files/libs/clipboard/clipboard.min.js"></script>
+<script src="rlm_files/libs/quarto-html/quarto.js"></script>
+<script src="rlm_files/libs/quarto-html/popper.min.js"></script>
+<script src="rlm_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="rlm_files/libs/quarto-html/anchor.min.js"></script>
+<link href="rlm_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="rlm_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="rlm_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="rlm_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="rlm_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Regresión_guion</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Alejandro Correa </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(languageR)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'languageR' was built under R version 4.2.3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"durationsGe"</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"durationsOnt"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="condiciones-de-las-tablas-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="condiciones-de-las-tablas-de-datos">Condiciones de las tablas de datos</h2>
+<ol type="1">
+<li><strong>Datos</strong>: deben estar expresados en cuadros de datos (<em>Data Frame</em>)</li>
+<li>Las <strong>filas</strong> son casos (<em>tokens</em>) o participantes, mientras que las <strong>columnas</strong> son variables</li>
+<li>Las <strong>variables dependientes</strong> pueden ser numéricas</li>
+<li>Las tablas no deben incluír <strong>celdas vacíos</strong> o las celdas deben estar marcadas como <code>NA</code>.</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(durationsGe)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>           Word       Frequency          Speaker        Sex       YearOfBirth  
+ geabonneerd :  1   Min.   :   1.00   N01096 : 12   female:234   Min.   :1923  
+ geaccepteerd:  1   1st Qu.:   6.00   N01204 : 11   male  :193   1st Qu.:1949  
+ geacht      :  1   Median :  18.00   N01031 :  9   NA's  :  1   Median :1969  
+ geactiveerd :  1   Mean   : 125.35   N01133 :  8                Mean   :1963  
+ geadopteerd :  1   3rd Qu.:  59.25   N01159 :  8                3rd Qu.:1977  
+ geadresseerd:  1   Max.   :8104.00   (Other):379                Max.   :1983  
+ (Other)     :422                     NA's   :  1                NA's   :3     
+ DurationOfPrefix    SpeechRate      NumberSegmentsOnset
+ Min.   :0.02481   Min.   : 0.4203   Min.   :0.000      
+ 1st Qu.:0.09103   1st Qu.: 4.4718   1st Qu.:1.000      
+ Median :0.11958   Median : 5.6089   Median :1.000      
+ Mean   :0.12525   Mean   : 5.5392   Mean   :1.341      
+ 3rd Qu.:0.15187   3rd Qu.: 6.4845   3rd Qu.:2.000      
+ Max.   :0.31180   Max.   :11.0865   Max.   :3.000      
+                                                        </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>durationsGeNA<span class="ot">&lt;-</span> <span class="fu">na.exclude</span>(durationsGe)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(durationsGeNA)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>           Word       Frequency         Speaker        Sex       YearOfBirth  
+ geabonneerd :  1   Min.   :   1.0   N01096 : 12   female:234   Min.   :1923  
+ geaccepteerd:  1   1st Qu.:   6.0   N01204 : 11   male  :191   1st Qu.:1949  
+ geacht      :  1   Median :  18.0   N01031 :  9                Median :1969  
+ geactiveerd :  1   Mean   : 126.2   N01133 :  8                Mean   :1963  
+ geadopteerd :  1   3rd Qu.:  60.0   N01159 :  8                3rd Qu.:1977  
+ geadresseerd:  1   Max.   :8104.0   N01005 :  7                Max.   :1983  
+ (Other)     :419                    (Other):370                              
+ DurationOfPrefix    SpeechRate      NumberSegmentsOnset
+ Min.   :0.02481   Min.   : 0.4203   Min.   :0.000      
+ 1st Qu.:0.09107   1st Qu.: 4.4743   1st Qu.:1.000      
+ Median :0.11964   Median : 5.5978   Median :1.000      
+ Mean   :0.12550   Mean   : 5.5411   Mean   :1.346      
+ 3rd Qu.:0.15201   3rd Qu.: 6.4846   3rd Qu.:2.000      
+ Max.   :0.31180   Max.   :11.0865   Max.   :3.000      
+                                                        </code></pre>
+</div>
+</div>
+</section>
+<section id="modelos-de-regresión-para-los-afijos" class="level2">
+<h2 class="anchored" data-anchor-id="modelos-de-regresión-para-los-afijos">Modelos de regresión para los afijos</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>mGe <span class="ot">&lt;-</span> <span class="fu">lm</span>(DurationOfPrefix <span class="sc">~</span> Frequency <span class="sc">+</span> SpeechRate<span class="sc">+</span> Sex <span class="sc">+</span> SpeechRate<span class="sc">*</span>Sex, <span class="at">data =</span> durationsGeNA)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(mGe)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ Frequency + SpeechRate + Sex + 
+    SpeechRate * Sex, data = durationsGeNA)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.094781 -0.032729 -0.000638  0.024772  0.177933 
+
+Coefficients:
+                     Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)         1.729e-01  1.170e-02  14.776  &lt; 2e-16 ***
+Frequency          -1.066e-05  4.027e-06  -2.647  0.00842 ** 
+SpeechRate         -8.676e-03  2.092e-03  -4.148 4.06e-05 ***
+Sexmale             1.248e-02  1.817e-02   0.687  0.49262    
+SpeechRate:Sexmale -1.391e-03  3.159e-03  -0.440  0.65990    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.04543 on 420 degrees of freedom
+Multiple R-squared:  0.09315,   Adjusted R-squared:  0.08451 
+F-statistic: 10.78 on 4 and 420 DF,  p-value: 2.488e-08</code></pre>
+</div>
+</div>
+</section>
+<section id="selección-de-las-variables-independientes" class="level2">
+<h2 class="anchored" data-anchor-id="selección-de-las-variables-independientes">Selección de las variables independientes</h2>
+<p><strong>El parámetro es AIC (Akaike Information Criterion)</strong></p>
+<p>En el método <em>forward direction</em> se inicia con un modelo nulo (b0). El computador luego busca el predictor que mejor predice el valor de la variable dependiente y lo retiene en el modelo.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>m0 <span class="ot">&lt;-</span> <span class="fu">lm</span>(DurationOfPrefix <span class="sc">~</span> <span class="dv">1</span>, <span class="at">data =</span> durationsGeNA)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>m.fw <span class="ot">&lt;-</span> <span class="fu">step</span>(m0, <span class="at">direction =</span> <span class="st">"forward"</span>, <span class="at">scope =</span> <span class="sc">~</span> Frequency <span class="sc">+</span> SpeechRate<span class="sc">+</span> Sex <span class="sc">+</span> SpeechRate<span class="sc">*</span>Sex)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Start:  AIC=-2589.34
+DurationOfPrefix ~ 1
+
+             Df Sum of Sq     RSS     AIC
++ SpeechRate  1  0.072542 0.88328 -2620.9
++ Frequency   1  0.015776 0.94004 -2594.4
+&lt;none&gt;                    0.95582 -2589.3
++ Sex         1  0.000181 0.95564 -2587.4
+
+Step:  AIC=-2620.89
+DurationOfPrefix ~ SpeechRate
+
+            Df Sum of Sq     RSS     AIC
++ Frequency  1 0.0137775 0.86950 -2625.6
+&lt;none&gt;                   0.88328 -2620.9
++ Sex        1 0.0016745 0.88160 -2619.7
+
+Step:  AIC=-2625.57
+DurationOfPrefix ~ SpeechRate + Frequency
+
+       Df Sum of Sq     RSS     AIC
+&lt;none&gt;              0.86950 -2625.6
++ Sex   1 0.0023113 0.86719 -2624.7</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>m.fw</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ SpeechRate + Frequency, data = durationsGeNA)
+
+Coefficients:
+(Intercept)   SpeechRate    Frequency  
+  1.774e-01   -9.121e-03   -1.039e-05  </code></pre>
+</div>
+</div>
+<p>Con el método inverso (The backward method) se inicia con todos los predictores y, de acuerdo con el AIC, remueve los predictores que no contribuyen al modelo.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>m.bw <span class="ot">&lt;-</span> <span class="fu">step</span>(mGe, <span class="at">direction =</span> <span class="st">"backward"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Start:  AIC=-2622.9
+DurationOfPrefix ~ Frequency + SpeechRate + Sex + SpeechRate * 
+    Sex
+
+                 Df Sum of Sq     RSS     AIC
+- SpeechRate:Sex  1 0.0004002 0.86719 -2624.7
+&lt;none&gt;                        0.86679 -2622.9
+- Frequency       1 0.0144623 0.88125 -2617.9
+
+Step:  AIC=-2624.7
+DurationOfPrefix ~ Frequency + SpeechRate + Sex
+
+             Df Sum of Sq     RSS     AIC
+- Sex         1  0.002311 0.86950 -2625.6
+&lt;none&gt;                    0.86719 -2624.7
+- Frequency   1  0.014414 0.88160 -2619.7
+- SpeechRate  1  0.072397 0.93958 -2592.6
+
+Step:  AIC=-2625.57
+DurationOfPrefix ~ Frequency + SpeechRate
+
+             Df Sum of Sq     RSS     AIC
+&lt;none&gt;                    0.86950 -2625.6
+- Frequency   1  0.013778 0.88328 -2620.9
+- SpeechRate  1  0.070544 0.94004 -2594.4</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>m.bw</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ Frequency + SpeechRate, data = durationsGeNA)
+
+Coefficients:
+(Intercept)    Frequency   SpeechRate  
+  1.774e-01   -1.039e-05   -9.121e-03  </code></pre>
+</div>
+</div>
+<p>Con el método bidireccional inicia como el método hacia adelante (forward method), pero cada vez que añade un predictor, remueve los que son redundantes.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>m.both <span class="ot">&lt;-</span> <span class="fu">step</span>(mGe, <span class="at">scope =</span> <span class="sc">~</span> Frequency <span class="sc">+</span> SpeechRate<span class="sc">+</span> Sex <span class="sc">+</span> SpeechRate<span class="sc">*</span>Sex)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Start:  AIC=-2622.9
+DurationOfPrefix ~ Frequency + SpeechRate + Sex + SpeechRate * 
+    Sex
+
+                 Df Sum of Sq     RSS     AIC
+- SpeechRate:Sex  1 0.0004002 0.86719 -2624.7
+&lt;none&gt;                        0.86679 -2622.9
+- Frequency       1 0.0144623 0.88125 -2617.9
+
+Step:  AIC=-2624.7
+DurationOfPrefix ~ Frequency + SpeechRate + Sex
+
+                 Df Sum of Sq     RSS     AIC
+- Sex             1  0.002311 0.86950 -2625.6
+&lt;none&gt;                        0.86719 -2624.7
++ SpeechRate:Sex  1  0.000400 0.86679 -2622.9
+- Frequency       1  0.014414 0.88160 -2619.7
+- SpeechRate      1  0.072397 0.93958 -2592.6
+
+Step:  AIC=-2625.57
+DurationOfPrefix ~ Frequency + SpeechRate
+
+             Df Sum of Sq     RSS     AIC
+&lt;none&gt;                    0.86950 -2625.6
++ Sex         1  0.002311 0.86719 -2624.7
+- Frequency   1  0.013778 0.88328 -2620.9
+- SpeechRate  1  0.070544 0.94004 -2594.4</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>m.both</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ Frequency + SpeechRate, data = durationsGeNA)
+
+Coefficients:
+(Intercept)    Frequency   SpeechRate  
+  1.774e-01   -1.039e-05   -9.121e-03  </code></pre>
+</div>
+</div>
+</section>
+<section id="verificación-de-las-condiciones-de-la-regresión-lineal" class="level2">
+<h2 class="anchored" data-anchor-id="verificación-de-las-condiciones-de-la-regresión-lineal">Verificación de las condiciones de la regresión lineal</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>mGe2 <span class="ot">&lt;-</span> <span class="fu">lm</span>(DurationOfPrefix <span class="sc">~</span> Frequency <span class="sc">+</span> SpeechRate, <span class="at">data =</span> durationsGeNA)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(mGe2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ Frequency + SpeechRate, data = durationsGeNA)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.093289 -0.033755 -0.001836  0.024928  0.175446 
+
+Coefficients:
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)  1.774e-01  8.913e-03  19.898  &lt; 2e-16 ***
+Frequency   -1.039e-05  4.016e-06  -2.586     0.01 *  
+SpeechRate  -9.121e-03  1.559e-03  -5.851  9.8e-09 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.04539 on 422 degrees of freedom
+Multiple R-squared:  0.09031,   Adjusted R-squared:  0.086 
+F-statistic: 20.95 on 2 and 422 DF,  p-value: 2.121e-09</code></pre>
+</div>
+</div>
+<section id="a.-valores-atípicos-y-observaciones-con-influencia-o-peso" class="level3">
+<h3 class="anchored" data-anchor-id="a.-valores-atípicos-y-observaciones-con-influencia-o-peso">A. Valores atípicos y observaciones con influencia o peso</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(car)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: carData</code></pre>
+</div>
+</div>
+<p>El argumento <code>id.method = "identify"</code> de la función <code>influencePlot ()</code> permite elegir interactivamente los valores atípicos:</p>
+<ol type="1">
+<li><p>En la ordenada <strong>Studentized residuals</strong>*: muestran la discrepancia entre los valores ajustados y los valores observados: identificar los casos por encima de 2 y por debajo de -2.</p></li>
+<li><p><strong>Hat value</strong>: la influencia de un dato sobre los valores ajustados (lénas verticales).</p></li>
+<li><p><strong>Cook’s distance</strong>: el tamaño de las burbujas indica las consecuencias de remover de una caso sobre los coeficientes y los valores ajustados.</p></li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">influencePlot</span>(mGe2, <span class="at">id.method =</span> <span class="st">"identify"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in plot.window(...): "id.method" is not a graphical parameter</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in plot.xy(xy, type, ...): "id.method" is not a graphical parameter</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in axis(side = side, at = at, labels = labels, ...): "id.method" is not
+a graphical parameter
+
+Warning in axis(side = side, at = at, labels = labels, ...): "id.method" is not
+a graphical parameter</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in box(...): "id.method" is not a graphical parameter</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in title(...): "id.method" is not a graphical parameter</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in plot.xy(xy.coords(x, y), type = type, ...): "id.method" is not a
+graphical parameter</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="rlm_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>       StudRes         Hat      CookD
+183 -0.9687157 0.130506303 0.04695695
+256  3.6304414 0.009756288 0.04207098
+261  1.2637538 0.501884019 0.53562708
+271  3.9384617 0.003762546 0.01887851
+323  0.6333545 0.188217533 0.03104628</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>durationsGeNA[<span class="fu">c</span>(<span class="dv">256</span>, <span class="dv">261</span>,<span class="dv">271</span>,<span class="dv">323</span>),]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>         Word Frequency Speaker    Sex YearOfBirth DurationOfPrefix SpeechRate
+259  gespoeld         9  N01115 female        1977         0.154512   6.067292
+264 gestapeld         6  N01005 female        1944         0.050903   3.630705
+274    gebeld      1155  N01110 female        1977         0.144874   4.909180
+326  geprijsd         5  N01141 female        1943         0.158563   5.941771
+    NumberSegmentsOnset
+259                   2
+264                   2
+274                   1
+326                   2</code></pre>
+</div>
+</div>
+</section>
+<section id="c.-las-variable-dependiente-debe-ser-numérica" class="level3">
+<h3 class="anchored" data-anchor-id="c.-las-variable-dependiente-debe-ser-numérica">C. Las variable dependiente debe ser numérica</h3>
+<blockquote class="blockquote">
+<p>la duración es numérica</p>
+</blockquote>
+<p>### D. La relación entre la variable dependiente y la variable indenpendiente es lineal</p>
+<p>La función <code>crPlot()</code> permite verificar la linealidad</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>))</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="fu">crPlot</span>(mGe2, <span class="at">var =</span> <span class="st">"Frequency"</span>)</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a><span class="fu">crPlot</span>(mGe2, <span class="at">var =</span> <span class="st">"SpeechRate"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="rlm_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>### E. Ausencia de heterocedasticidad</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(mGe2, <span class="at">which =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="rlm_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>La función <code>ncvTest(m)</code> permite aplicar la prueba <em>constant variance</em>, cuya hipótesis nula es que los residuos tienen una varianza constante (<em>homocedasticidad</em>).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ncvTest</span>(mGe2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Non-constant Variance Score Test 
+Variance formula: ~ fitted.values 
+Chisquare = 24.92641, Df = 1, p = 5.9561e-07</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">boxCox</span>(mGe2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="rlm_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">boxCox</span>(mGe2, <span class="at">lambda =</span> <span class="fu">seq</span>(<span class="dv">0</span>,<span class="dv">1</span>, <span class="dv">1</span><span class="sc">/</span><span class="dv">10</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="rlm_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>m.trans<span class="ot">&lt;-</span> <span class="fu">lm</span>(DurationOfPrefix<span class="sc">^</span><span class="fl">0.3</span> <span class="sc">~</span> Frequency <span class="sc">+</span> SpeechRate, <span class="at">data =</span> durationsGeNA)</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ncvTest</span>(m.trans)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Non-constant Variance Score Test 
+Variance formula: ~ fitted.values 
+Chisquare = 2.871763, Df = 1, p = 0.090146</code></pre>
+</div>
+</div>
+<p><strong>Con la transformación queda solucionado el problema de la heterocedasticidad</strong></p>
+<p>### F. Debe haber ausencia de multicolinealidad.</p>
+<p>La multicolinealidad se presenta cuando hay una fuerte correlación entre dos variables independientes y descarta el efectos de factores subyacentes. la función <code>vif()</code> permite detectarla (VIF no debe superar el valor de 10).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>car<span class="sc">::</span><span class="fu">vif</span>(m.trans)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> Frequency SpeechRate 
+  1.000946   1.000946 </code></pre>
+</div>
+</div>
+</section>
+<section id="g.-los-residuos-no-deben-estar-autocorrelacionados" class="level3">
+<h3 class="anchored" data-anchor-id="g.-los-residuos-no-deben-estar-autocorrelacionados">G. Los residuos no deben estar autocorrelacionados</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="fu">durbinWatsonTest</span>(m.trans)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> lag Autocorrelation D-W Statistic p-value
+   1     -0.02108955      2.034179    0.73
+ Alternative hypothesis: rho != 0</code></pre>
+</div>
+</div>
+<p><strong>No hay autocorrelación</strong></p>
+<p>### H. Los residuos deben tener una distribución normal</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">shapiro.test</span>(<span class="fu">residuals</span>(m.trans))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  residuals(m.trans)
+W = 0.99611, p-value = 0.3848</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(m.trans, <span class="at">which=</span><span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="rlm_files/figure-html/unnamed-chunk-24-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="ont-" class="level1">
+<h1>Ont-</h1>
+<section id="condiciones-de-las-tablas-de-datos-1" class="level2">
+<h2 class="anchored" data-anchor-id="condiciones-de-las-tablas-de-datos-1">1. Condiciones de las tablas de datos</h2>
+<ol type="1">
+<li><strong>Datos</strong>: deben estar expresados en cuadros de datos (<em>Data Frame</em>)</li>
+<li>Las <strong>filas</strong> son casos (<em>tokens</em>) o participantes, mientras que las <strong>columnas</strong> son variables</li>
+<li>Las <strong>variables dependientes</strong> pueden ser numéricas</li>
+<li>Las tablas no deben incluír <strong>celdas vacíos</strong> o las celdas deben estar marcadas como <code>NA</code>.</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(languageR)</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"durationsOnt"</span>)</span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(durationsOnt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>             Word      Frequency        Speaker       Sex      YearOfBirth   
+ ontbeten      : 1   Min.   :0.000   N01014 : 4   female:49   Min.   :23.00  
+ ontbijt       : 1   1st Qu.:1.609   N01068 : 4   male  :53   1st Qu.:52.00  
+ ontbijtbuffet : 1   Median :2.562   N01085 : 4               Median :70.00  
+ ontbijten     : 1   Mean   :2.660   N01157 : 4               Mean   :64.21  
+ ontbijtje     : 1   3rd Qu.:3.859   N01019 : 3               3rd Qu.:77.00  
+ ontbijtservies: 1   Max.   :6.725   N01020 : 3               Max.   :83.00  
+ (Other)       :96                   (Other):80                              
+ DurationOfPrefix DurationPrefixVowel DurationPrefixNasal DurationPrefixPlosive
+ Min.   :0.0393   Min.   :0.01648     Min.   :0.00000     Min.   :0.00000      
+ 1st Qu.:0.1167   1st Qu.:0.04577     1st Qu.:0.03693     1st Qu.:0.00000      
+ Median :0.1581   Median :0.06357     Median :0.04985     Median :0.03866      
+ Mean   :0.1488   Mean   :0.06268     Mean   :0.04982     Mean   :0.03633      
+ 3rd Qu.:0.1743   3rd Qu.:0.07736     3rd Qu.:0.06403     3rd Qu.:0.05559      
+ Max.   :0.2392   Max.   :0.12322     Max.   :0.09738     Max.   :0.11473      
+                                                                               
+ NumberOfSegmentsOnset PlosivePresent   SpeechRate   
+ Min.   :1.000         no :28         Min.   :2.460  
+ 1st Qu.:1.000         yes:74         1st Qu.:4.846  
+ Median :1.000                        Median :5.451  
+ Mean   :1.304                        Mean   :5.555  
+ 3rd Qu.:2.000                        3rd Qu.:6.339  
+ Max.   :2.000                        Max.   :8.479  
+                                                     </code></pre>
+</div>
+</div>
+</section>
+<section id="modelos-de-regresión-para-los-afijos-1" class="level2">
+<h2 class="anchored" data-anchor-id="modelos-de-regresión-para-los-afijos-1">Modelos de regresión para los afijos</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>mOnt <span class="ot">&lt;-</span> <span class="fu">lm</span>(DurationOfPrefix <span class="sc">~</span> Frequency <span class="sc">+</span> SpeechRate<span class="sc">+</span> Sex <span class="sc">+</span>  YearOfBirth<span class="sc">+</span> PlosivePresent<span class="sc">+</span> Frequency<span class="sc">*</span>PlosivePresent, <span class="at">data =</span> durationsOnt)</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(mOnt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ Frequency + SpeechRate + Sex + 
+    YearOfBirth + PlosivePresent + Frequency * PlosivePresent, 
+    data = durationsOnt)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.10224 -0.01983 -0.00059  0.02439  0.10372 
+
+Coefficients:
+                              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)                  0.2054727  0.0220145   9.334 4.39e-15 ***
+Frequency                    0.0015387  0.0038109   0.404   0.6873    
+SpeechRate                  -0.0076452  0.0030201  -2.531   0.0130 *  
+Sexmale                     -0.0101445  0.0070684  -1.435   0.1545    
+YearOfBirth                 -0.0004851  0.0002403  -2.019   0.0463 *  
+PlosivePresentyes            0.0361461  0.0148533   2.434   0.0168 *  
+Frequency:PlosivePresentyes -0.0040897  0.0046615  -0.877   0.3825    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.03515 on 95 degrees of freedom
+Multiple R-squared:  0.2366,    Adjusted R-squared:  0.1883 
+F-statistic: 4.906 on 6 and 95 DF,  p-value: 0.0002072</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>mOnt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ Frequency + SpeechRate + Sex + 
+    YearOfBirth + PlosivePresent + Frequency * PlosivePresent, 
+    data = durationsOnt)
+
+Coefficients:
+                (Intercept)                    Frequency  
+                  0.2054727                    0.0015387  
+                 SpeechRate                      Sexmale  
+                 -0.0076452                   -0.0101445  
+                YearOfBirth            PlosivePresentyes  
+                 -0.0004851                    0.0361461  
+Frequency:PlosivePresentyes  
+                 -0.0040897  </code></pre>
+</div>
+</div>
+</section>
+<section id="selección-de-las-variables-independientes-1" class="level2">
+<h2 class="anchored" data-anchor-id="selección-de-las-variables-independientes-1">Selección de las variables independientes</h2>
+<p><strong>El parámetro es AIC (Akaike Information Criterion)</strong></p>
+<p>En el método <em>forward direction</em> se inicia con un modelo nulo (b0). El computador luego busca el predictor que mejor predice el valor de la variable dependiente y lo retiene en el modelo.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>m02 <span class="ot">&lt;-</span> <span class="fu">lm</span>(DurationOfPrefix <span class="sc">~</span> <span class="dv">1</span>, <span class="at">data =</span> durationsOnt)</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>m.fw2 <span class="ot">&lt;-</span> <span class="fu">step</span>(m02, <span class="at">direction =</span> <span class="st">"forward"</span>, <span class="at">scope =</span> <span class="sc">~</span> Frequency <span class="sc">+</span> SpeechRate<span class="sc">+</span> Sex <span class="sc">+</span>  YearOfBirth<span class="sc">+</span> PlosivePresent<span class="sc">+</span> Frequency<span class="sc">*</span>PlosivePresent)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Start:  AIC=-660.74
+DurationOfPrefix ~ 1
+
+                 Df Sum of Sq     RSS     AIC
++ YearOfBirth     1 0.0173281 0.13642 -670.94
++ PlosivePresent  1 0.0124341 0.14131 -667.34
++ SpeechRate      1 0.0099765 0.14377 -665.58
+&lt;none&gt;                        0.15374 -660.74
++ Sex             1 0.0021996 0.15154 -660.21
++ Frequency       1 0.0003733 0.15337 -658.99
+
+Step:  AIC=-670.94
+DurationOfPrefix ~ YearOfBirth
+
+                 Df Sum of Sq     RSS     AIC
++ PlosivePresent  1 0.0078460 0.12857 -674.98
++ SpeechRate      1 0.0044463 0.13197 -672.32
+&lt;none&gt;                        0.13642 -670.94
++ Sex             1 0.0017228 0.13469 -670.23
++ Frequency       1 0.0001268 0.13629 -669.03
+
+Step:  AIC=-674.98
+DurationOfPrefix ~ YearOfBirth + PlosivePresent
+
+             Df Sum of Sq     RSS     AIC
++ SpeechRate  1 0.0074921 0.12108 -679.10
+&lt;none&gt;                    0.12857 -674.98
++ Sex         1 0.0023511 0.12622 -674.86
++ Frequency   1 0.0003234 0.12825 -673.24
+
+Step:  AIC=-679.1
+DurationOfPrefix ~ YearOfBirth + PlosivePresent + SpeechRate
+
+            Df  Sum of Sq     RSS     AIC
++ Sex        1 0.00238153 0.11870 -679.13
+&lt;none&gt;                    0.12108 -679.10
++ Frequency  1 0.00014483 0.12093 -677.22
+
+Step:  AIC=-679.13
+DurationOfPrefix ~ YearOfBirth + PlosivePresent + SpeechRate + 
+    Sex
+
+            Df  Sum of Sq     RSS     AIC
+&lt;none&gt;                    0.11870 -679.13
++ Frequency  1 0.00037183 0.11832 -677.45</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>m.fw2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ YearOfBirth + PlosivePresent + 
+    SpeechRate + Sex, data = durationsOnt)
+
+Coefficients:
+      (Intercept)        YearOfBirth  PlosivePresentyes         SpeechRate  
+        0.2103870         -0.0005268          0.0249334         -0.0073414  
+          Sexmale  
+       -0.0097087  </code></pre>
+</div>
+</div>
+<p>Con el método inverso (The backward method) se inicia con todos los predictores y, de acuerdo con el AIC, remueve los predictores que no contribuyen al modelo.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>m.bw2 <span class="ot">&lt;-</span> <span class="fu">step</span>(mOnt, <span class="at">direction =</span> <span class="st">"backward"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Start:  AIC=-676.27
+DurationOfPrefix ~ Frequency + SpeechRate + Sex + YearOfBirth + 
+    PlosivePresent + Frequency * PlosivePresent
+
+                           Df Sum of Sq     RSS     AIC
+- Frequency:PlosivePresent  1 0.0009510 0.11832 -677.45
+&lt;none&gt;                                  0.11737 -676.27
+- Sex                       1 0.0025449 0.11992 -676.08
+- YearOfBirth               1 0.0050366 0.12241 -673.99
+- SpeechRate                1 0.0079176 0.12529 -671.61
+
+Step:  AIC=-677.45
+DurationOfPrefix ~ Frequency + SpeechRate + Sex + YearOfBirth + 
+    PlosivePresent
+
+                 Df Sum of Sq     RSS     AIC
+- Frequency       1 0.0003718 0.11870 -679.13
+&lt;none&gt;                        0.11832 -677.45
+- Sex             1 0.0026085 0.12093 -677.22
+- YearOfBirth     1 0.0059261 0.12425 -674.46
+- SpeechRate      1 0.0072570 0.12558 -673.38
+- PlosivePresent  1 0.0118560 0.13018 -669.71
+
+Step:  AIC=-679.13
+DurationOfPrefix ~ SpeechRate + Sex + YearOfBirth + PlosivePresent
+
+                 Df Sum of Sq     RSS     AIC
+&lt;none&gt;                        0.11870 -679.13
+- Sex             1 0.0023815 0.12108 -679.10
+- YearOfBirth     1 0.0061209 0.12482 -676.00
+- SpeechRate      1 0.0075224 0.12622 -674.86
+- PlosivePresent  1 0.0116172 0.13031 -671.60</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a>m.bw2 </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ SpeechRate + Sex + YearOfBirth + 
+    PlosivePresent, data = durationsOnt)
+
+Coefficients:
+      (Intercept)         SpeechRate            Sexmale        YearOfBirth  
+        0.2103870         -0.0073414         -0.0097087         -0.0005268  
+PlosivePresentyes  
+        0.0249334  </code></pre>
+</div>
+</div>
+<p>Con el método bidireccional inicia como el método hacia adelante (forward method), pero cada vez que añade un predictor, remueve los que son redundantes.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb66"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a>m.both2 <span class="ot">&lt;-</span> <span class="fu">step</span>(mOnt, <span class="at">scope =</span> <span class="sc">~</span> Frequency <span class="sc">+</span> SpeechRate<span class="sc">+</span> Sex <span class="sc">+</span>  YearOfBirth<span class="sc">+</span> PlosivePresent<span class="sc">+</span> Frequency<span class="sc">*</span>PlosivePresent)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Start:  AIC=-676.27
+DurationOfPrefix ~ Frequency + SpeechRate + Sex + YearOfBirth + 
+    PlosivePresent + Frequency * PlosivePresent
+
+                           Df Sum of Sq     RSS     AIC
+- Frequency:PlosivePresent  1 0.0009510 0.11832 -677.45
+&lt;none&gt;                                  0.11737 -676.27
+- Sex                       1 0.0025449 0.11992 -676.08
+- YearOfBirth               1 0.0050366 0.12241 -673.99
+- SpeechRate                1 0.0079176 0.12529 -671.61
+
+Step:  AIC=-677.45
+DurationOfPrefix ~ Frequency + SpeechRate + Sex + YearOfBirth + 
+    PlosivePresent
+
+                           Df Sum of Sq     RSS     AIC
+- Frequency                 1 0.0003718 0.11870 -679.13
+&lt;none&gt;                                  0.11832 -677.45
+- Sex                       1 0.0026085 0.12093 -677.22
++ Frequency:PlosivePresent  1 0.0009510 0.11737 -676.27
+- YearOfBirth               1 0.0059261 0.12425 -674.46
+- SpeechRate                1 0.0072570 0.12558 -673.38
+- PlosivePresent            1 0.0118560 0.13018 -669.71
+
+Step:  AIC=-679.13
+DurationOfPrefix ~ SpeechRate + Sex + YearOfBirth + PlosivePresent
+
+                 Df Sum of Sq     RSS     AIC
+&lt;none&gt;                        0.11870 -679.13
+- Sex             1 0.0023815 0.12108 -679.10
++ Frequency       1 0.0003718 0.11832 -677.45
+- YearOfBirth     1 0.0061209 0.12482 -676.00
+- SpeechRate      1 0.0075224 0.12622 -674.86
+- PlosivePresent  1 0.0116172 0.13031 -671.60</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb68"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a>m.both2 </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ SpeechRate + Sex + YearOfBirth + 
+    PlosivePresent, data = durationsOnt)
+
+Coefficients:
+      (Intercept)         SpeechRate            Sexmale        YearOfBirth  
+        0.2103870         -0.0073414         -0.0097087         -0.0005268  
+PlosivePresentyes  
+        0.0249334  </code></pre>
+</div>
+</div>
+</section>
+<section id="verificación-de-las-condiciones-de-la-regresión-lineal-1" class="level2">
+<h2 class="anchored" data-anchor-id="verificación-de-las-condiciones-de-la-regresión-lineal-1">Verificación de las condiciones de la regresión lineal</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb70"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a>mOnt2 <span class="ot">&lt;-</span> <span class="fu">lm</span>(DurationOfPrefix <span class="sc">~</span> SpeechRate<span class="sc">+</span> Sex <span class="sc">+</span> YearOfBirth<span class="sc">+</span> PlosivePresent, <span class="at">data =</span> durationsOnt)</span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(mOnt2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = DurationOfPrefix ~ SpeechRate + Sex + YearOfBirth + 
+    PlosivePresent, data = durationsOnt)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.100445 -0.022487 -0.000233  0.025945  0.096190 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)        0.2103870  0.0200264  10.505  &lt; 2e-16 ***
+SpeechRate        -0.0073414  0.0029609  -2.479  0.01489 *  
+Sexmale           -0.0097087  0.0069593  -1.395  0.16618    
+YearOfBirth       -0.0005268  0.0002355  -2.237  0.02761 *  
+PlosivePresentyes  0.0249334  0.0080921   3.081  0.00268 ** 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.03498 on 97 degrees of freedom
+Multiple R-squared:  0.228, Adjusted R-squared:  0.1961 
+F-statistic:  7.16 on 4 and 97 DF,  p-value: 4.282e-05</code></pre>
+</div>
+</div>
+<section id="a.-valores-atípicos-y-observaciones-con-influencia-o-peso-1" class="level3">
+<h3 class="anchored" data-anchor-id="a.-valores-atípicos-y-observaciones-con-influencia-o-peso-1">A. Valores atípicos y observaciones con influencia o peso</h3>
+<p>El argumento <code>id.method = "identify"</code> de la función <code>influencePlot ()</code> permite elegir interactivamente los valores atípicos:</p>
+<ol type="1">
+<li><p>En la ordenada <strong>Studentized residuals</strong>*: muestran la discrepancia entre los valores ajustados y los valores observados: identificar los casos por encima de 2 y por debajo de -2.</p></li>
+<li><p><strong>Hat value</strong>: la influencia de un dato sobre los valores ajustados (lénas verticales).</p></li>
+<li><p><strong>Cook’s distance</strong>: el tamaño de las burbujas indica las consecuencias de remover de una caso sobre los coeficientes y los valores ajustados.</p></li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb72"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="fu">influencePlot</span>(mOnt2, <span class="at">id.method =</span> <span class="st">"identify"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in plot.window(...): "id.method" is not a graphical parameter</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in plot.xy(xy, type, ...): "id.method" is not a graphical parameter</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in axis(side = side, at = at, labels = labels, ...): "id.method" is not
+a graphical parameter
+
+Warning in axis(side = side, at = at, labels = labels, ...): "id.method" is not
+a graphical parameter</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in box(...): "id.method" is not a graphical parameter</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in title(...): "id.method" is not a graphical parameter</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in plot.xy(xy.coords(x, y), type = type, ...): "id.method" is not a
+graphical parameter</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="rlm_files/figure-html/unnamed-chunk-35-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      StudRes        Hat      CookD
+45  2.0716772 0.07313941 0.06551147
+35 -3.0342242 0.02867267 0.05011376
+2  -2.1529319 0.12846574 0.13170905
+91 -0.8579944 0.11099466 0.01843230
+36  2.9025569 0.03379372 0.05474261</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb80"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a>durationsOnt[<span class="fu">c</span>(<span class="dv">85</span>,<span class="dv">36</span>,<span class="dv">71</span>,<span class="dv">66</span>,<span class="dv">2</span>), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                Word Frequency Speaker    Sex YearOfBirth DurationOfPrefix
+49         ontwijken  2.639057  N01089 female          75         0.187598
+31           ontmoet  5.087596  N01212 female          83         0.119349
+7          ontvangst  3.951244  N01062   male          48         0.102165
+102 ontstekingsvocht  0.000000  N01037 female          81         0.099240
+58           ontbijt  4.844187  N01041 female          80         0.100478
+    DurationPrefixVowel DurationPrefixNasal DurationPrefixPlosive
+49             0.089345            0.041068              0.057185
+31             0.037293            0.028064              0.053992
+7              0.033733            0.042036              0.026396
+102            0.036075            0.063166              0.000000
+58             0.035380            0.065099              0.000000
+    NumberOfSegmentsOnset PlosivePresent SpeechRate
+49                      1            yes   5.038937
+31                      1            yes   6.736842
+7                       1            yes   5.215124
+102                     2             no   5.138340
+58                      1             no   6.884682</code></pre>
+</div>
+</div>
+</section>
+<section id="c.-las-variable-dependiente-debe-ser-numérica-1" class="level3">
+<h3 class="anchored" data-anchor-id="c.-las-variable-dependiente-debe-ser-numérica-1">C. Las variable dependiente debe ser numérica</h3>
+<blockquote class="blockquote">
+<p>¿Los tiempos de reacción son numéricos?</p>
+</blockquote>
+<p>### D. La relación entre la variable dependiente y la variable indenpendiente es lineal</p>
+<p>La función <code>crPlot()</code> permite verificar la linealidad</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb82"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">3</span>))</span>
+<span id="cb82-2"><a href="#cb82-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-3"><a href="#cb82-3" aria-hidden="true" tabindex="-1"></a><span class="fu">crPlot</span>(mOnt2, <span class="at">var =</span> <span class="st">"SpeechRate"</span>)</span>
+<span id="cb82-4"><a href="#cb82-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-5"><a href="#cb82-5" aria-hidden="true" tabindex="-1"></a><span class="fu">crPlot</span>(mOnt2, <span class="at">var =</span> <span class="st">"YearOfBirth"</span>)</span>
+<span id="cb82-6"><a href="#cb82-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb82-7"><a href="#cb82-7" aria-hidden="true" tabindex="-1"></a><span class="fu">crPlot</span>(mOnt2, <span class="at">var =</span> <span class="st">"PlosivePresent"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="rlm_files/figure-html/unnamed-chunk-37-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="sourceCode cell-code" id="cb83"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb83-1"><a href="#cb83-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="e.-ausencia-de-heterocedasticidad" class="level3">
+<h3 class="anchored" data-anchor-id="e.-ausencia-de-heterocedasticidad">E. Ausencia de heterocedasticidad</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb84"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(mOnt2, <span class="at">which =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="rlm_files/figure-html/unnamed-chunk-38-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>La función <code>ncvTest(m)</code> permite aplicar la prueba <em>constant variance</em>, cuya hipótesis nula es que los residuos tienen una varianza constante (<em>homocedasticidad</em>).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb85"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ncvTest</span>(mOnt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Non-constant Variance Score Test 
+Variance formula: ~ fitted.values 
+Chisquare = 0.06935309, Df = 1, p = 0.79228</code></pre>
+</div>
+</div>
+<p><em>No hay problema con la homocedasticidad</em></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb87"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="fu">durbinWatsonTest</span>(mOnt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> lag Autocorrelation D-W Statistic p-value
+   1      0.04643942      1.898347   0.552
+ Alternative hypothesis: rho != 0</code></pre>
+</div>
+</div>
+<p><strong>No hay autocorrelación</strong></p>
+<p>### H. Los residuos deben tener una distribución normal</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb89"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a><span class="fu">shapiro.test</span>(<span class="fu">residuals</span>(mOnt))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  residuals(mOnt)
+W = 0.99395, p-value = 0.9338</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb91"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(mOnt, <span class="at">which=</span><span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="rlm_files/figure-html/unnamed-chunk-42-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
