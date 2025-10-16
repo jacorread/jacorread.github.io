@@ -13,7 +13,7 @@ Correa, A. y Rodríguez, L. C. (en prensa). El español del Chocó. En: Luana La
 
 Correa, A. (2025). Hablar es gesticular: dos calas en el español colombiano. [_Revista de Occidente_](https://ortegaygasset.edu/producto/revista-de-occidente-no-533-octubre-2025/), 533, 61-71.
 
-Correa, A. (2025). La reducción fonética de las vocales y sus factores determinantes. _Estudios de Fonética Experimental_, 34. [https://doi.org/10.1344/efe-2025-34-129-152](https://revistes.ub.edu/index.php/experimentalphonetics/article/view/48196)
+Correa, A. (2025). La reducción fonética de las vocales y sus factores determinantes. _Estudios de Fonética Experimental_, 34, 207–230. [https://doi.org/10.1344/efe-2025-34-207-230](https://doi.org/10.1344/efe-2025-34-207-230)
 
 Correa, A. y Rodríguez, L. C. (2024). Las vocales caedizas del español bogotano. _Lexis_, 48(1) [https://doi.org/10.18800/lexis.202401.011](https://doi.org/10.18800/lexis.202401.011)
 
