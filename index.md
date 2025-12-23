@@ -7,9 +7,9 @@ Mi investigación se centra en el estudio de la fonética y fonología del espa�
 
 ## Publicaciones
 
-Correa, A. (en prensa). Reflexiones en torno a la política lingüística en Colombia. _Lingüística y Literatura_.
-
 Correa, A. y Rodríguez, L. C. (en prensa). El español del Chocó. En: Luana Lamberti y Ana Lívia Agostinho (eds.). _Línguas Afro-Ibéricas: contato e sócio-história / Lenguas Afro-Ibéricas: contacto y sociohistoria_. Language Science Press.
+
+Correa, J. A. (2026). Reflexiones en torno a la política lingüística en Colombia. _Lingüística y Literatura_, 89, 61-86.[ https://doi.org/10.17533/udea.lyl.n89a04] (https://doi.org/10.17533/udea.lyl.n89a04)
 
 Correa, A. (2025). Hablar es gesticular: dos calas en el español colombiano. [_Revista de Occidente_](https://ortegaygasset.edu/producto/revista-de-occidente-no-533-octubre-2025/), 533, 61-71.
 
